@@ -1,0 +1,1 @@
+# mazetoken.github.io
