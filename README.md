@@ -19,6 +19,6 @@ Miner covenant contract before removing dummy variables - 0511111111110a33333333
 
 MAZE was created as an experiment. If you can't "catch" Mist you can try with Maze. Have fun
 
-MAZE [Telegram gorup](https:t.me/mazemining)
+MAZE [Telegram group](https://t.me/mazemining)
 
 _MAZE TOKEN 2020, created by Crypto Stockbook [B_S_Z](https://t.me/b_s_z), powered by [Spare Crypto](https://sparecrypto.github.io)_
