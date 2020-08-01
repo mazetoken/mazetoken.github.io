@@ -11,7 +11,7 @@ Token id: bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378
 
 You can download Maze miner files (.env and generateV1.ts) [here](https://github.com/mazetoken/mazetoken.github.io/blob/master/maze%20miner%20files.zip) if you want
 
-[Here](https://github.com/mazetoken/mazetoken.github.io/blob/master/mazeminerandroidReadme.txt) is an instruction how to set up the miner on Android phone
+[Here](https://github.com/mazetoken/mazetoken.github.io/blob/master/mazeminerandroidReadme.txt) and [here](https://github.com/mazetoken/mazetoken.github.io/blob/master/blueminerandroidReadme.txt) are instructions how to setup different miners on Android phone
 
 Miner reward is 800 MAZE
 
