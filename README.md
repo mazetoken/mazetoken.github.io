@@ -25,7 +25,7 @@ _You can download MAZE miner files (.env and generateV1.ts) [here](https://githu
 
 Token Height | MAZE Reward
 
->4320 | 800
+1-4320 | 800
 
 4320-8640 | 400
 
