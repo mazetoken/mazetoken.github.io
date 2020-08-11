@@ -15,7 +15,7 @@ MAZE Token contract environment:
 
 _You can download MAZE miner files (.env and generateV1.ts) [here](https://github.com/mazetoken/mazetoken.github.io/blob/master/maze%20miner%20files.zip) if you want_
 
-[Here](https://github.com/mazetoken/miners) is a tutorial how to install different miners on Android phone. You can use this miners also on Windows, Linux or Mac. You will need to prepare Electron Cash wallet (SLP edition) for mining
+[Here](https://github.com/mazetoken/miners) is a tutorial how to install different miners on Android phone. You can use this miners also on Windows, Linux or Mac. You will need to install [Nodejs](https://nodejs.org) and [Electron Cash wallet (SLP edition)](https://simpleledger.cash/project/electron-cash-slp-edition/)
 
 - Windows: download and unzip the miner, paste your WIF (wallet private key) in .env file and copy [this](https://github.com/mazetoken/mazetoken.github.io/raw/master/fastmine.exe) file to fastmine folder, open PowerShell and type `npm i` and `npm start`
 
@@ -25,21 +25,23 @@ _You can download MAZE miner files (.env and generateV1.ts) [here](https://githu
 
 Token Height | MAZE Reward
 
-4320 | 800
+>4320 | 800
 
-8640 | 400
+4320-8640 | 400
 
-12960 | 266,66
+8640-12960 | 266,66
 
-17280 | 200
+12960-17280 | 200
 
-21600 | 160
+17280-21600 | 160
 
-25920 | 133,33
+21600-25920 | 133,33
 
-30240 | 114,29
+25920-30240 | 114,29
 
-34560 | 100
+30240-34560 | 100
+
+34560< | ...
 
 Miner covenant contract before removing dummy variables - 0511111111110a33333333333333333333040008af2f5302e01003c9d7095779820128947f777601207f75597982012c947f757601687f777678827758947f7576538b7f77765c7982777f011179011179ad011179828c7f756079a8011279bb011479815e7981788c88765b79968b0114795e795279965480880400000000011579bc7e0112790117797eaa765f797f757681008854011a797e56797e170000000000000000396a04534c50000101044d494e54200113797e030102087e54797e0c22020000000000001976a914011879a97e0288ac7e0b220200000000000017a9145379a97e01877e527952797e787eaa607988587901127993b175516b6d6d6d6d6d6d6d6d6d6d6d6d6d6d6d6c
 
