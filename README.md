@@ -13,13 +13,11 @@ MAZE Token contract environment:
 - TOKEN_START_BLOCK_V1=645065
 - TOKEN_ID_V1="bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378"
 
-_You can download MAZE miner files (.env and generateV1.ts) [here](https://github.com/mazetoken/mazetoken.github.io/blob/master/maze%20miner%20files.zip) if you want_
+[Here](https://github.com/mazetoken/miners) is a tutorial how to install different miners on Android phone. You can use this miners also on Windows, Linux or Mac. You will need to install [Nodejs](https://nodejs.org) on Windows and [Electron Cash wallet (SLP edition)](https://simpleledger.cash/project/electron-cash-slp-edition/)
 
-[Here](https://github.com/mazetoken/miners) is a tutorial how to install different miners on Android phone. You can use this miners also on Windows, Linux or Mac. You will need to install [Nodejs](https://nodejs.org) and [Electron Cash wallet (SLP edition)](https://simpleledger.cash/project/electron-cash-slp-edition/)
+- Windows: download and unzip the miner, paste your WIF (wallet private key) in .env file and copy [this](https://github.com/mazetoken/mazetoken.github.io/raw/master/fastmine.exe) file to fastmine folder (You don't need fastmine for Blue's miner), open PowerShell and type `npm i` and `npm start`
 
-- Windows: download and unzip the miner, paste your WIF (wallet private key) in .env file and copy [this](https://github.com/mazetoken/mazetoken.github.io/raw/master/fastmine.exe) file to fastmine folder, open PowerShell and type `npm i` and `npm start`
-
-- Linux: download and unzip the miner, paste your WIF (wallet private key) in .env file, open command line, navigate to fastmine directory and type `cmake . && make`, navigate back to the miner directory and type `npmi i` and `npm start`
+- Linux: download and unzip the miner, paste your WIF (wallet private key) in .env file, open command line, navigate to fastmine directory (You don't need fastmine for Blue's miner) and type `cmake . && make`, navigate back to the miner directory and type `npmi i` and `npm start`
 
 ### MAZE Reward Schedule:
 
