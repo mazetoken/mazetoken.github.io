@@ -1,7 +1,7 @@
 ## MAZE TOKEN
 ### MAZE - decentralized, mineable, proof-of-work SLP token based on [Mistcoin](https://mistcoin.org/)
 
-MAZE and Mist are based on _"Bitcoin script, allowing tokens to be mined using proof-of-work to help decentralize allocation of newly minted tokens"_ with a permisionless reward process
+MAZE and Mist are based on _"Bitcoin script, allowing tokens to be mined using proof-of-work to help decentralize allocation of newly minted tokens*"_ with a permisionless reward process
 
 MAZE Token id: bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378
 
@@ -15,7 +15,7 @@ MAZE Token contract environment:
 
 [Here](https://github.com/mazetoken/miners) is a tutorial how to install different miners on Android phone. You can use this miners also on Windows, Linux or Mac. You will need to install [Nodejs](https://nodejs.org) on Windows and [Electron Cash wallet (SLP edition)](https://simpleledger.cash/project/electron-cash-slp-edition/)
 
-- Windows: download and unzip the miner, paste your WIF (wallet private key) in .env file and copy [this](https://github.com/mazetoken/mazetoken.github.io/raw/master/fastmine.exe) file to fastmine folder (You don't need fastmine for Blue's miner), open PowerShell and type `npm i` and `npm start`
+- Windows: download and unzip the miner, paste your WIF (wallet private key) in .env file and copy [fastmine](https://github.com/mazetoken/miners/raw/master/fastmine_1.zip) file to fastmine folder (You don't need fastmine for Blue's miner), open PowerShell and type `npm i` and `npm start`
 
 - Linux: download and unzip the miner, paste your WIF (wallet private key) in .env file, open command line, navigate to fastmine directory (You don't need fastmine for Blue's miner) and type `cmake . && make`, navigate back to the miner directory and type `npmi i` and `npm start`
 
@@ -54,3 +54,6 @@ More features coming soon
 MAZE [Telegram group](https://t.me/mazemining)
 
 _MAZE TOKEN 2020, created by [B_S_Z](https://t.me/b_s_z)_
+
+--------------
+*Mistcoin.org
