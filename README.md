@@ -49,11 +49,15 @@ MAZE covenant contract before removing dummy variables and nips optimized -
 
 MAZE was created as an experiment. If you can't "catch" Mist you can try with Maze. Have fun
 
-More features coming soon
-
 MAZE [Telegram group](https://t.me/mazemining)
 
+MAZE [LBRY](https://lbry.tv/$/invite/@MazeToken:a)
+
 _MAZE TOKEN 2020, created by [B_S_Z](https://t.me/b_s_z)_
+
+### Other activity:
+
+- SLP Non Fungible Token [Labyrinth](https://simpleledger.info/token/e6590a4c5bc55f77537704fb5721cb136f299a24c079101c6620faea09473180) NFT
 
 --------------
 *Mistcoin.org
