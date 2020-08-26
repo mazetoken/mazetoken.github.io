@@ -13,7 +13,7 @@ MAZE Token contract environment:
 - TOKEN_START_BLOCK_V1=645065
 - TOKEN_ID_V1="bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378"
 
-### [Here](https://github.com/mazetoken/miners) is a tutorial how to install the miner on Windows or Android phone
+### Go to [miners repository](https://github.com/mazetoken/miners) for tutorial how to install the miner on Windows or Android phone
 
 ### MAZE Reward Schedule:
 
