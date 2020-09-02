@@ -1,5 +1,5 @@
-## MAZE TOKEN
-### MAZE - decentralized, mineable, proof-of-work SLP token based on [Mistcoin](https://mistcoin.org/)
+## MAZE dSLP (decentralized SLP Token)
+### MAZE is a decentralized, mineable, proof-of-work SLP token based on [Mistcoin](https://mistcoin.org/)
 
 MAZE and Mist are based on _"Bitcoin script, allowing tokens to be mined using proof-of-work to help decentralize allocation of newly minted tokens*"_ with a permisionless reward process
 
