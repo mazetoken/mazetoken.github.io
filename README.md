@@ -1,6 +1,16 @@
-_A new landing page is active_
+You can fork this repository, change it for your own needs, but don`t create a fake MAZE website and a fake MAZE tokens
 
-# The template is built with https://startbootstrap.com/themes/grayscale/
+Always check token id
+
+Fake MAZE tokens:
+
+ - ccf3a968a9aebc5fd980a7314ecf0b0e7185fb2558317853d3b3cb8c71b2c663
+ 
+ - 64726adb3a19edd6cb8a528be228399185cc89af4b7b7ce5a41f65748709f2f1
+ 
+ -------------------------------------------------------------------
+
+The template is built with https://startbootstrap.com/themes/grayscale/
 
 The MIT License (MIT) - Grayscale theme:
 
