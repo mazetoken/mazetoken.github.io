@@ -1,4 +1,4 @@
-You can fork this repository, change it for your own needs, but don`t create a fake MAZE website and a fake MAZE tokens
+You can fork this repository and change it, but don`t create a fake MAZE website and a fake MAZE tokens
 
 Always check token id
 
@@ -8,7 +8,7 @@ Fake MAZE tokens:
  
  - 64726adb3a19edd6cb8a528be228399185cc89af4b7b7ce5a41f65748709f2f1
  
- -------------------------------------------------------------------
+ ---------------------------------------------------------------------------
 
 The template is built with https://startbootstrap.com/themes/grayscale/
 
@@ -34,6 +34,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-# MAZE Token License - Images:
+-------------------------------------------------------------------------------
+
+MAZE Images License:
 
 Creative Commons (CC BY-NC 4.0) - https://creativecommons.org/licenses/by-nc/4.0/deed.en
