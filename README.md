@@ -10,6 +10,8 @@ MAZE token is for creative people and can be used in various projects in a permi
 
 Slogan: Let`s create !
 
+![MAZE icon](img/maze200.png)
+
 Target market examples:
 
 ```
