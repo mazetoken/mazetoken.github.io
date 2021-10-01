@@ -26,13 +26,7 @@ virtual objects
 games
 ```
 
-_There is no roadmap. You are in the Maze and it is changing constantly.
-
-You do not need to follow one patch.
-
-Explore unknown.
-
-Find what is hidden._
+_There is no roadmap. You are in The Maze and it is changing constantly. You do not need to follow one patch. Explore unknown. Find what is hidden._
 
 ## MAZE - Bitcoin Cash [Simple Ledger Protocol](https://simpleledger.cash/) virtual asset
 
@@ -89,7 +83,7 @@ Interact with [MAZE SEP20](https://oneclickdapp.com/email-cosmos) contract
 
 [Telegram](https://t.me/mazetokens)
 
-[Github](https://github.com/mazetoken]
+[Github](https://github.com/mazetoken)
 
 ## Wallets
 
