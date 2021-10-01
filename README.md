@@ -1,4 +1,4 @@
-# M A Z E tokens
+# M A Z E
 
 MAZE is a mineable (proof of work) token created on Bitcoin Cash (BCH) blockchain as peer-to-peer virtual asset.
 
@@ -11,6 +11,8 @@ MAZE token is for creative people and can be used in various projects in a permi
 Slogan: Let`s create !
 
 ![MAZE icon](img/maze200.png)
+
+[MAZE icon IPFS](https://gateway.pinata.cloud/ipfs/QmQtFFtwBfzNN5xjR4K7o8yiudK4FPhWMcsRM6pMg7WXFf)
 
 Target market examples:
 
@@ -28,9 +30,9 @@ games
 
 _There is no roadmap. You are in The Maze and it is changing constantly. You do not need to follow one patch. Explore unknown. Find what is hidden._
 
-## MAZE - Bitcoin Cash [Simple Ledger Protocol](https://simpleledger.cash/) virtual asset
+## MAZE - Bitcoin Cash [Simple Ledger Protocol](https://simpleledger.cash/) token
 
-MAZE SLP token was created July 17, 2020. This is a mineable token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract.
+MAZE SLP token was created July 22, 2020. This is a mineable token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract.
 
 MAZE SLP token id: 553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378
 
