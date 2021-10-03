@@ -28,7 +28,7 @@ virtual objects
 games
 ```
 
-_There is no roadmap. You are in The Maze and it is changing constantly. You do not need to follow one patch. Explore unknown. Find what is hidden._
+_There is no roadmap. You are in The Maze and it is changing constantly. You do not need to follow one path. Explore unknown. Find what is hidden._
 
 ## MAZE - Bitcoin Cash [Simple Ledger Protocol](https://simpleledger.cash/) token
 
@@ -121,7 +121,7 @@ Interacting with cryptocurrency virtual assets always check the token/contract i
 
 In general, cryptocurrencies might be volatile and speculative assets.
 
-_MAZE token creator should not be considered as Virtual Asset Service Provider and does not provide any "initial offerings", "investing plans", "dividends", "staking rewards", "yield farming" or other "promises"._
+_MAZE token creator (B_S_Z) should not be considered as Virtual Asset Service Provider and does not provide any "initial offerings", "investing plans", "dividends", "staking rewards", "yield farming" or other "promises"._
 
 _MAZE token should not be considered as financial instrument (according to MiFID directives) or security (the legal definition of a security varies by jurisdiction)._
 
