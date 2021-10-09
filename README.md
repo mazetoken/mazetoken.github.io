@@ -18,7 +18,7 @@ Target market examples: digital arts, collectibles, gifts, tipping/appreciation,
 
 _There is no roadmap. You are in The Maze and it is changing constantly. You do not need to follow one path. Explore unknown. Find what is hidden._
 
-## MAZE - Bitcoin Cash [Simple Ledger Protocol](https://simpleledger.cash/) token.
+## MAZE - Bitcoin Cash [Simple Ledger Protocol](https://simpleledger.cash/) token
 
 MAZE SLP token was created July 22, 2020. This is a mineable token based on [Mist](https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md) covenant contract
 
@@ -81,19 +81,19 @@ Interact with [MAZE SEP20](https://oneclickdapp.com/email-cosmos) smartBCH contr
 
 ## Wallets
 
-[Electron Cash SLP](https://github.com/simpleledger/Electron-Cash-SLP/releases/download/3.6.7-dev6/Electron-Cash-SLP-3.6.7-dev6-setup.exe)
+[Electron Cash SLP](https://github.com/simpleledger/Electron-Cash-SLP/releases/download/3.6.7-dev6/Electron-Cash-SLP-3.6.7-dev6-setup.exe) - BCH SLP
 
-[Bitcoin.com](https://wallet.bitcoin.com/)
+[Bitcoin.com](https://wallet.bitcoin.com/) - BCH SLP
 
-[Signup](https://wallet.signup.cash/)
+[Signup](https://wallet.signup.cash/) - BCH SLP
 
-[Zapit](https://zapit.io/)
+[Zapit](https://zapit.io/) -BCH SLP
 
-[MetaMask](https://metamask.io/) - smartBCH network (BCH side chain)
+[MetaMask](https://metamask.io/) - smartBCH network
 
 ## SmartBCH tools and resources
 
-[SmartBCH](https://smartbch.org)
+[SmartBCH](https://smartbch.org) - Bitcoin Cash sidechain
 
 MetaMask settings for smartBCH network
 
@@ -110,13 +110,17 @@ Currency Symbol: BCH
 ```
 [MarketCap](https://marketcap.cash)
 
-[Create SEP20 token](https://smartbch.fountainhead.cash/smartslp/)
+[Create smartBCH SEP20 tokens](https://smartbch.fountainhead.cash/smartslp/)
 
-[SmartBCH Explorer)(https://smartscan.cash)
+[SmartBCH Explorer](https://smartscan.cash)
+
+[Send tokens to multiple addresses](https://send2multi.github.io/)
 
 [Tokens repository 1](https://sep20tokens.github.io_)
 
-[Tokens repository 1](https://zh.thedev.id/sep20tokens)
+[Tokens repository 2](https://zh.thedev.id/sep20tokens)
+
+[BaNet smartBCH NFT collections ](https://ba.net/amkt-smartbch/collections.html)
 
 ## Community projects
 
