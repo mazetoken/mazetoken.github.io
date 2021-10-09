@@ -64,13 +64,11 @@ Decimals: 6
 
 [Exchange](https://mistswap.fi) - MistSwap
 
-[Exchange](https://benswap.cash) - Benswap
+[Exchange](https://benswap.cash) - BenSwap
 
-[Chart](https://chartpro.benswap.cash/?token=0x481de06dca0198844faa36fca04db364e5c2f86c)
+[BenSwap Chart](https://chartpro.benswap.cash/?token=0x481de06dca0198844faa36fca04db364e5c2f86c)
 
 Interact with [MAZE SEP20](https://oneclickdapp.com/email-cosmos) smartBCH contract
-
-[MarketCap](https://marketcap.cash)
 
 
 ## Social
@@ -93,6 +91,10 @@ Interact with [MAZE SEP20](https://oneclickdapp.com/email-cosmos) smartBCH contr
 
 [MetaMask](https://metamask.io/) - smartBCH network (BCH side chain)
 
+## SmartBCH tools and resources
+
+[SmartBCH](https://smartbch.org)
+
 MetaMask settings for smartBCH network
 
 ```
@@ -106,6 +108,21 @@ Chain ID: 10000
 Currency Symbol: BCH
 
 ```
+[MarketCap](https://marketcap.cash)
+
+[Create SEP20 token](https://smartbch.fountainhead.cash/smartslp/)
+
+[SmartBCH Explorer)(https://smartscan.cash)
+
+[Tokens repository 1](https://sep20tokens.github.io_)
+
+[Tokens repository 1](https://zh.thedev.id/sep20tokens)
+
+## Community projects
+
+[sVNT farm MAZE 1](https://svntfarm.netlify.app/farms/xMAZE-BCH) - MistSwap LP
+
+[sVNT farm MAZE 2](https://svntfarm.netlify.app/farms/MAZE-BCH) - BenSwap LP
 
 ## Disclaimer
 
@@ -119,7 +136,7 @@ _MAZE token creator (B_S_Z) should not be considered as Virtual Asset Service Pr
 
 _MAZE token should not be considered as financial instrument (according to MiFID directives) or security (the legal definition of a security varies by jurisdiction)._
 
-## Other projects
+## Other projects powered by MAZE
 
 [MAZE NFT](https://simpleledger.info/token/8678ad8c66cdcbdbb6e8f610fda055458b096c0f09a7fb6a18fe098343411f21) - the first mineable SLP NFT Group token.
 
