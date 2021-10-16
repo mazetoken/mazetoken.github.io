@@ -95,7 +95,7 @@ Interact with [MAZE SEP20](https://oneclickdapp.com/email-cosmos) smartBCH contr
 
 [SmartBCH](https://smartbch.org) - Bitcoin Cash sidechain
 
-MetaMask settings for smartBCH network
+MetaMask smartBCH network settings:
 
 ```
 Network name: SmartBCH
@@ -114,13 +114,26 @@ Currency Symbol: BCH
 
 [SmartBCH Explorer](https://smartscan.cash)
 
-[Send tokens to multiple addresses](https://send2multi.github.io/)
+[Send2multi](https://send2multi.github.io/)
 
-[Tokens repository 1](https://sep20tokens.github.io_)
+[Checkbook](https://app.checkbook.cash/)
 
-[Tokens repository 2](https://zh.thedev.id/sep20tokens)
+[sep20tokens repository 1](https://sep20tokens.github.io_)
+
+[sep20tokens repository 2](https://zh.thedev.id/sep20tokens)
 
 [BaNet smartBCH NFT collections ](https://ba.net/amkt-smartbch/collections.html)
+
+MetaMask smartBCH testnet settings:
+
+```
+Network name: Amber
+RPC URL: http://35.220.203.194:8545/
+Chain ID: 0x2711
+Currency Symbol: BCH
+
+```
+[Amber smartBCH testnet faucet](http://34.92.246.27:8080/faucet)
 
 ## Community projects
 
@@ -140,7 +153,7 @@ _MAZE token creator (B_S_Z) should not be considered as Virtual Asset Service Pr
 
 _MAZE token should not be considered as financial instrument (according to MiFID directives) or security (the legal definition of a security varies by jurisdiction)._
 
-## Other projects powered by MAZE
+## Other projects powered by MAZE  token
 
 [MAZE NFT](https://simpleledger.info/token/8678ad8c66cdcbdbb6e8f610fda055458b096c0f09a7fb6a18fe098343411f21) - the first mineable SLP NFT Group token.
 
@@ -155,6 +168,8 @@ dSLP, BHACK - another mineable SLP tokens.
 [COOL token](https://github.com/mazetoken/cooltoken) - another mineable smartBCH SEP20 token.
 
 [TORPEDO NFT](https://mazetoken.github.io/torpedoNFT) - smartBCH NFT.
+
+[GHOST ON-CHAIN NFT](https://mazetoken.github.io/ghost) - smartBCH NFT on-chain artwork (experimental).
 
 
 
