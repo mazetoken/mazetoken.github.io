@@ -158,27 +158,35 @@ Explorer: https://smartscan.cash (Testnet - Amber)
 
 ```
 
-[Amber SmartBCH testnet faucet](http://34.92.246.27:8080/faucet)
+Amber SmartBCH [testnet faucet](http://34.92.246.27:8080/faucet)
 
 
-## SmartBCH tools & resources
+## SmartBCH tools & resources list
 
 [SmartBCH](https://smartbch.org) - Bitcoin Cash sidechain
 
-[MarketCap](https://marketcap.cash)
+[SmartScan](https://smartscan.cash) SmartBCH Explorer [Github](https://github.com/jay-bch/smartbch-explorer)
 
-[SmartSLP - create SmartBCH SEP20 tokens](https://smartbch.fountainhead.cash/smartslp/)
+[MarketCap](https://marketcap.cash) [Github](https://github.com/MarketCap-Cash/SmartBCH-Token-List)
 
-[Smartscan - SmartBCH Explorer](https://smartscan.cash)
+[SmartSLP Manager](https://smartbch.fountainhead.cash/smartslp/) [Github](https://github.com/blockparty-sh/smartSLP-manager)
+
+[OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com/)
 
 [Send2multi](https://send2multi.github.io/)
 
-[Checkbook](https://www.checkbook.cash/)
+[Blockchain Cheques](https://www.checkbook.cash/)
 
 [GridEx](https://www.gridex.cash/)
 
-[sep20tokens repository 1](https://sep20tokens.github.io_)
+[Addresses of SEP20 tokens and DApps](https://sep20tokens.github.io) [Github](https://github.com/sep20tokens/sep20tokens.github.io)
 
-[sep20tokens repository 2](https://zh.thedev.id/sep20tokens)
+[SmartBCH token list](https://zh.thedev.id/sep20tokens) [Github](https://github.com/zh/smartbch-token-list)
 
 [BaNet smartBCH NFT collections ](https://ba.net/amkt-smartbch/collections.html)
+
+[Revoke](https://revoke.cash/) ERC20/SEP20 allowance
+
+[A small web based smartBCH wallet powered by MetaMask](https://smartmask.cash) [Github](https://github.com/zquestz/smartmask)
+
+[One Click Dapp](https://oneclickdapp.com/) [Github](https://github.com/oneclickdapp/)
