@@ -1,22 +1,34 @@
-# M A Z E
+# M A Z E token
 
-MAZE is a mineable (proof of work) token created on Bitcoin Cash (BCH) blockchain as peer-to-peer virtual asset.
+![Maze](img/maze640.png)
+
+MAZE is a mineable (proof of work) community/utility token created on Bitcoin Cash (BCH) blockchain as peer-to-peer virtual asset.
 
 The token operates without a central issuer and without a centralized promotion or sales developement.
 
-No premine and no presale. Decentralized distribution.
+No premine.
+
+No presale.
+
+No initial offerings.
+
+Decentralized distribution.
 
 MAZE token is for creative people and can be used in various projects in a permissionless way.
 
-Slogan: Let`s create !
+_Let`s create !_
 
-![MAZE icon](img/maze200.png)
+_To leverage the community as the token utility._
 
-[MAZE icon IPFS](https://gateway.pinata.cloud/ipfs/QmQtFFtwBfzNN5xjR4K7o8yiudK4FPhWMcsRM6pMg7WXFf)
+_You do not need to follow one path. Explore unknown. Find what is hidden._
 
 Target market examples: digital arts, collectibles, gifts, tipping/appreciation, peer-to-peer sharing, access control, digital signatures, virtual objects, games.
 
-_There is no roadmap. You are in The Maze and it is changing constantly. You do not need to follow one path. Explore unknown. Find what is hidden._
+
+![MAZE icon](img/maze200.png)
+
+[MAZE icon on IPFS](https://gateway.pinata.cloud/ipfs/QmQtFFtwBfzNN5xjR4K7o8yiudK4FPhWMcsRM6pMg7WXFf)
+
 
 ## MAZE - Bitcoin Cash [Simple Ledger Protocol](https://simpleledger.cash/) token
 
@@ -42,6 +54,7 @@ Decimals: 6
 
 [Exchange](https://anycoin.cash) - Anycoin
 
+
 ## MAZE - Bitcoin Cash [smartBCH](https://smartbch.org/) SEP20 token
 
 MAZE SEP20 token was created August 31, 2021. This is a mineable token based on [0xBitcoin](https://0xbitcoin.org/#/) contract.
@@ -66,7 +79,6 @@ Decimals: 6
 
 [Exchange - DEX](https://benswap.cash) - BenSwap
 
-
 Interact with [MAZE SEP20](https://oneclickdapp.com/email-cosmos) SmartBCH contract
 
 
@@ -77,6 +89,8 @@ Interact with [MAZE SEP20](https://oneclickdapp.com/email-cosmos) SmartBCH contr
 [Discord](https://discord.gg/xkQGpqRwV2)
 
 [Github](https://github.com/mazetoken)
+
+email: mazetoken@mail2tor.com
 
 
 ## Community projects
@@ -94,7 +108,7 @@ Interacting with cryptocurrency virtual assets always check the token/contract i
 
 In general, cryptocurrencies might be volatile and speculative assets.
 
-_MAZE token creator (B_S_Z) should not be considered as Virtual Asset Service Provider and does not provide any "initial offerings", "investing plans", "dividends", "staking rewards", "yield farming" or other "promises"._
+_MAZE token creator (B_S_Z) should not be considered as Virtual Asset Service Provider and does not provide any "initial offerings", "investing plans", "dividends", "staking rewards" or other "promises"._
 
 _MAZE token should not be considered as financial instrument (according to MiFID directives) or security (the legal definition of a security varies by jurisdiction)._
 
@@ -165,28 +179,28 @@ Amber SmartBCH [testnet faucet](http://34.92.246.27:8080/faucet)
 
 [SmartBCH](https://smartbch.org) - Bitcoin Cash sidechain
 
-[SmartScan](https://smartscan.cash) SmartBCH Explorer [Github](https://github.com/jay-bch/smartbch-explorer)
+[SmartScan](https://smartscan.cash) SmartBCH Explorer - [Github](https://github.com/jay-bch/smartbch-explorer)
 
-[MarketCap](https://marketcap.cash) [Github](https://github.com/MarketCap-Cash/SmartBCH-Token-List)
+[MarketCap](https://marketcap.cash) - [Github](https://github.com/MarketCap-Cash/SmartBCH-Token-List)
 
-[SmartSLP Manager](https://smartbch.fountainhead.cash/smartslp/) [Github](https://github.com/blockparty-sh/smartSLP-manager)
+[SmartSLP Manager](https://smartbch.fountainhead.cash/smartslp/) - [Github](https://github.com/blockparty-sh/smartSLP-manager)
 
 [OpenZeppelin Contracts Wizard](https://wizard.openzeppelin.com/)
 
-[Send2multi](https://send2multi.github.io/)
+[Send2multi](https://send2multi.github.io/) - [Github](https://github.com/send2multi)
 
 [Blockchain Cheques](https://www.checkbook.cash/)
 
 [GridEx](https://www.gridex.cash/)
 
-[Addresses of SEP20 tokens and DApps](https://sep20tokens.github.io) [Github](https://github.com/sep20tokens/sep20tokens.github.io)
+[Addresses of SEP20 tokens and DApps](https://sep20tokens.github.io) - [Github](https://github.com/sep20tokens/sep20tokens.github.io)
 
-[SmartBCH token list](https://zh.thedev.id/sep20tokens) [Github](https://github.com/zh/smartbch-token-list)
+[SmartBCH token list](https://zh.thedev.id/sep20tokens) - [Github](https://github.com/zh/smartbch-token-list)
 
 [BaNet smartBCH NFT collections ](https://ba.net/amkt-smartbch/collections.html)
 
 [Revoke](https://revoke.cash/) ERC20/SEP20 allowance
 
-[A small web based smartBCH wallet powered by MetaMask](https://smartmask.cash) [Github](https://github.com/zquestz/smartmask)
+[A small web based smartBCH wallet powered by MetaMask](https://smartmask.cash) - [Github](https://github.com/zquestz/smartmask)
 
-[One Click Dapp](https://oneclickdapp.com/) [Github](https://github.com/oneclickdapp/)
+[One Click Dapp](https://oneclickdapp.com/) - [Github](https://github.com/oneclickdapp/)
