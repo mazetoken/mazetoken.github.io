@@ -52,8 +52,6 @@ Decimals: 6
 
 [Exchange](https://memo.cash/token/bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378?for-sale) - Memo
 
-[Exchange](https://anycoin.cash) - Anycoin
-
 
 ## MAZE - Bitcoin Cash [smartBCH](https://smartbch.org/) SEP20 token
 
