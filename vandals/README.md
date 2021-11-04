@@ -14,7 +14,7 @@ Decimals: 8
 
 Created August 16, 2021 by B_S_Z
 
-VANDALS [contract](contracts/vandals.sol)
+VANDALS [contract](https://github.com/mazetoken/mazetoken.github.io/blob/master/vandals/contracts/vandals.sol)
 
 One Click Dapp to interact with VANDALS [contract](https://oneclickdapp.com/ravioli-supreme)
 
@@ -24,7 +24,7 @@ VANDALS Vesting Wallet contract address: 0x19C1Cd671d4D6BB9f4300e74a126ba31bDe44
 
 VANDALS Vesting Wallet [SmartScan Explorer](https://www.smartscan.cash/address/0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb)
 
-Vesting Wallet [contract](contracts/VestingWallet.sol)
+Vesting Wallet [contract](https://github.com/mazetoken/mazetoken.github.io/blob/master/vandals/contracts/VestingWallet.sol)
 
 VANDALS [SmartScan Explorer](https://www.smartscan.cash/address/0x2a886b947d5a8f0e09408C9069914Fa44C06ed7e)
 

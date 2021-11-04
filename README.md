@@ -113,11 +113,13 @@ _MAZE token should not be considered as financial instrument (according to MiFID
 
 ## Other projects powered by MAZE  token
 
+[VANDALS](https://mazetoken.github.io/vandals)
+
 [MAZE NFT](https://simpleledger.info/token/8678ad8c66cdcbdbb6e8f610fda055458b096c0f09a7fb6a18fe098343411f21) - the first mineable SLP NFT Group token.
 
 MAZE [Post Office](https://mazepostage.herokuapp.com/) - SLP postage (send MAZE and other SLP tokens without BCH transactions fee).
 
-[REBEL, VANDALS, CARTEL](https://github.com/mazetoken/SLP-smart-contract-tokens) trilogy - cashscript smart contract tokens. [VANDALS](https://vandalstoken.onuniverse.com) is also smartBCH SEP20 token.
+[SLP smart contract tokens](https://github.com/mazetoken/SLP-smart-contract-tokens) trilogy - cashscript
 
 [ZOMBIE](https://zombies.onuniverse.com) - just Zombie token (SLP, mineable SLP NFT and smartBCH SEP20).
 
