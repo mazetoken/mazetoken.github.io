@@ -1,6 +1,8 @@
-## ZOMBIE SmartBCH SEP20 token
+## ZOMBIE
 
 ![ZOMBIE](img/zombie200.png)
+
+### ZOMBIE SmartBCH SEP20 token
 
 Name: ZOMBIE
 
@@ -22,7 +24,7 @@ ZOMBIE [contract](https://github.com/mazetoken/mazetoken.github.io/blob/master/z
 
 ZOMBIE contract ownership is [renounced](https://www.smartscan.cash/transaction/0x31d185d2a1136a3da6ab2352c1490315ffcc47fafea4abe2d503d5524188ff5d) to 0x0 address
 
-900000000 ZOMBIE is locked in the(https://github.com/mazetoken/mazetoken.github.io/blob/master/zombie/contracts/VestingWallet.sol) Vesting Wallet since November 9, 2021. Vesting (time-lock) duration period is 2 years. The Vesting Wallet allows to release ZOMBIE tokens partially.
+900000000 ZOMBIE is locked in the [Vesting Wallet](https://github.com/mazetoken/mazetoken.github.io/blob/master/zombie/contracts/VestingWallet.sol) since November 9, 2021. Vesting (time-lock) duration period is 2 years. The Vesting Wallet allows to release ZOMBIE tokens partially.
 
 Vesting Wallet contract address: 0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb
 
@@ -36,8 +38,9 @@ Exchange - [MISTswap](https://app.mistswap.fi/swap)
 
 [Marketcap](https://www.marketcap.cash/token/ZOMBIE)
 
+----------------------------------------------------------------------------------------------
 
-## ZOMBIE Bitcoin Cash Simple Ledger Protocol token
+### ZOMBIE Bitcoin Cash Simple Ledger Protocol token
 
 Name: ZOMBIE
 
@@ -64,4 +67,6 @@ Website: [zombies.onuniverse.com](https://zombies.onuniverse.com)
 Powered by MAZE token by B_S_Z
 
 Telegram: https://t.me/mazetokens
+
+----------------------------------------------------------------------------------------------
 

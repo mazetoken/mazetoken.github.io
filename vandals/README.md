@@ -1,6 +1,8 @@
-## VANDALS SmartBCH SEP20 token
+## VANDALS 
 
 ![Vandals](img/vandals200.png)
+
+### VANDALS SmartBCH SEP20 token
 
 Name: VANDALS
 
@@ -20,7 +22,7 @@ VANDALS [genesis transaction](https://www.smartscan.cash/transaction/0x32736e97e
 
 VANDALS [contract](https://github.com/mazetoken/mazetoken.github.io/blob/master/vandals/contracts/sep20.sol)
 
-70000000 VANDALS is locked in a Vesting Wallet since November 4, 2021. Vesting (time-lock) duration period is 2 years. The Vesting Wallets allows to release VANDALS tokens partially.
+70000000 VANDALS is locked in a [Vesting Wallet](https://github.com/mazetoken/mazetoken.github.io/blob/master/vandals/contracts/VestingWallet.sol) since November 4, 2021. Vesting (time-lock) duration period is 2 years. The Vesting Wallet allows to release VANDALS tokens partially.
 
 Vesting Wallet contract address: 0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb
 
@@ -36,8 +38,9 @@ Exchange - [MISTswap](https://app.mistswap.fi/swap)
 
 [Marketcap](https://www.marketcap.cash/token/VANDALS)
 
+----------------------------------------------------------------------------------------------
 
-## VANDALS Bitcoin Cash Simple Ledger Protocol token
+### VANDALS Bitcoin Cash Simple Ledger Protocol token
 
 Name: MAZE-VANDALS
 
@@ -69,4 +72,6 @@ Email: vandals@mail2tor.com
 Powered by MAZE token by B_S_Z
 
 Telegram: https://t.me/mazetokens
+
+----------------------------------------------------------------------------------------------
 
