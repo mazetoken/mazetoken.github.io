@@ -22,9 +22,9 @@ VANDALS [contract](https://github.com/mazetoken/mazetoken.github.io/blob/master/
 
 70000000 VANDALS is locked in a Vesting Wallet since November 4, 2021. Vesting (time-lock) duration period is 2 years. The Vesting Wallets allows to release VANDALS tokens partially.
 
-VANDALS Vesting Wallet contract address: 0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb
+Vesting Wallet contract address: 0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb
 
-VANDALS Vesting Wallet [SmartScan Explorer](https://www.smartscan.cash/address/0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb)
+Vesting Wallet [SmartScan Explorer](https://www.smartscan.cash/address/0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb)
 
 [One Click Dapp](https://oneclickdapp.com/scholar-prosper) to interact with Vesting Wallet contract
 
@@ -51,11 +51,14 @@ Decimals: 2
 
 Decentralized distribution
 
+Created May 14, 2021 by B_S_Z
+
 VANDALS [SLP Explorer](https://simpleledger.info/#token/30d05b44dc304db9cf56a6138c1dfdbb24f7c8d9e26c87a8079acc461e61b684)
 
 VANDALS [minting](https://github.com/mazetoken/SLP-smart-contract-tokens)
 
-Created May 14, 2021 by B_S_Z
+Exchange [Memo](https://memo.cash/token/30d05b44dc304db9cf56a6138c1dfdbb24f7c8d9e26c87a8079acc461e61b684?for-sale)
+
 
 ----------------------------------------------------------------------------------------------
 

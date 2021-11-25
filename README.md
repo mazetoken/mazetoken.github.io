@@ -115,7 +115,7 @@ _MAZE token should not be considered as financial instrument (according to MiFID
 
 ## MAZE Token Underworld
 
-[VANDALS](https://mazetoken.github.io/vandals) - SmartBCH token and Vesting Wallet - [Github](https://github.com/mazetoken/vandals) - [Website](https://vandalstoken.onuniverse.com)
+[VANDALS](https://mazetoken.github.io/vandals) - SmartBCH token - [Github](https://github.com/mazetoken/vandals) - [Website](https://vandalstoken.onuniverse.com)
 
 [ZOMBIE](https://mazetoken.github.io/zombie) - just ZOMBIE token - [Website](https://zombies.onuniverse.com)
 
@@ -130,8 +130,6 @@ _MAZE token should not be considered as financial instrument (according to MiFID
 MAZE [Post Office](https://mazepostage.herokuapp.com/) - SLP postage (send MAZE and other SLP tokens without BCH transactions fee).
 
 [SLP smart contract tokens](https://github.com/mazetoken/SLP-smart-contract-tokens) REBEL, VANDALS, CARTEL trilogy - cashscript SLP tokens (mintable, decentralized)
-
-[ZOMBIE](https://zombies.onuniverse.com) - just Zombie token (SLP token Type 1, mineable SLP NFT-Group token)
 
 dSLP - decentralized SLP, BHACK - Blind Hackers Group - another mineable SLP tokens Type 1.
 

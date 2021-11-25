@@ -24,9 +24,11 @@ ZOMBIE contract ownership is [renounced](https://www.smartscan.cash/transaction/
 
 900000000 ZOMBIE is locked in the(https://github.com/mazetoken/mazetoken.github.io/blob/master/zombie/contracts/VestingWallet.sol) Vesting Wallet since November 9, 2021. Vesting (time-lock) duration period is 2 years. The Vesting Wallet allows to release ZOMBIE tokens partially.
 
-VANDALS Vesting Wallet contract address: 0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb
+Vesting Wallet contract address: 0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb
 
-VANDALS Vesting Wallet [SmartScan Explorer](https://www.smartscan.cash/address/0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb)
+Vesting Wallet [SmartScan Explorer](https://www.smartscan.cash/address/0x19C1Cd671d4D6BB9f4300e74a126ba31bDe441Bb)
+
+[One Click Dapp](https://oneclickdapp.com/scholar-prosper) to interact with Vesting Wallet
 
 ZOMBIE [SmartScan Explorer](https://www.smartscan.cash/address/0x80453acdfe0073d6743b27d72e06f48777eead80)
 
@@ -49,9 +51,11 @@ Decimals: 0
 
 Centralized distribution
 
+Created March 20, 2020 by B_S_Z
+
 ZOMBIE [SLP Explorer](https://simpleledger.info/#token/be8ccb8c312c2dd9aa82aa2327824fc0d54faa309b503582030fd910c4f018ca)
 
-Created March 20, 2020 by B_S_Z
+Exchange - [Memo](https://memo.cash/token/be8ccb8c312c2dd9aa82aa2327824fc0d54faa309b503582030fd910c4f018ca?for-sale)
 
 ----------------------------------------------------------------------------------------------
 
