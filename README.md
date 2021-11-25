@@ -1,4 +1,4 @@
-# M A Z E token
+# MAZE
 
 ![Maze](img/maze640.png)
 
@@ -48,7 +48,7 @@ Decimals: 6
 
 [Blockchain explorer](https://simpleledger.info/token/bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378)
 
-[Mining](https://github.com/mazetoken/mminer)
+Mining - [Mminer](https://mazetoken.github.io/mminer) - [Source code](https://github.com/mazetoken/mminer)
 
 [Exchange](https://memo.cash/token/bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378?for-sale) - Memo
 
@@ -115,9 +115,9 @@ _MAZE token should not be considered as financial instrument (according to MiFID
 
 ## MAZE Token Underworld
 
-[VANDALS](https://mazetoken.github.io/vandals) - SmartBCH token - [Github](https://github.com/mazetoken/vandals) - [Website](https://vandalstoken.onuniverse.com)
+[VANDALS](https://mazetoken.github.io/vandals) - SmartBCH token - [Source code](https://github.com/mazetoken/mazetoken.github.io/tree/master/vandals) - [Website](https://vandalstoken.onuniverse.com)
 
-[ZOMBIE](https://mazetoken.github.io/zombie) - just ZOMBIE token - [Website](https://zombies.onuniverse.com)
+[ZOMBIE](https://mazetoken.github.io/zombie) - just ZOMBIE token - [Source code](https://github.com/mazetoken/mazetoken.github.io/tree/master/zombie) - [Website](https://zombies.onuniverse.com)
 
 [COOL](https://github.com/mazetoken/cooltoken) - another mineable smartBCH SEP20 token.
 
