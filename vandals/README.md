@@ -2,19 +2,21 @@
 
 ![Vandals](img/vandals200.png)
 
+VANDALS is an appreciation token running on Bitcoin Cash blockchain (Simple Ledger Protocol token and SEP20 SmartBCH token (SmartBCH NFTs are coming in 2022). VANDALS token is a part of MAZE Token Underworld. This is not an investment advice or recommendation. The token is a tradable asset, but there is no expectation od profit. Do your own research. Stay away! Rude and Rough.
+
+Website: https://vandalstoken.onuniverse.com
+
 ### VANDALS SmartBCH SEP20 token
 
 Name: VANDALS
 
 Symbol: VANDALS
 
-Contract address: 0x2a886b947d5a8f0e09408c9069914fa44c06ed7e
+Contract address: 0x2a886b947d5a8f0e09408C9069914Fa44C06ed7e
 
 Total fixed supply: 100000000
 
 Decimals: 8
-
-Centralized distribution
 
 Created August 16, 2021 by B_S_Z
 
@@ -32,9 +34,13 @@ Vesting Wallet [SmartScan Explorer](https://www.smartscan.cash/address/0x19C1Cd6
 
 Vesting Wallet [contract](https://github.com/mazetoken/mazetoken.github.io/blob/master/vandals/contracts/VestingWallet.sol)
 
-VANDALS [SmartScan Explorer](https://www.smartscan.cash/address/0x2a886b947d5a8f0e09408C9069914Fa44C06ed7e)
+VANDALS faucet [contract](https://mazetoken.github.io/vandals/contracts/VandalsFaucet.sol)
+
+VANDALS token on [SmartScan Explorer](https://www.smartscan.cash/address/0x2a886b947d5a8f0e09408C9069914Fa44C06ed7e)
 
 Exchange - [MISTswap](https://app.mistswap.fi/swap)
+
+Exchange - [BenSwap](https://dex.benswap.cash/#/swap)
 
 [Marketcap](https://www.marketcap.cash/token/VANDALS)
 
@@ -64,8 +70,6 @@ Exchange [Memo](https://memo.cash/token/30d05b44dc304db9cf56a6138c1dfdbb24f7c8d9
 
 
 ----------------------------------------------------------------------------------------------
-
-Website: [vandalstoken.onuniverse.com](https://vandalstoken.onuniverse.com)
 
 Email: vandals@mail2tor.com
 
