@@ -82,9 +82,9 @@ MAZE mining - [Mminer](https://mazetoken.github.io/mminer) - [Source code](https
 
 ### MAZE Token Underworld
 
-[VANDALS](https://mazetoken.github.io/vandals) - SmartBCH token - [Source code](https://github.com/mazetoken/mazetoken.github.io/tree/master/vandals) - [Website](https://vandalstoken.onuniverse.com)
+[VANDALS](https://mazetoken.github.io/vandals) - SmartBCH token - [Source code](https://github.com/mazetoken/mazetoken.github.io/vandals) - [Website](https://vandalstoken.onuniverse.com)
 
-[ZOMBIE](https://mazetoken.github.io/zombie) - just ZOMBIE token - [Source code](https://github.com/mazetoken/mazetoken.github.io/tree/master/zombie) - [Website](https://zombies.onuniverse.com)
+[ZOMBIE](https://mazetoken.github.io/zombie) - just ZOMBIE token - [Source code](https://github.com/mazetoken/zombie) - [Website](https://zombies.onuniverse.com)
 
 [COOL](https://github.com/mazetoken/cooltoken) - another mineable SmartBCH SEP20 token.
 
@@ -104,7 +104,7 @@ dSLP - decentralized SLP, BHACK - Blind Hackers Group - another mineable SLP tok
 
 ## Community projects
 
-[sVNT farm MAZE 1](https://svntfarm.netlify.app/farms/xMAZE-BCH) - MistSwap LP - farm MAZE token and get sVNT token
+[sVNT farm MAZE 1](https://svntfarm.netlify.app/farms/xMAZE-BCH) - MISTSwap LP - farm MAZE token and get sVNT token
 
 [sVNT farm MAZE 2](https://svntfarm.netlify.app/farms/MAZE-BCH) - BenSwap LP - farm MAZE token and get sVNT token
 
@@ -132,98 +132,6 @@ _MAZE token should not be considered as financial instrument (according to MiFID
 
 email: mazetoken@mail2tor.com
 
-----------------------------------------------------------------------------------------------
-
-### Wallets
-
-[Electron Cash SLP](https://github.com/simpleledger/Electron-Cash-SLP/releases/download/3.6.7-dev6/Electron-Cash-SLP-3.6.7-dev6-setup.exe) - BCH SLP (NFT)
-
-[Bitcoin.com](https://wallet.bitcoin.com/) - BCH SLP
-
-[Signup](https://wallet.signup.cash/) - BCH SLP (NFT)
-
-[Fullstack](https://bchn-wallet.fullstack.cash/) - BCH SLP
-
-[Zapit](https://zapit.io/) - BCH SLP (NFT)
-
-[Paytaca](https://www.paytaca.com/) - BCH SLP
-
-[MetaMask](https://metamask.io/) - SmartBCH network
-
-MetaMask SmartBCH network settings:
-
-```
-Network name: SmartBCH
-RPC URL: https://smartbch.greyh.at
-or
-https://smartbch.fountainhead.cash/mainnet
-or
-https://global.uat.cash
-or
-https://smartbch.electroncash.de
-Chain ID: 10000
-Currency Symbol: BCH
-Explorer: https://smartscan.cash (Mainnet)
-
-```
-
-MetaMask SmartBCH testnet settings:
-
-```
-Network name: Amber
-RPC URL: http://35.220.203.194:8545/
-or
-https://moeing.tech:9545
-Chain ID: 0x2711
-Currency Symbol: BCH
-Explorer: https://smartscan.cash (Testnet - Amber)
-
-```
-
-Amber SmartBCH [testnet faucet](http://34.92.246.27:8080/faucet)
-
-----------------------------------------------------------------------------------------------
-
-### SmartBCH tools & resources list
-
-[SmartBCH](https://smartbch.org) - Bitcoin Cash sidechain
-
-[SmartScan](https://smartscan.cash) SmartBCH Explorer - [Github](https://github.com/jay-bch/smartbch-explorer)
-
-[MarketCap](https://marketcap.cash) - [Github](https://github.com/MarketCap-Cash/SmartBCH-Token-List)
-
-SmartSLP [Manager](https://smartbch.fountainhead.cash/smartslp/) - [Github](https://github.com/blockparty-sh/smartSLP-manager)
-
-[Send2multi](https://send2multi.github.io/) - [Github](https://github.com/send2multi)
-
-Blockchain [Cheques](https://www.checkbook.cash/)
-
-[GridEx](https://www.gridex.cash/) Simple limit orders - [Github](https://github.com/limitorders/limitorders)
-
-Addresses of SEP20 [tokens and DApps](https://sep20tokens.github.io) - [Github](https://github.com/sep20tokens/sep20tokens.github.io)
-
-SmartBCH [token list](https://zh.thedev.id/sep20tokens) - [Github](https://github.com/zh/smartbch-token-list)
-
-[Revoke](https://revoke.cash/) ERC20/SEP20 allowance
-
-A small web based smartBCH wallet [powered by MetaMask](https://smartmask.cash) - [Github](https://github.com/zquestz/smartmask)
-
-Token [transfer scanner](http://smartbch.tuxpaper.nu/TokenTransferScanner/)
-
-Contract [verifier](https://www.contractverifier.com)
-
-BCH-SEP20-BCH [bridge](https://hop.cash)
-
-MISTswap [Telegram group](https://t.me/MistSwapOfficial)
-
-MISTswap [Discord](https://discord.gg/mistswapdex)
-
-BaNet [smartBCH NFT collections ](https://ba.net/amkt-smartbch/collections.html)
-
-Oasis [NFT Marketplace](https://oasis.cash) - [Github](https://github.com/oasis-nft)
-
-OpenZeppelin [Contracts Wizard](https://wizard.openzeppelin.com/)
-
-[One Click Dapp](https://oneclickdapp.com/) - [Github](https://github.com/oneclickdapp/)
+SmartBCH [Tools and Resources](https://mazetoken.github.io/smartBCH-resources)
 
 ----------------------------------------------------------------------------------------------
