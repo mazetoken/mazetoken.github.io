@@ -28,7 +28,7 @@ _You do not need to follow one path. Explore unknown. Find what is hidden._
 
 ### MAZE - Bitcoin Cash [SmartBCH](https://smartbch.org/) SEP20 token
 
-MAZE SEP20 token was created August 31, 2021. This is a mineable token based on [0xBitcoin](https://0xbitcoin.org/#/) contract.
+MAZE SEP20 token was created August 31, 2021. This is a mineable token based on [0xBitcoin](https://0xbitcoin.org/#/) contract
 
 MAZE SEP20 contract id: 0x481de06dca0198844faa36fca04db364e5c2f86c
 
@@ -46,13 +46,17 @@ Decimals: 6
 
 MAZE mining - [smartMaze](https://github.com/mazetoken/smartMaze)
 
-Exchange - [MISTswap](https://mistswap.fi)
+Exchange - [MISTswap](https://app.mistswap.fi/swap)
+
+MISTswap [Analytics](https://analytics.mistswap.fi/tokens/0x481de06dca0198844faa36fca04db364e5c2f86c)
 
 Exchange - [BenSwap](https://benswap.cash)
 
-Interact with [MAZE SEP20](https://oneclickdapp.com/email-cosmos) SmartBCH contract.
+Chart - [MarketCap](https://www.marketcap.cash/token/MAZE)
 
-[Chart](https://www.marketcap.cash/token/MAZE) - MarketCap
+Chart and analytics - [DexScreener](https://dexscreener.com/smartbch/0x1c47c2a72e86b9b488f436f7ac76acc61e531926)
+
+Interact with [MAZE SEP20](https://oneclickdapp.com/email-cosmos) contract
 
 ----------------------------------------------------------------------------------------------
 
@@ -82,19 +86,19 @@ MAZE mining - [Mminer](https://mazetoken.github.io/mminer) - [Source code](https
 
 ### MAZE Token Underworld
 
-[VANDALS](https://mazetoken.github.io/vandals) - SmartBCH token - [Source code](https://github.com/mazetoken/mazetoken.github.io/vandals) - [Website](https://vandalstoken.onuniverse.com)
+VANDALS - [Github](https://mazetoken.github.io/vandals) - digital arts appreciation token - [Source code](https://github.com/mazetoken/mazetoken.github.io/vandals) - [Website](https://vandalstoken.onuniverse.com)
 
-[ZOMBIE](https://mazetoken.github.io/zombie) - just ZOMBIE token - [Source code](https://github.com/mazetoken/zombie) - [Website](https://zombies.onuniverse.com)
+ZOMBIE - [Github](https://mazetoken.github.io/zombie) - satire and appreciation token - [Source code](https://github.com/mazetoken/zombie) - [Website](https://zombies.onuniverse.com)
 
-[COOL](https://github.com/mazetoken/cooltoken) - another mineable SmartBCH SEP20 token.
+COOL - [Github](https://github.com/mazetoken/cooltoken) - a mineable (proof-of-work) SmartBCH SEP20 token
 
-[TORPEDO NFT](https://mazetoken.github.io/torpedoNFT) - SmartBCH NFT.
+TORPEDO - [SmartBCH NFT](https://mazetoken.github.io/torpedoNFT)
 
-[GHOST ON-CHAIN NFT](https://mazetoken.github.io/ghost) - SmartBCH NFT on-chain artwork (experimental).
+GHOST ON-CHAIN NFT - [SmartBCH NFT](https://mazetoken.github.io/ghost) - on-chain artwork (experimental)
 
 [MAZE NFT](https://simpleledger.info/token/8678ad8c66cdcbdbb6e8f610fda055458b096c0f09a7fb6a18fe098343411f21) - the first mineable SLP NFT Group token.
 
-MAZE [Post Office](https://mazepostage.herokuapp.com/) - SLP postage (send MAZE and other SLP tokens without BCH transactions fee).
+MAZE - [Post Office](https://mazepostage.herokuapp.com/) - SLP postage (send MAZE and other SLP tokens without BCH transactions fee).
 
 [SLP smart contract tokens](https://github.com/mazetoken/SLP-smart-contract-tokens) REBEL, VANDALS, CARTEL trilogy - cashscript SLP tokens (mintable, decentralized)
 
@@ -126,12 +130,12 @@ _MAZE token should not be considered as financial instrument (according to MiFID
 
 ## Social
 
-[Telegram](https://t.me/mazetokens)
+MAZE Token - [Telegram Group](https://t.me/mazetokens)
 
-[Github](https://github.com/mazetoken)
+MAZE Token - [Github](https://github.com/mazetoken)
 
-email: mazetoken@mail2tor.com
+Mail - [Mail2Tor](mailto:mazetoken@mail2tor.com)
 
-SmartBCH [Tools and Resources](https://mazetoken.github.io/smartBCH-resources)
+SmartBCH - [Tools and Resources](https://mazetoken.github.io/smartBCH-resources)
 
 ----------------------------------------------------------------------------------------------
