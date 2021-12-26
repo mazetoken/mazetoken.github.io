@@ -1,6 +1,6 @@
 # MAZE
 
-![Maze](img/maze640.png)
+![MAZE icon](img/maze200.png)
 
 MAZE is a mineable (proof-of-work) appreciation token created on Bitcoin Cash (BCH) blockchain as peer-to-peer virtual asset.
 
@@ -20,8 +20,6 @@ _Let`s create !_
 
 _You do not need to follow one path. Explore unknown. Find what is hidden._
 
-![MAZE icon](img/maze200.png)
-
 [MAZE icon on IPFS](https://gateway.pinata.cloud/ipfs/QmQtFFtwBfzNN5xjR4K7o8yiudK4FPhWMcsRM6pMg7WXFf)
 
 ----------------------------------------------------------------------------------------------
@@ -30,7 +28,7 @@ _You do not need to follow one path. Explore unknown. Find what is hidden._
 
 MAZE SEP20 token was created August 31, 2021. This is a mineable token based on [0xBitcoin](https://0xbitcoin.org/#/) contract
 
-MAZE SEP20 contract id: 0x481de06dca0198844faa36fca04db364e5c2f86c
+MAZE SEP20 contract id: 0x481De06DCA0198844faA36FCa04Db364e5c2f86C
 
 Name: MAZE
 
@@ -89,6 +87,8 @@ MAZE mining - [Mminer](https://mazetoken.github.io/mminer) - [Source code](https
 VANDALS - [Github](https://mazetoken.github.io/vandals) - digital arts appreciation token - [Source code](https://github.com/mazetoken/mazetoken.github.io/vandals) - [Website](https://vandalstoken.onuniverse.com)
 
 ZOMBIE - [Github](https://mazetoken.github.io/zombie) - satire and appreciation token - [Source code](https://github.com/mazetoken/zombie) - [Website](https://zombies.onuniverse.com)
+
+MAZE-ARENA - [Github](https://mazetoken.github.io/arena) - ERC1155 SmartBCH NFTs - semi-fungible tokens - [Source code](https://github.com/mazetoken/arena)
 
 COOL - [Github](https://github.com/mazetoken/cooltoken) - a mineable (proof-of-work) SmartBCH SEP20 token
 
