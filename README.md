@@ -118,11 +118,9 @@ dSLP - decentralized SLP, BHACK - Blind Hackers Group - another mineable SLP tok
 
 This is not an investment advice or recommendation. This is for information purposes only. Use it at your own risk and do your own research.
 
-Interacting with cryptocurrency virtual assets always check a token/contract id.
+Interacting with cryptocurrency virtual assets always check a tokenid /contract address.
 
 In general, cryptocurrencies might be volatile and speculative assets.
-
-_MAZE token creator (B_S_Z) should not be considered as Virtual Asset Service Provider and does not provide any "initial offerings", "investing plans", "dividends", "staking rewards" or other "promises"._
 
 _MAZE token should not be considered as financial instrument (according to MiFID directives) or security (the legal definition of a security varies by jurisdiction)._
 
