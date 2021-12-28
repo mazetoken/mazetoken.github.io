@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="maze token, bitcoin cash, bch, smartbCH, slp, simpleledger">
+    <meta name="web" content="https://mazetoken.github.io">
+	<link rel="icon" type="image/ico" sizes="32x32" href="img/favicon.ico">
+    <title>MAZE Token</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js" integrity="sha256-XH+mnS1YTklQJ7VzeLSviplcaKwkRWpwDwHUNXVCuIU=" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="container">
+    <h1 class="page-header">MAZE Token</h1>
+    <p></p><br>
+	<p><img src="img/maze150.png" alt="MAZE icon" width="150" height="150"> <img src="img/bchorg150.png" alt="BCH icon" width="150" height="150">
+	<img src="img/smartbch150.png" alt="SmartBCH icon" width="150" height="56"> <img src="img/slp150.png" alt="SLP icon" width="150" height="150"></p><br>
+
+    <div class="row">
+      	<div>
+			<h3 class="sub-header">About MAZE</h3>
+        	<p>MAZE is a mineable (proof-of-work) appreciation token created on Bitcoin Cash (BCH) blockchain as peer-to-peer virtual asset.<br>
+				The token operates without a central issuer and without a centralized promotion or marketing developement.<br>
+				No premine.<br>
+				No presale.<br>
+				No initial offering.<br>
+				Decentralized distribution.<br>
+				MAZE token is for creative people and can be used in a permissionless way.
+				The token is a tradable asset, but it is not used to raise capital.
+				There is no expectation of profit.<br>
+				MAZE purpose is to leverage the creative community as the token utility.<br>
+				Let`s create! You do not need to follow one path. Explore unknown. Find what is hidden.</p>
+      	</div>
+	</div>
+	<p></p><br>
+
+	<div class="row">
+		<div>
+		  <h3 class="sub-header">MAZE - Bitcoin Cash <a href="https://smartbch.org">SmartBCH</a> token (SEP20)</h3>
+		  <p>MAZE SEP20 token was created August 31, 2021. This is a mineable token based on <a href="https://0xbitcoin.org/#/">0xBitcoin</a> contract.<br>
+			MAZE SEP20 contract address: 0x481De06DCA0198844faA36FCa04Db364e5c2f86C<br>
+			Name: MAZE<br>
+			Symbol: MAZE<br>
+			Initial supply: 0<br>
+			Max total supply: 21000000<br>
+			Decimals: 6<br>
+			<a href="https://www.smartscan.cash/address/0x481de06dca0198844faa36fca04db364e5c2f86c">Explorer</a><br>
+			<a href="https://github.com/mazetoken/smartMaze">Mining</a><br>
+			<a href="https://app.mistswap.fi/swap">Trade on MISTswap DEX</a><br>
+			<a href="https://analytics.mistswap.fi/tokens/0x481de06dca0198844faa36fca04db364e5c2f86c">MISTswap Analytics</a><br>
+			<a href="https://benswap.cash">Trade on BenSwap DEX</a><br>
+			<a href="https://www.marketcap.cash/token/MAZE">Marketcap</a><br>
+			<a href="https://dexscreener.com/smartbch/0x1c47c2a72e86b9b488f436f7ac76acc61e531926">DexScreener</a><br>
+			<a href="https://oneclickdapp.com/email-cosmos">Interact with MAZE contract</a></p>
+		  <p>BCH SmartBCH wallets: MetaMask, Brave Browser and other custom RPC compatible wallets</p>
+		</div>
+  	</div>
+  	<p></p><br>
+
+	<div class="row">
+		<div>
+			<h3 class="sub-header">Add MAZE Token with icon to MetaMask</h3>
+			<button onclick="addIcon()" class="btn-sm btn-secondary">Connect</button>
+		</div>
+	</div>
+	<p></p><br>
+
+	<script>
+		function addIcon() {
+		ethereum.enable();
+		web3 = new Web3(window.ethereum);
+		const tokenAddress = '0x481De06DCA0198844faA36FCa04Db364e5c2f86C';
+		const tokenSymbol = 'MAZE';
+		const tokenDecimals = 6;
+		const tokenImage = 'https://mazetoken.github.io/img/maze200.png';
+		ethereum.request({
+				method: 'wallet_watchAsset',
+				params: {
+				type: 'ERC20',
+				options: {
+					address: tokenAddress,
+					symbol: tokenSymbol,
+					decimals: tokenDecimals,
+					image: tokenImage,
+				},
+				},
+			});
+		};
+	</script>
+	
+    <p></p><br>
+
+	<div class="row">
+		<div>
+		  <h3 class="sub-header">MAZE - Bitcoin Cash <a href="https://simpleledger.cash">Simple Ledger Protocol</a> token (SLP)</h3>
+		  <p>MAZE SLP token was created July 22, 2020. This is a mineable SLP token Type-1 based on <a href="https://github.com/mazetoken/mminer/blob/main/Mistcoin-archive/Mistcoin.md">Mistcoin</a> covenant contract.<br>
+			MAZE SLP token id: 553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378<br>
+			Name: MAZE<br>
+			Symbol: MAZE<br>
+			Initial supply: 0<br>
+			Max total supply: 21000000<br>
+			Decimals: 6<br>
+			<a href="https://simpleledger.info/token/bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378">Explorer</a><br>
+			<a href="https://github.com/mazetoken/mminer">Mining</a><br>
+			<a href="https://memo.cash/token/bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378?for-sale">Trade on Memo</a></p>
+		  <p>BCH SLP wallets: Bitcoin.com, ElectronCash SLP, Signup.cash and other BCH SLP compatible wallets</p>
+		</div>
+  	</div>
+  	<p></p><br>
+	
+	<div class="row">
+		<div>
+			<h3 class="sub-header">Connect to Signup wallet</h3>
+			<button onclick="addSignup()" class="btn-sm btn-secondary">Connect</button>
+		</div>
+	</div>
+	<p></p><br>
+
+	<script type="text/javascript" src="https://cdn.signup.cash/provider.js"></script>
+
+	<script>
+		function addSignup() {
+			const signup = new Signup.cash({ addr: "DEVELOPER BCH ADDRESS" });
+			signup.requestAccess(["bch_address"])
+			.then((bchAddr) => {
+			if (bchAddr.status === "GRANTED") {
+			console.log("Thanks! you are logged in");
+			}
+			console.log(bchAddr);
+			});
+		};
+	  </script>
+
+	<p></p><br>
+
+	<div class="row">
+		<div>
+		  <h3 class="sub-header">MAZE Tokens Underworld</h3>
+		  <p>
+			<a href="https://mazetoken.github.io/vandals">VANDALS Token</a><br>
+			<a href="https://mazetoken.github.io/zombie">ZOMBIE Token</a><br>
+			<a href="https://github.com/mazetoken/cooltoken">COOL Token</a><br>
+			<a href="https://mazetoken.github.io/torpedoNFT">TORPEDO NFT</a><br>
+			<a href="https://mazetoken.github.io/ghost">GHOST-ON-CHAIN NFT</a><br>
+			<a href="https://mazetoken.github.io/arena">MAZE-ARENA NFT</a><br>
+		  </p>
+		</div>
+  	</div>
+  	<p></p><br>
+
+	<p>Disclaimer:<br>
+		This is not an investment advice or recommendation. This is for information purposes only. Use it at your own risk and do your own research.<br>
+		Interacting with cryptocurrency virtual assets always check a token id/contract address. In general, cryptocurrencies might be volatile and speculative assets.<br>
+		MAZE Token should not be considered as financial instrument (according to MiFID directives) or security (the legal definition of a security varies by jurisdiction).</p>
+
+	<p></p><br>
+    
+	<p>Donation:<br>
+    BCH: bitcoincash:qz85j4w64z7n3vjfztwdhnstv7w98yztksmfwd4vu0<br>
+    BCH/SEP20 (SmartBCH): 0x346A5A5B5Ba9C61081294e8Bd98e30b7F6078b67<br>
+    SLP: simpleledger:qz85j4w64z7n3vjfztwdhnstv7w98yztkshj9kqvz3<br></p>
+	<p></p><br>
+
+	<p style="text-align:center">Simple Zombie Protocol <a href="https://puredapp.org">Pure DApp</a> by MAZE Token, 2020-2022</p>
+    <p style="text-align:center"><a href="https://t.me/mazetokens"><img src="img/telegram.png" alt="Telegram" width="32" height="32"></a> | <a href="https://github.com/mazetoken"><img src="img/github.png" alt="Github" width="32" height="32"></a> | 
+	<a href="mailto:mazetoken@mail2tor.com"><img src="img/email.png" alt="Mail" width="32" height="32"></a></p> 
+	<p></p><br>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

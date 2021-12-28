@@ -4,7 +4,7 @@
 
 MAZE is a mineable (proof-of-work) appreciation token created on Bitcoin Cash (BCH) blockchain as peer-to-peer virtual asset.
 
-The token operates without a central issuer and without a centralized promotion or sales developement.
+The token operates without a central issuer and without a centralized promotion or marketing developement.
 
 No premine.
 
