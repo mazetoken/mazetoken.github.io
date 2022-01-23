@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="maze token, bitcoin cash, bch, smartbCH, slp, simpleledger">
+    <meta name="description" content="maze token, bitcoin cash, bch, SmartBCH, slp, simpleledger">
     <meta name="web" content="https://mazetoken.github.io">
 	<link rel="icon" type="image/ico" sizes="32x32" href="img/favicon.ico">
     <title>MAZE Token</title>
@@ -13,10 +13,121 @@
   </head>
 
   <body class="container">
+	
+	<div class="form-check form-switch">
+		<label class="form-check-label" for="lightSwitch"> Dark Maze Mode </label>
+		<input class="form-check-input" type="checkbox" id="lightSwitch"/>
+	</div><br>
+
+	<script>
+		/**
+		 *  Light Switch @version v0.1.3
+		 */
+
+		(function () {
+		let lightSwitch = document.getElementById("lightSwitch");
+		if (!lightSwitch) {
+			return;
+		}
+		
+		/**
+		 * @function darkmode
+		 * @summary: changes the theme to 'dark mode' and save settings to local stroage.
+		 * Basically, replaces/toggles every CSS class that has '-light' class with '-dark'
+		 */
+		function darkMode() {
+			document.querySelectorAll(".bg-light").forEach((element) => {
+			element.className = element.className.replace(/-light/g, "-dark");
+			});
+
+			document.body.classList.add("bg-dark");
+
+			if (document.body.classList.contains("text-dark")) {
+			document.body.classList.replace("text-dark", "text-light");
+			} else {
+			document.body.classList.add("text-light");
+			}
+			
+			// set light switch input to true
+			if (! lightSwitch.checked) {
+			lightSwitch.checked = true;
+			}
+			localStorage.setItem("lightSwitch", "dark");
+		}
+
+		/**
+		 * @function lightmode
+		 * @summary: changes the theme to 'light mode' and save settings to local stroage.
+		 */
+		function lightMode() {
+			document.querySelectorAll(".bg-dark").forEach((element) => {
+			element.className = element.className.replace(/-dark/g, "-light");
+			});
+
+			document.body.classList.add("bg-light");
+
+			if (document.body.classList.contains("text-light")) {
+			document.body.classList.replace("text-light", "text-dark");
+			} else {
+			document.body.classList.add("text-dark");
+			}
+			
+			if (lightSwitch.checked) {
+			lightSwitch.checked = false;
+			}
+			localStorage.setItem("lightSwitch", "light");
+		}
+		
+		/**
+		 * @function onToggleMode
+		 * @summary: the event handler attached to the switch. calling @darkMode or @lightMode depending on the checked state.
+		 */
+		function onToggleMode() {
+			if (lightSwitch.checked) {
+			darkMode();
+			} else {
+			lightMode();
+			}
+		}
+		
+		/**
+		 * @function getSystemDefaultTheme
+		 * @summary: get system default theme by media query
+		 */
+		function getSystemDefaultTheme() {
+			const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+			if (darkThemeMq.matches) {
+			return "dark";
+			}
+			return "light";
+		}
+
+		function setup() {
+			var settings = localStorage.getItem("lightSwitch");
+			if (settings == null) {
+			settings = getSystemDefaultTheme();
+			}
+			
+			if (settings == "dark") {
+			lightSwitch.checked = true;
+			}
+			
+			lightSwitch.addEventListener("change", onToggleMode);
+			onToggleMode();
+		}
+		
+		setup();
+		
+		})();
+	</script>
+
     <h1 class="page-header">MAZE Token</h1>
     <p></p><br>
-	<p><img src="img/maze150.png" alt="MAZE icon" width="150" height="150"> <img src="img/bchorg150.png" alt="BCH icon" width="150" height="150">
-	<img src="img/smartbch150.png" alt="SmartBCH icon" width="150" height="56"> <img src="img/slp150.png" alt="SLP icon" width="150" height="150"></p><br>
+	<p><img src="img/maze200.png" alt="MAZE icon" width="150" height="150">
+	   <img src="img/bchorg150.png" alt="BCH icon" width="150" height="150">
+	   <img src="img/smartbch150.png" alt="SmartBCH icon" width="150" height="56">
+	   <img src="img/slp150.png" alt="SLP icon" width="150" height="150">
+	</p><br>
 
     <div class="row">
       	<div>
@@ -46,16 +157,17 @@
 			Initial supply: 0<br>
 			Max total supply: 21000000<br>
 			Decimals: 6<br>
-			<a href="https://www.smartscan.cash/address/0x481de06dca0198844faa36fca04db364e5c2f86c">Explorer</a><br>
-			<a href="https://github.com/mazetoken/smartMaze">Mining</a><br>
-			<a href="https://app.mistswap.fi/swap">Trade on MISTswap DEX</a><br>
-			<a href="https://analytics.mistswap.fi/tokens/0x481de06dca0198844faa36fca04db364e5c2f86c">MISTswap Analytics</a><br>
-			<a href="https://benswap.cash">Trade on BenSwap DEX</a><br>
-			<a href="https://www.marketcap.cash/token/MAZE">Marketcap</a><br>
-			<a href="https://dexscreener.com/smartbch/0x1c47c2a72e86b9b488f436f7ac76acc61e531926">DexScreener</a><br>
-			<a href="https://oneclickdapp.com/email-cosmos">Interact with MAZE contract</a></p>
+			<a href="https://www.smartscan.cash/address/0x481De06DCA0198844faA36FCa04Db364e5c2f86C">MAZE on SmartScan Block Explorer</a><br>
+			<a href="https://github.com/mazetoken/smartMaze">MAZE mining</a><br>
+			<a href="https://app.mistswap.fi/swap">Trade MAZE on MISTswap DEX</a><br>
+			<a href="https://analytics.mistswap.fi/tokens/0x481De06DCA0198844faA36FCa04Db364e5c2f86C">MAZE on MISTswap Analytics</a><br>
+			<a href="https://www.marketcap.cash/token/MAZE">MAZE on Marketcap</a><br>
+			<a href="https://dexscreener.com/smartbch/0x1c47c2a72e86b9b488f436f7ac76acc61e531926">MAZE on Dex Screener</a><br>
+			<a href="https://oneclickdapp.com/email-cosmos">Interact with MAZE contract</a> - One Click Dapp
+		  </p>
 		  <p>BCH SmartBCH wallets: MetaMask, Brave Browser and other custom RPC compatible wallets<br>
-		  <a href="https://mazetoken.github.io/smartBCH-resources">SmartBCH Tools and resources</a></p>
+		  	 See also <a href="https://mazetoken.github.io/smartBCH-resources">SmartBCH Tools and resources</a>
+		  </p>
 		</div>
   	</div>
   	<p></p><br>
@@ -104,7 +216,7 @@
 			Max total supply: 21000000<br>
 			Decimals: 6<br>
 			<a href="https://simpleledger.info/token/bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378">Explorer</a><br>
-			<a href="https://github.com/mazetoken/mminer">Mining</a><br>
+			<a href="https://github.com/mazetoken/mminer">MAZE Mining</a><br>
 			<a href="https://memo.cash/token/bb553ac2ac7af0fcd4f24f9dfacc7f925bfb1446c6e18c7966db95a8d50fb378?for-sale">Trade on Memo</a></p>
 		  <p>BCH SLP wallets: Bitcoin.com, ElectronCash SLP, Signup.cash and other BCH SLP compatible wallets</p>
 		</div>
@@ -113,8 +225,8 @@
 	
 	<div class="row">
 		<div>
-			<h3 class="sub-header">Connect to Signup wallet (BCH SLP)</h3>
-			<button onclick="addSignup()" class="btn-sm btn-secondary">Connect</button>
+			<h3 class="sub-header">Connect to <a href="https://signup.cash">Signup</a> wallet (BCH SLP/NFT) or create one</h3>
+			<button onclick="addSignup()" class="btn-sm btn-secondary">Connect to Signup</button>
 		</div>
 	</div>
 	<p></p><br>
@@ -134,19 +246,19 @@
 		};
 	  </script>
 
-	<p></p><br>
+	<p></p>
 
 	<div class="row">
 		<div>
-		  <h3 class="sub-header">MAZE Tokens Underworld</h3>
+		  <h2 class="sub-header">MAZE Tokens Underworld</h2>
 		  <p>
-			<a href="https://mazetoken.github.io/vandals">VANDALS Token</a><br>
-			<a href="https://mazetoken.github.io/zombie">ZOMBIE Token</a><br>
+			<a href="https://mazetoken.github.io/vandals">VANDALS Token</a> | <a href="https://...">VANDALS Staker</a> - coming soon<br>
+			<a href="https://mazetoken.github.io/zombie">ZOMBIE Token</a> | <a href="https://zombiefaucet.herokuapp.com">ZOMBIE Faucet</a><br>
 			<a href="https://github.com/mazetoken/cooltoken">COOL Token</a><br>
 			<a href="https://mazetoken.github.io/torpedoNFT">TORPEDO NFT</a><br>
 			<a href="https://mazetoken.github.io/ghost">GHOST-ON-CHAIN NFT</a><br>
-			<a href="https://mazetoken.github.io/arena">MAZE-ARENA NFT</a><br>
-			<a href="https://mazetoken.github.io/funkybots">FunkyBots NFT</a><br>
+			<a href="https://mazetoken.github.io/arena">MAZE-ARENA NFT</a> (ERC1155)<br>
+			<a href="https://mazetoken.github.io/funkybots">FunkyBots NFT</a> | <a href="https://oasis.cash/collection/0xad2f872AF013C7275eEBC6e7a43d604bA186db6D">FunkyBots NFT on Oasis NFT Marketplace</a><br>
 		  </p>
 		</div>
   	</div>
