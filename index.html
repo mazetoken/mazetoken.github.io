@@ -6,7 +6,7 @@
     <meta name="description" content="maze token, bitcoin cash, bch, SmartBCH, slp, simpleledger">
     <meta name="web" content="https://mazetoken.github.io">
 	<link rel="icon" type="image/ico" sizes="32x32" href="img/favicon.ico">
-    <title>MAZE Token</title>
+    <title>MAZE Token on Bitcoin Cash</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js" integrity="sha256-XH+mnS1YTklQJ7VzeLSviplcaKwkRWpwDwHUNXVCuIU=" crossorigin="anonymous"></script>
@@ -15,118 +15,18 @@
   <body class="container">
 	
 	<div class="form-check form-switch">
-		<label class="form-check-label" for="lightSwitch"> Dark Maze Mode </label>
+		<label class="form-check-label" for="lightSwitch"></label>
 		<input class="form-check-input" type="checkbox" id="lightSwitch"/>
 	</div><br>
 
-	<script>
-		/**
-		 *  Light Switch @version v0.1.3
-		 */
+	<script src="switch.js"></script>
 
-		(function () {
-		let lightSwitch = document.getElementById("lightSwitch");
-		if (!lightSwitch) {
-			return;
-		}
-		
-		/**
-		 * @function darkmode
-		 * @summary: changes the theme to 'dark mode' and save settings to local stroage.
-		 * Basically, replaces/toggles every CSS class that has '-light' class with '-dark'
-		 */
-		function darkMode() {
-			document.querySelectorAll(".bg-light").forEach((element) => {
-			element.className = element.className.replace(/-light/g, "-dark");
-			});
-
-			document.body.classList.add("bg-dark");
-
-			if (document.body.classList.contains("text-dark")) {
-			document.body.classList.replace("text-dark", "text-light");
-			} else {
-			document.body.classList.add("text-light");
-			}
-			
-			// set light switch input to true
-			if (! lightSwitch.checked) {
-			lightSwitch.checked = true;
-			}
-			localStorage.setItem("lightSwitch", "dark");
-		}
-
-		/**
-		 * @function lightmode
-		 * @summary: changes the theme to 'light mode' and save settings to local stroage.
-		 */
-		function lightMode() {
-			document.querySelectorAll(".bg-dark").forEach((element) => {
-			element.className = element.className.replace(/-dark/g, "-light");
-			});
-
-			document.body.classList.add("bg-light");
-
-			if (document.body.classList.contains("text-light")) {
-			document.body.classList.replace("text-light", "text-dark");
-			} else {
-			document.body.classList.add("text-dark");
-			}
-			
-			if (lightSwitch.checked) {
-			lightSwitch.checked = false;
-			}
-			localStorage.setItem("lightSwitch", "light");
-		}
-		
-		/**
-		 * @function onToggleMode
-		 * @summary: the event handler attached to the switch. calling @darkMode or @lightMode depending on the checked state.
-		 */
-		function onToggleMode() {
-			if (lightSwitch.checked) {
-			darkMode();
-			} else {
-			lightMode();
-			}
-		}
-		
-		/**
-		 * @function getSystemDefaultTheme
-		 * @summary: get system default theme by media query
-		 */
-		function getSystemDefaultTheme() {
-			const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
-			if (darkThemeMq.matches) {
-			return "dark";
-			}
-			return "light";
-		}
-
-		function setup() {
-			var settings = localStorage.getItem("lightSwitch");
-			if (settings == null) {
-			settings = getSystemDefaultTheme();
-			}
-			
-			if (settings == "dark") {
-			lightSwitch.checked = true;
-			}
-			
-			lightSwitch.addEventListener("change", onToggleMode);
-			onToggleMode();
-		}
-		
-		setup();
-		
-		})();
-	</script>
-
-    <h1 class="page-header">MAZE Token</h1>
+    <h1 class="page-header">MAZE Token on Bitcoin Cash blockchain</h1>
     <p></p><br>
 	<p><img src="img/maze200.png" alt="MAZE icon" width="150" height="150">
-	   <img src="img/bchorg150.png" alt="BCH icon" width="150" height="150">
+	   <!-- <img src="img/bchorg150.png" alt="BCH icon" width="150" height="150">
 	   <img src="img/smartbch150.png" alt="SmartBCH icon" width="150" height="56">
-	   <img src="img/slp150.png" alt="SLP icon" width="150" height="150">
+	   <img src="img/slp150.png" alt="SLP icon" width="150" height="150"> -->
 	</p><br>
 
     <div class="row">
@@ -141,12 +41,14 @@
 				MAZE token is for creative people and can be used in a permissionless way.
 				The token is a tradable asset, but it is not used to raise capital.
 				There is no expectation of profit.<br>
-				MAZE purpose is to leverage the creative community as the token utility.<br>
-				Let`s create! You do not need to follow one path. Explore unknown. Find what is hidden.</p>
+				MAZE purpose is to leverage the creative community as the token utility.
+			</p>
+			<h3>Let`s create!</h3>
       	</div>
 	</div>
-	<p></p><br>
+	<br>
 
+	<hr>
 	<div class="row">
 		<div>
 		  <h3 class="sub-header">MAZE - Bitcoin Cash <a href="https://smartbch.org">SmartBCH</a> token (SEP20)</h3>
@@ -164,9 +66,6 @@
 			<a href="https://www.marketcap.cash/token/MAZE">MAZE on Marketcap</a><br>
 			<a href="https://dexscreener.com/smartbch/0x1c47c2a72e86b9b488f436f7ac76acc61e531926">MAZE on Dex Screener</a><br>
 			<a href="https://oneclickdapp.com/email-cosmos">Interact with MAZE contract</a> - One Click Dapp
-		  </p>
-		  <p>BCH SmartBCH wallets: MetaMask, Brave Browser and other custom RPC compatible wallets<br>
-		  	 See also <a href="https://mazetoken.github.io/smartBCH-resources">SmartBCH Tools and resources</a>
 		  </p>
 		</div>
   	</div>
@@ -202,9 +101,8 @@
 			});
 		};
 	</script>
-	
-    <p></p><br>
 
+	<p></p>
 	<div class="row">
 		<div>
 		  <h3 class="sub-header">MAZE - Bitcoin Cash <a href="https://simpleledger.cash">Simple Ledger Protocol</a> token (SLP)</h3>
@@ -247,13 +145,12 @@
 	  </script>
 
 	<p></p>
-
 	<div class="row">
 		<div>
 		  <h2 class="sub-header">MAZE Tokens Underworld</h2>
 		  <p>
-			<a href="https://mazetoken.github.io/vandals">VANDALS Token</a> | <a href="https://...">VANDALS Staker</a> - coming soon<br>
-			<a href="https://mazetoken.github.io/zombie">ZOMBIE Token</a> | <a href="https://zombiefaucet.herokuapp.com">ZOMBIE Faucet</a><br>
+			<a href="https://mazetoken.github.io/vandals">VANDALS Token</a> | <a href="https://mazetoken.github.io/vandals/bank">VANDALS Bank</a> - stake ZOMBIE and receive VANDALS<br>
+			<a href="https://mazetoken.github.io/zombie">ZOMBIE Token</a> | <a href="https://mazetoken.github.io/zombie/faucet">ZOMBIE Faucet</a> - claim ZOMBIE<br>
 			<a href="https://github.com/mazetoken/cooltoken">COOL Token</a><br>
 			<a href="https://mazetoken.github.io/torpedoNFT">TORPEDO NFT</a><br>
 			<a href="https://mazetoken.github.io/ghost">GHOST-ON-CHAIN NFT</a><br>
@@ -262,8 +159,12 @@
 		  </p>
 		</div>
   	</div>
-  	<p></p><br>
+  	<p></p>
+	<p>See also <a href="https://mazetoken.github.io/smartBCH-resources">SmartBCH Tools and resources</a></p>
+	<p></p>
+	<br>
 
+	<hr>
 	<p>Disclaimer:<br>
 		This is not an investment advice or recommendation. This is for information purposes only. Use it at your own risk and do your own research.<br>
 		Interacting with cryptocurrency virtual assets always check a token id/contract address. In general, cryptocurrencies might be volatile and speculative assets.<br>
@@ -277,7 +178,7 @@
     SLP: simpleledger:qz85j4w64z7n3vjfztwdhnstv7w98yztkshj9kqvz3<br></p>
 	<p></p><br>
 
-	<p style="text-align:center">Simple Zombie Protocol <a href="https://puredapp.org">Pure DApp</a> by MAZE Token, 2020-2022</p>
+	<p style="text-align:center">MAZE Token, 2020-2022</p>
     <p style="text-align:center"><a href="https://t.me/mazetokens"><img src="img/telegram.png" alt="Telegram" width="32" height="32"></a> | <a href="https://github.com/mazetoken"><img src="img/github.png" alt="Github" width="32" height="32"></a> | 
 	<a href="mailto:mazetoken@mail2tor.com"><img src="img/email.png" alt="Mail" width="32" height="32"></a></p> 
 	<p></p><br>
