@@ -1,6 +1,6 @@
 body {
   padding: 8px;
-  background-color: #111;
+  background-color: #222;
   color: white;
   transition: margin-left .5s;
   font-size: 16px;
@@ -65,3 +65,24 @@ body {
 }
 
 .button1 {background-color: #4CAF50;} /* Green */
+
+a:link {
+  color: #4CAF50;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #4CAF50;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: darkcyan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: darkcyan;
+  background-color: transparent;
+  text-decoration: underline;
+}

@@ -139,28 +139,12 @@ function unstakeTokens() {
     var content = "Sending transaction from: ";
     content += zombieMaster;
     $("#lang5").html(content);
-    var event = contractBank.methods.unstakeTokens().send({ from: zombieMaster, gasPrice: 1047000000 })
+    var event = contractBank.methods.unstakeTokens().send({ from: zombieMaster })
         .then(function (receipt) {
             console.log(receipt);
     var content = "Transaction sent! ";
             alert("Done. You`ve been zombified again!");
     content += JSON.stringify(receipt.transactionHash);
     $("#lang5").html(content);
-        });;
-};
-
-// Mint
-
-function mintToken() {
-    var content = "Sending transaction from: ";
-    content += zombieMaster;
-    $("#lang").html(content);
-    var event = contracToken.methods.mint().send({ from: zombieMaster, value: 30000000000000 })
-        .then(function (receipt) {
-            console.log(receipt);
-    var content = "Transaction sent!: ";
-        alert("Done!")
-    content += JSON.stringify(receipt.transactionHash);
-    $("#lang").html(content);
         });;
 };
