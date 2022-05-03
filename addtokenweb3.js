@@ -57,3 +57,23 @@ function addIconV() {
             },
     });
 };
+
+function addIconU() {
+    web3 = new Web3(window.ethereum);
+    const tokenAddress = '0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF';
+    const tokenSymbol = 'URGD';
+    const tokenDecimals = 8;
+    const tokenImage = 'https://mazetoken.github.io/img/urgd512.png';
+    ethereum.request({
+            method: 'wallet_watchAsset',
+            params: {
+            type: 'ERC20',
+            options: {
+                address: tokenAddress,
+                symbol: tokenSymbol,
+                decimals: tokenDecimals,
+                image: tokenImage,
+            },
+            },
+    });
+};

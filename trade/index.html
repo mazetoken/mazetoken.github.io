@@ -3,13 +3,11 @@
    <head>
       <meta charset="utf-8"> 
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="maze token, bitcoin cash, bch, smartBCH">
+      <meta name="description" content="maze token, mistswap dex, bitcoin cash, bch, smartBCH">
       <meta name="web" content="">
-	   <link rel="icon" type="image/ico" sizes="32x32" href="img/mfavicon.ico">
+	   <link rel="icon" type="image/ico" sizes="32x32" href="../img/mfavicon.ico">
       <title>Maze Tokens Underworld</title>
-      <link rel="stylesheet" href="style.css">
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js" integrity="sha256-XH+mnS1YTklQJ7VzeLSviplcaKwkRWpwDwHUNXVCuIU=" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="../style.css">
    </head>
   <body>
    
@@ -18,14 +16,15 @@
 
    <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="faucet.html">Faucet</a>
-      <a href="bank.html">Vandals Bank</a>
-      <!-- <a href="mint.html">Mint token</a>
-      <a href="mintNFT.html">Mint NFT</a>
-      <a href="message.html">Send message</a> -->
-      <a href="search.html">Search IPFS and ...</a>
-      <!-- <a href="archive.html">Archive (BCH SLP)</a> -->
+      <a href="../index.html">Home</a>
+      <a href="../maze/index.html">MAZE token</a>
+      <a href="../vandals/index.html">VANDALS token</a>
+      <a href="../zombie/index.html">ZOMBIE token</a>
+      <a href="../urgd/index.html">URGD token</a>
+      <a href="../faucet/index.html">Faucet</a>
+      <a href="../bank/index.html">Vandals Bank</a>
+      <a href="../slp/index.html">SLP tokens</a>
+      <a href="../tools/index.html">Tools</a>
    </div>
 
    <div style="font-size: 24px;">
@@ -35,16 +34,10 @@
 
    <br>
 
-   <!-- <div>
-      <p>no trading fee<br></p>
-      <br>
-      <p><button onclick="sellToken()">sell token</button></p>
-      <div id="lang1"></div>
-   </div> -->
-
    <div>
       <h3>Trade on MISTswap DEX</h3>
-      <p>Liquidity pools on MISTswap: BCH/MAZE, MAZE/ZOMBIE, MAZE/VANDALS</p>
+      <p>Liquidity pools on MISTswap:<br>BCH/MAZE, BCH/VANDALS, BCH/ZOMBIE, BCH/URGD<br>MAZE/ZOMBIE, MAZE/VANDALS, MAZE/URGD<br>VANDALS/ZOMBIE, VANDALS/URGD, ZOMBIE/URGD</p>
+      <br>
       <p>MAZE on <a href="https://app.mistswap.fi/swap?inputCurrency=&outputCurrency=0x481De06DCA0198844faA36FCa04Db364e5c2f86C">MISTswap</a> - swap MAZE for BCH or other tokens<br>
          MISTswap <a href="https://analytics.mistswap.fi/tokens/0x481De06DCA0198844faA36FCa04Db364e5c2f86C">Analytics</a><br>
       </p>
@@ -54,24 +47,18 @@
       <p>ZOMBIE on <a href="https://app.mistswap.fi/swap?inputCurrency=&outputCurrency=0x80453ACDfE0073D6743B27D72e06F48777EeAd80">MISTswap</a> - swap ZOMBIE for BCH or other tokens<br>
          MISTswap <a href="https://analytics.mistswap.fi/tokens/0x80453ACDfE0073D6743B27D72e06F48777EeAd80">Analytics</a><br>
       </p>
+      <p>URGD on <a href="https://app.mistswap.fi/swap?inputCurrency=&outputCurrency=0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF">MISTswap</a> - swap URGD for BCH or other tokens<br>
+         MISTswap <a href="https://analytics.mistswap.fi/tokens/0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF">Analytics</a><br>
+      </p>
    </div>
-
-   <br>
-
-   <div>
-      <h3>Trade on SWAP CAT (wallet2wallet DEX)</h3>
-      <p>MAZE on <a href="https://swap.cat">Swap Cat</a> - buy or sell MAZE, VANDALS, ZOMBIE for BCH (WBCH)<br>
-      Connect Swap Cat DEX to Web3 wallet and smartBCH network</p>
-   </div>
-   <br>
 
    <br><br><br>
 
    <footer style="font-size: 14px;">
       <p>This is not an investment advice or recommendation.<br>Do your own research.</p>
       <p>MAZE Tokens Underworld | 2020-2022</p>
-      <p><a href="https://t.me/mazetokens"><img src="img/telegram.png" alt="Telegram" width="32"></a> <a href="https://github.com/mazetoken/mazetoken.github.io"><img src="img/github.png" alt="Github" width="32"></a> 
-      <a href="mailto:mazetoken@mail2tor.com"><img src="img/email.png" alt="Mail" width="32"></a>
+      <p><a href="https://t.me/mazetokens"><img src="../img/telegram.png" alt="Telegram" width="32"></a> <a href="https://github.com/mazetoken/mazetoken.github.io"><img src="../img/github.png" alt="Github" width="32"></a> 
+      <a href="mailto:mazetoken@mail2tor.com"><img src="../img/email.png" alt="Mail" width="32"></a>
       </p>
    </footer>
 
@@ -93,8 +80,5 @@
       element.classList.toggle("dark-mode");
       }
    </script>
-
-   <script src="connectweb3.js"></script>
-   <script src="functions.js"></script>
   </body>
 </html>

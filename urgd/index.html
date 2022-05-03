@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="underground token, urgd, bitcoin cash, bch, smartBCH">
+      <meta name="web" content="">
+	   <link rel="icon" type="image/ico" sizes="32x32" href="../img/ufavicon.ico">
+      <title>Maze Tokens Underworld</title>
+      <link rel="stylesheet" href="../style.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js" integrity="sha256-v8y57dJljffyJ0j2GKNvQsReAyDHmzYbD/fQC+g24fc=" crossorigin="anonymous"></script>
+   </head>
+  <body>
+   
+   <div style="text-align: left"><span style="font-size: 18px; cursor: pointer;" onclick="openNav()">&#9776; Enter The Underworld</span></div>
+   <div style="text-align: right"><button onclick="darkMode()">light</button></div>
+
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="../index.html">Home</a>
+      <a href="../maze/index.html">MAZE token</a>
+      <a href="../vandals/index.html">VANDALS token</a>
+      <a href="../zombie/index.html">ZOMBIE token</a>
+      <a href="../faucet/index.html">Faucet</a>
+      <a href="../bank/index.html">Vandals Bank</a>
+      <a href="../trade/index.html">Trade</a>
+      <a href="../slp/index.html">SLP tokens</a>
+      <a href="../tools/index.html">Tools</a>
+   </div>
+
+   <div style="font-size: 24px;">
+      <h1>MAZE TOKENS<br>UNDERWORLD</h1>
+      <h2>URGD token</h2>
+      <img src="../img/urgd512.png" alt="MAZE icon" width="256">
+   </div>
+
+   <br>
+
+   <div>
+      <h3>Basic info:</h3>
+      <p>UNDERGROUND is a reflection token with a static reward system created April, 29 2022.<br><br>
+         Name: UNDERGROUND<br>
+         Symbol: URGD<br>
+         Contract address: 0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF<br>
+         Total fixed supply: 66,000,000.00000000<br>
+         Genesis <a href="https://www.smartscan.cash/transaction/0x93dfdf105bbfd8d97d59060ba3e3d922ed997ba52cab99675ecad23dcc664b03">transaction</a>.<br>
+         No pre-sale.<br><br>
+         URGD on SmartScan <a href="https://www.smartscan.cash/address/0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF">smartBCH explorer</a>.<br><br>
+         Holders are rewarded by earning a passive income.<br>Any transactions involving URGD will incur 0.5% fee (see excluded accounts below):<br>
+         - 0.25% is allocated among token holders,<br>
+         - 0.25% is burned.<br><br>
+         Interact with Underground contract with <a href="https://oneclickdapp.com/right-money">One Click Dapp</a>.<br><br>
+         See Maze Tokens Underworld <a href="../faucet/index.html">faucet</a>.<br>
+         Stake URGD in Maze Tokens Underworld <a href=".../bank/index.html">Vandals Bank</a>.<br>
+         See Maze Tokens Underworld <a href="../trade/index.html">Trade</a>.
+      </p>
+   </div>
+
+   <br>
+   
+   <div>
+      <h3>Reflection excluded accounts:</h3>
+      <p>
+         0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF - underground contract address<br>
+         0xe03426FbaF4e72C366Aa9b5e411336e95feB96Aa - owner address (treasury wallet)<br>
+         0x0FF69099D2F9cAc22B1C2D8f829a5Edd38d8980D - owner promotion address<br>
+         0x1dE3af0935351F2bBb889134d24dBB1E6c7050ea - owner private address<br>
+         0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C - faucet address<br>
+         0x381Fe35FCcA720efda008Ed182D0210519928638 - vandals bank address<br>
+         0x5d0bF8d8c8b054080E2131D8b260a5c6959411B8 - MISTswap router<br>
+         0x6008247F53395E7be698249770aa1D2bfE265Ca0 - MISTswap factory
+      </p>
+      <h3>Fee excluded accounts:</h3>
+      <p>
+         0xe03426FbaF4e72C366Aa9b5e411336e95feB96Aa - owner address (treasury wallet)<br>
+         0x1dE3af0935351F2bBb889134d24dBB1E6c7050ea - owner private address<br>
+         <!-- 0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C - faucet address<br> -->
+         0x381Fe35FCcA720efda008Ed182D0210519928638 - vandals bank address<br>
+      </p>
+      <h3>Projected distribution:</h3>
+      <p>
+         Owner: 6,000,000.00000000<br>
+         Promotion: 5,000,000.00000000 (giveaways, airdrops, etc.)<br>
+         Faucet: 10,000,000.00000000<br>
+         Vandals Bank staking rewards: 10,000,000.00000000<br>
+         Vesting wallet address: 15,000,000.00000000<br>
+         Other: about 20,000,000.00000000 (DEX liquidity, etc.)
+      </p>
+      <br>
+   </div>
+
+   <p>Open this website in a Web3 browser to:</p>
+   <div>
+      <button onclick="totalFees()" class="button button1">check total fees distributed</button>
+      <br>
+		<div id="lang"></div>
+   </div>
+
+   <br>
+
+   <div>
+      <button onclick="addIconU()" class="button button1">add URGD to MetaMask</button>
+      <br>
+      <p>The icon is visible on mobile app only</p>
+   </div>
+
+   <br><br><br>
+
+   <footer style="font-size: 14px;">
+      <p>This is not an investment advice or recommendation.<br>Do your own research.</p>
+      <p>MAZE Tokens Underworld | 2020-2022</p>
+      <p><a href="https://t.me/mazetokens"><img src="../img/telegram.png" alt="Telegram" width="32"></a> <a href="https://github.com/mazetoken/mazetoken.github.io/urgd/"><img src="../img/github.png" alt="Github" width="32"></a> 
+      <a href="mailto:mazetoken@mail2tor.com"><img src="../img/email.png" alt="Mail" width="32"></a>
+      </p>
+   </footer>
+
+   <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "225px";
+      document.getElementById("main").style.marginLeft = "225px";
+      }
+
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      }
+   </script>
+
+   <script>
+      function darkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+      }
+   </script>
+
+   <script src="../connectweb3.js"></script>
+   <script src="../contracts/contractUnderground.js"></script>
+   <script src="../functions.js"></script>
+   <script src="../addtokenweb3.js"></script>
+  </body>
+</html>

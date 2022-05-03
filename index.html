@@ -3,13 +3,11 @@
    <head>
       <meta charset="utf-8"> 
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="maze token, bitcoin cash, bch, smartBCH">
+      <meta name="description" content="maze token, bitcoin cash, bch, smartBCH, simple ledger protocol, slp">
       <meta name="web" content="">
 	   <link rel="icon" type="image/ico" sizes="32x32" href="img/mfavicon.ico">
       <title>Maze Tokens Underworld</title>
       <link rel="stylesheet" href="style.css">
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js" integrity="sha256-XH+mnS1YTklQJ7VzeLSviplcaKwkRWpwDwHUNXVCuIU=" crossorigin="anonymous"></script>
    </head>
   <body>
    
@@ -18,107 +16,49 @@
 
    <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="faucet.html">Zombie Faucet</a>
-      <a href="bank.html">Vandals Bank</a>
-      <a href="trade.html">Trade</a>
-      <!-- a href="mint.html">Mint token</a>
-      <a href="mintNFT.html">Mint NFT</a>
-      <a href="message.html">Send message</a> -->
-      <a href="search.html">Search IPFS and ...</a>
-      <!-- <a href="archive.html">Archive (BCH SLP)</a> -->
+      <a href="maze/index.html">MAZE token</a>
+      <a href="vandals/index.html">VANDALS token</a>
+      <a href="zombie/index.html">ZOMBIE token</a>
+      <a href="urgd/index.html">URGD token</a>
+      <a href="faucet/index.html">Faucet</a>
+      <a href="bank/index.html">Vandals Bank</a>
+      <a href="trade/index.html">Trade</a>
+      <a href="slp/index.html">SLP tokens</a>
+      <a href="tools/index.html">Tools</a>
    </div>
 
    <div style="font-size: 24px;">
-      <h1>MAZE TOKENS<br>UNDERWORLD</h1>
-      <img src="img/maze512.png" alt="MAZE icon" width="150">
+      <!-- <h1>MAZE TOKENS<br>UNDERWORLD</h1>-->
+      <img src="img/mtu.png" alt="mtu" width="512">
    </div>
    <br>
 
    <div>
-      <h3> Maze Tokens Underworld is a collection of different tokens and activities<br>on Bitcoin Cash <a href="https://smartbch.org">smartBCH</a></h3>
-      <p><img src="img/bch512.png" alt="smartBCH logo" width="56"><img src="img/smartbch150.png" alt="smartBCH logo" width="150"></p>
-      <p>Enter The Underworld<br>- send and trade tokens, claim and stake, mine and mint, send a blockchain message, build and search -</p>
+      <h3> Maze Tokens Underworld is a collection of tokens, resources and activities<br>on Bitcoin Cash <a href="https://smartbch.org">smartBCH</a> and <a href="https://simpleledger.cash">SLP</a></h3>
+      <p><img src="img/bch512.png" alt="smartBCH logo" width="56"> <img src="img/smartbch150.png" alt="smartBCH logo" width="150"> <img src="img/slp69.png" alt="SLP logo" width="56"></p>
+      <h3>Enter The Underworld</h3>
    </div>
-   <br>
 
-   <hr>
    <br>
 
    <div>
-      <h2>MAZE token</h2>
-      <p><img src="img/maze512.png" alt="MAZE icon" width="64"></p>
-      <!-- <p><img src="img/bch512.png" alt="smartBCH logo" width="56"><img src="img/smartbch150.png" alt="smartBCH logo" width="150"></p> -->
-      <p>MAZE is a mineable (proof-of-work) token created on Bitcoin Cash (BCH) blockchain as peer-to-peer virtual asset.<br>
-         The token operates without a central issuer and without a centralized promotion or marketing developement.<br><br>
-         No premine.<br>
-         No presale.<br>
-         No initial offering.<br>
-         Decentralized distribution.<br><br>
-         MAZE token is for creative people and can be used in a permissionless way.<br>
-         MAZE purpose is to leverage the creative community as the token utility - Let`s create!
+      <h2>Fungible tokens (smartBCH):</h2>
+      <p><img src="img/maze512.png" alt="MAZE icon" width="56"> <img src="img/vandals512.png" alt="VANDALS icon" width="56">
+         <img src="img/zombie512.png" alt="ZOMBIE icon" width="56"> <img src="img/urgd512.png" alt="URGD icon" width="56">
       </p>
-   </div>
-
-   <div>
-      <p>MAZE smartBCH SEP20 token was created August 31, 2021. It is based on <a href="https://0xbitcoin.org/#/">0xBitcoin</a> contract.<br>
-         MAZE is the fastest mined token ever (because of mining reward calculation mistake ;-)<br><br>
-         MAZE is also mineable (proof-of-work) BCH SLP token based on MIST covenant contract.<br><br>
-         MAZE SEP20 contract address: 0x481De06DCA0198844faA36FCa04Db364e5c2f86C<br>
-         Name: MAZE<br>
-         Symbol: MAZE<br>
-         Decimals: 6<br>
-         Initial supply: 0<br>
-         Max total supply: 21,000,000.000000<br>
-         <br>
-         MAZE <a href="https://github.com/mazetoken/smartMaze">mining</a> - smartMaze<br>
-         MAZE on SmartScan <a href="https://www.smartscan.cash/address/0x481De06DCA0198844faA36FCa04Db364e5c2f86C">smartBCH explorer</a><br>
-         <!-- DEX - <a href="https://app.mistswap.fi/swap">MISTswap</a> - swap MAZE for BCH or other tokens<br>
-         MISTswap <a href="https://analytics.mistswap.fi/tokens/0x481De06DCA0198844faA36FCa04Db364e5c2f86C">Analytics</a><br>
-         Liquidity pools on MISTswap: BCH/MAZE, MAZE/ZOMBIE, MAZE/VANDALS<br>
-         OTC DEX <a href="https://swap.cat">Swap Cat</a> - buy or sell MAZE for BCH (WBCH)<br> -->
-         MAZE on <a href="https://www.marketcap.cash/token/MAZE"> Marketcap.cash</a><br>
-         MAZE on <a href="https://dexscreener.com/smartbch/0x1c47c2a72e86b9b488f436f7ac76acc61e531926">DexScreener</a><br>
-         <!-- OneClickDapp <a href="https://oneclickdapp.com/email-cosmos">application</a> to interact with MAZE contract</a> -->
-      </p>
-   </div>
-
-   <p>Open this website in Web3 browser - MetaMask or MathWallet to:</p>
-   <div>
-      <button onclick="reward()" class="button button1">check MAZE mining reward</button>
-      <br>
-		<div id="lang"></div>
-		<br>
-      <button onclick="minted()" class="button button1">check minted amount</button>
-      <br>
-		<div id="lang1"></div>
-   </div>
-
-   <br>
-
-   <div>
-      <button onclick="addIconM()" class="button button1">add MAZE to MetaMask</button>
-		<br>
-		<p>The icon is visible on mobile app only</p>
-   </div>
-
-   <br>
-
-   <div>
-      <h2>VANDALS & ZOMBIE tokens</h2>
-      <p><img src="img/vandals512.png" alt="VANDALS icon" width="64"><img src="img/zombie512.png" alt="ZOMBIE icon" width="64"></p>
       <p>
-       VANDALS <a href="https://mazetoken.github.io/vandals">token</a> - digital arts appreciation token<br>
-       <!-- Vandals <a href="https://mazetoken.github.io/vandals/bank">Bank</a> - stake ZOMBIE tokens and receive VANDALS tokens<br><br> -->
-       ZOMBIE <a href="https://mazetoken.github.io/zombie">token</a> - satire appreciation token<br>
-       <!-- ZOMBIE <a href="https://mazetoken.github.io/zombie/faucet">Faucet</a> - claim ZOMBIE tokens<br> -->
+         MAZE <a href="maze/index.html">token</a> - a mineable (proof-of-work) appreciation token<br>
+         VANDALS <a href="vandals/index.html">token</a> - digital arts appreciation token<br>
+         ZOMBIE <a href="zombie/index.html">token</a> - satire appreciation token<br>
+         UNDERGROUND (URGD) <a href="urgd/index.html">token</a> - deflationary reflection token<br>
+         <!-- COOL <a href="https://github.com/mazetoken/cooltoken">token</a> - a mineable (proof-of-work) appreciation token<br> -->
       </p>
    </div>
    <br>
 
    <div>
-      <h2>Semi-fungible and non-fungible tokens</h2>
+      <h2>Semi-fungible and non-fungible tokens (smartBCH):</h2>
       <p> 
-       <!-- COOL <a href="https://github.com/mazetoken/cooltoken">token</a> - a mineable SmartBCH SEP20 token<br> -->
        <!-- TORPEDO <a href="https://mazetoken.github.io/torpedoNFT">NFT</a> - Ride the Snake with Torpedos<br> -->
        GHOST-ON-CHAIN <a href="https://mazetoken.github.io/ghost">NFT</a> - stored fully on-chain | GHOST on <a href="https://oasis.cash/collection/0xF8552a96100283BebD16B19F1b0F1cb1f18A11Ff">Oasis NFT Marketplace</a><br>
        MAZE-ARENA <a href="https://mazetoken.github.io/arena">tokens</a> - multi-NFT contract (ERC1155)<br>
@@ -126,10 +66,13 @@
        CLOCKS <a href="https://mazetoken.github.io/clocks">NFT</a> - a realtime animated clocks | CLOCKS on <a href="https://oasis.cash/collection/0x7E785284948348515ae8E9d5455Ca7D8b21717e1">Oasis NFT Marketplace</a>
       </p>
    </div>
-   <br><br><br>
-
-   <hr>
    <br>
+
+   <div>
+      <h2>SLP <a href="slp/index.html">tokens</a></h2>
+   </div>
+
+   <br><br><br>
 
    <footer style="font-size: 14px;">
       <p>Disclaimer:<br>
@@ -167,9 +110,5 @@
       }
    </script>
 
-   <script src="connectweb3.js"></script>
-   <script src="contracts/contractMaze.js"></script>
-   <script src="functions.js"></script>
-   <script src="addtokenweb3.js"></script>
   </body>
 </html>
