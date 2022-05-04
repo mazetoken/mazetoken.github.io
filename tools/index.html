@@ -9,6 +9,7 @@
       <title>Maze Tokens Underworld</title>
       <link rel="stylesheet" href="../style.css">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js" integrity="sha256-v8y57dJljffyJ0j2GKNvQsReAyDHmzYbD/fQC+g24fc=" crossorigin="anonymous"></script>
    </head>
   <body>
    
@@ -36,27 +37,39 @@
    <br>
 
    <div>
-      <p>search something by IPFS hash<br>or .bch domain name</p>
-      <br>
+      <p>search by IPFS hash<br>or .bch domain name</p>
    </div>
 
    <div>
       <input id="hash" type="text" size="50" placeholder="IPFS CID/hash">
       <p><button onclick="ipfs()" class="button button1">search</button></p>
-      <div id="lang1"></div>
    </div>
 
    <div>
       <input id="name" type="text" size="50" placeholder=".bch domain name e.g. mist">
       <p><button onclick="dname()" class="button button1">search</button></p>
-      <div id="lang1"></div>
+   </div>
+
+   <br>
+
+   <div>
+      <p>add any token to MetaMask</p>
+   </div>
+
+   <div>
+      <input id="token" type="text" size="50" placeholder="token address"><br>
+      <input id="symbol" type="text" size="50" placeholder="token symbol"><br>
+      <input id="decimals" type="text" size="50" placeholder="decimals"><br>
+      <input id="image" type="text" size="50" placeholder="token image uri">
+      <p><button onclick="addToken()" class="button button1">add token to MetaMask</button></p>
+      <p>The token icon is visible on desktop only</p>
    </div>
 
    <br><br><br>
 
    <footer style="font-size: 14px;">
       <p>MAZE Tokens Underworld | 2020-2022</p>
-      <p><a href="https://t.me/mazetokens"><img src="../img/telegram.png" alt="Telegram" width="32"></a> <a href="https://github.com/mazetoken/mazetoken.github.io"><img src="../img/github.png" alt="Github" width="32"></a> 
+      <p><a href="https://t.me/mazetokens"><img src="../img/telegram.png" alt="Telegram" width="32"></a> <a href="https://github.com/mazetoken/mazetoken.github.io/tree/master/tools"><img src="../img/github.png" alt="Github" width="32"></a> 
       <a href="mailto:mazetoken@mail2tor.com"><img src="../img/email.png" alt="Mail" width="32"></a>
       </p>
    </footer>
@@ -93,6 +106,30 @@
          location.href = "https://app.bch.domains/name/"+name+".bch";
       };
    </script>
+
+   <script>
+   function addToken() {
+      web3 = new Web3(window.ethereum);
+      const tokenAddress = $("#token").val();
+      const tokenSymbol =  $("#symbol").val();
+      const tokenDecimals =  $("#decimals").val();
+      const tokenImage =  $("#image").val();
+      ethereum.request({
+            method: 'wallet_watchAsset',
+            params: {
+            type: 'ERC20',
+            options: {
+                  address: tokenAddress,
+                  symbol: tokenSymbol,
+                  decimals: tokenDecimals,
+                  image: tokenImage,
+            },
+            },
+      });
+   };
+   </script>
+
+   <script src="../connectweb3.js"></script>
 
   </body>
 </html>
