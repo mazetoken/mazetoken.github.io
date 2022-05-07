@@ -354,7 +354,7 @@ function viewMessage() {
     //$("#lang1").html(content);
     var event = contractPostBox.methods.messages(id).call()
         .then(function (result) {
-    var content = "Message in a bottle: <br><br>";
+    var content = "Post Box message: <br><br>";
         console.log(result);
     content += JSON.stringify({ from: result[1].toString(), to: result[2].toString(), message: result[3].toString(), url: result[4].toString() }, null, 2);
     $("#lang1").html(content);
