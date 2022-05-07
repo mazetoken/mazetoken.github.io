@@ -37,7 +37,7 @@
    <br>
 
    <div>
-      <p>search by IPFS hash<br>or .bch domain name</p>
+      <p>Search by IPFS hash<br>or .bch domain name<br>or token ticker (marketcap.cash)</p>
    </div>
 
    <div>
@@ -50,10 +50,15 @@
       <p><button onclick="dname()" class="button button1">search</button></p>
    </div>
 
+   <div>
+      <input id="ticker" type="text" size="50" placeholder="token ticker e.g. MAZE">
+      <p><button onclick="mticker()" class="button button1">search</button></p>
+   </div>
+
    <br>
 
    <div>
-      <p>add any token to MetaMask</p>
+      <p>Add any token to MetaMask</p>
    </div>
 
    <div>
@@ -65,7 +70,26 @@
       <p>The token icon is visible on desktop only</p>
    </div>
 
+   <br>
+
+   <div>
+      <p>Revoke or update any tokens (and NFTs) allowance</p>
+   </div>
+
+   <div>
+      <p><button onclick="revoke()" class="button button1">revoke</button></p>
+   </div>
+
    <br><br><br>
+ 
+   <p style="font-size: 14px;">
+      Credits:<br>
+      <a href="https:ipfs.io">Inter Planetary File System</a><br>
+      <a href="https://bch.domains">Bitcoin Cash Name Service</a><br>
+      <a href="https://marketcap.cash">Marketcap.cash</a><br>
+      <a href="https://metamask.io">MetaMask</a><br>
+      <a href="https://revoke.cash">Revoke.cash</a>
+   </p>
 
    <footer style="font-size: 14px;">
       <p>MAZE Tokens Underworld | 2020-2022</p>
@@ -108,6 +132,13 @@
    </script>
 
    <script>
+      function mticker() {
+         ticker = $("#ticker").val();
+         location.href = "https://www.marketcap.cash/token/"+ticker;">";
+      };
+   </script>
+
+   <script>
    function addToken() {
       web3 = new Web3(window.ethereum);
       const tokenAddress = $("#token").val();
@@ -127,6 +158,12 @@
             },
       });
    };
+   </script>
+
+   <script>
+      function revoke() {
+         location.href = "https://revoke.cash";
+      };
    </script>
 
    <script src="../connectweb3.js"></script>
