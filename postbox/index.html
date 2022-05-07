@@ -50,22 +50,22 @@
       You need BCH for transaction fee to send a message (0.00001 BCH stamp fee is included).<br>
       Warning! Sending on-chain messages can be quite expensive for now. Depends on how much text is sent.<br>
       No transaction fee to view messages.<br><br>
-      PostBox contract address: 0xA7250F340c56cbca7b66743E5904fe9806C3Fe51.
+      PostBox contract address: 0xA7250F340c56cbca7b66743E5904fe9806C3Fe51
    </div>
 
    <br>
 
-   <h2>Send message</h2>
+   <h2>Send and view messages</h2>
 
    <div>
       <input id="sender" type="text" size="50" placeholder="sender name *optional"><br>
       <input id="recipient" type="text" size="50" placeholder="recipient name *optional"><br>
-      <input id="message" type="text" size="100" placeholder="message"><br>
-      <input id="url" type="text" size="100" placeholder="url e.g. image or pdf link *optional">
+      <input id="message" type="text" size="50" placeholder="message"><br>
+      <input id="url" type="text" size="50" placeholder="url e.g. image or pdf link *optional">
       <p><button onclick="sendMessage()" class="button button1">Send message</button></p>
       <div id="lang"></div>
       <br>
-      <input id="id" type="text" size="50" placeholder="message id/number e.g. 1">
+      <input id="id" type="text" size="25" placeholder="message id/number e.g. 1">
       <p><button onclick="viewMessage()" class="button button1">View message by id</button></p>
       <div id="lang1"></div>
       <p><button onclick="countMessage()" class="button button1">Total messages</button></p>
