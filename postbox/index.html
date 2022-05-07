@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="post box, bitcoin cash, bch, smartBCH">
+      <meta name="web" content="">
+	   <link rel="icon" type="image/ico" sizes="32x32" href="../img/mfavicon.ico">
+      <title>Maze Tokens Underworld Post Box</title>
+      <link rel="stylesheet" href="../style.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js" integrity="sha256-v8y57dJljffyJ0j2GKNvQsReAyDHmzYbD/fQC+g24fc=" crossorigin="anonymous"></script>
+   </head>
+  <body>
+   
+   <div style="text-align: left"><span style="font-size: 18px; cursor: pointer;" onclick="openNav()">&#9776; Enter The Underworld</span></div>
+   <div style="text-align: right"><button onclick="darkMode()">light</button></div>
+
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="../index.html">Home</a>
+      <a href="../maze/index.html">MAZE token</a>
+      <a href="../vandals/index.html">VANDALS token</a>
+      <a href="../zombie/index.html">ZOMBIE token</a>
+      <a href="../urgd/index.html">URGD token</a>
+      <a href="../faucet/index.html">Faucet</a>
+      <a href="../bank/index.html">Vandals Bank</a>
+      <a href="../trade/index.html">Trade</a>
+      <a href="../nft/index.html">NFT</a>
+      <a href="../slp/index.html">SLP tokens</a>
+   </div>
+
+   <div style="font-size: 24px;">
+      <h1>MAZE TOKENS<br>UNDERWORLD</h1>
+      <h2>POST BOX</h2>
+      <p>#Blockchain #Web3<br>
+         "A letter in a bottle" - your message stored on-chain,<br>
+         on Bitcoin Cash smartBCH.
+      </p>
+   </div>
+
+   <br>
+
+   <div>
+      <p>Send a message to the Post Box.<br>
+         View any message by id/number.
+      </p>
+      You must have MetaMask wallet (or other wallet) configured for smartBCH (Bitcoin Cash sidechain).<br>
+      Reload the page if Post Box is not connected to MetaMask or "undefined".<br><br>
+      You need BCH for transaction fee to send a message (0.00001 BCH stamp fee is included).<br>
+      Warning! Sending on-chain messages can be quite expensive for now. Depends on how much text is sent.<br>
+      No transaction fee to view messages.<br><br>
+      PostBox contract address: 0xA7250F340c56cbca7b66743E5904fe9806C3Fe51.
+   </div>
+
+   <br>
+
+   <h2>Send message</h2>
+
+   <div>
+      <input id="sender" type="text" size="50" placeholder="sender name *optional"><br>
+      <input id="recipient" type="text" size="50" placeholder="recipient name *optional"><br>
+      <input id="message" type="text" size="100" placeholder="message"><br>
+      <input id="url" type="text" size="100" placeholder="url e.g. image or pdf link *optional">
+      <p><button onclick="sendMessage()" class="button button1">Send message</button></p>
+      <div id="lang"></div>
+      <br>
+      <input id="id" type="text" size="50" placeholder="message id/number e.g. 1">
+      <p><button onclick="viewMessage()" class="button button1">View message by message id</button></p>
+      <div id="lang1"></div>
+      <p><button onclick="countMessage()" class="button button1">Total messages</button></p>
+      <div id="lang2"></div>
+   </div>
+
+   <br><br><br>
+
+   <footer style="font-size: 14px;">
+      <p>Maze Tokens Underworld does not accept any responsibility for sent messages.<br>
+         No hate.<br>
+         No copyrighted stuff.<br>
+         Be polite.
+      </p>
+      <br>
+      <p>MAZE Tokens Underworld | 2020-2022</p>
+      <p><a href="https://t.me/mazetokens"><img src="../img/telegram.png" alt="Telegram" width="32"></a> <a href="https://github.com/mazetoken/mazetoken.github.io/tree/master/postbox"><img src="../img/github.png" alt="Github" width="32"></a> 
+      <a href="mailto:mazetoken@mail2tor.com"><img src="../img/email.png" alt="Mail" width="32"></a>
+      </p>
+   </footer>
+
+   <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "225px";
+      document.getElementById("main").style.marginLeft = "225px";
+      }
+
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      }
+   </script>
+
+   <script>
+      function darkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+      }
+   </script>
+
+   
+
+   <script src="../connectweb3.js"></script>
+   <script src="../contracts/contractPostBox.js"></script>
+   <script src="../functions.js"></script>
+
+  </body>
+</html>

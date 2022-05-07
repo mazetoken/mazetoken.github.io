@@ -41,9 +41,9 @@ function claimZombie() {
 };
 
 function lockTimeZ() {
-    var content = "Your address: ";
-    content += zombieMaster;
-    $("#lang1").html(content);
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang1").html(content);
     var event = contractFaucet.methods.lockTime(zombieMaster).call()
         .then(function (result) {
     var content = "Unix_timestamp: ";
@@ -54,9 +54,9 @@ function lockTimeZ() {
 };
 
 function balanceFaucet() {
-    var content = "Your address: ";
-    content += zombieMaster;
-    $("#lang2").html(content);
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang2").html(content);
     var event = contractZombie.methods.balanceOf("0xE6fBa59BDf1EafA8b1B5ad57D9C4A354CA55D756").call()
         .then(function (result) {
     var content = "ZOMBIE faucet balance: ";
@@ -81,9 +81,9 @@ function claimURGD() {
 };
 
 function lockTimeU() {
-    var content = "Your address: ";
-    content += zombieMaster;
-    $("#lang4").html(content);
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang4").html(content);
     var event = contractFaucet2.methods.lockTime(zombieMaster).call()
         .then(function (result) {
     var content = "Unix_timestamp: ";
@@ -94,9 +94,9 @@ function lockTimeU() {
 };
 
 function balanceFaucet2() {
-    var content = "Your address: ";
-    content += zombieMaster;
-    $("#lang5").html(content);
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang5").html(content);
     var event = contractUnderground.methods.balanceOf("0x6FAE0c62687EdCCDe384eD12cC0513c7436A4b5C").call()
         .then(function (result) {
     var content = "URGD faucet balance: ";
@@ -146,9 +146,9 @@ function stakeTokens() {
 };
     
 function stakingBalance() {
-    var content = "Check your balance staked: ";
-    content += zombieMaster;
-    $("#lang2").html(content);
+    //var content = "Check your balance staked: ";
+    //content += zombieMaster;
+    //$("#lang2").html(content);
     var event = contractBank.methods.stakingBalance(zombieMaster).call()
         .then(function (result) {
     var content = "Your balance staked is: ";
@@ -173,9 +173,9 @@ function claimTokens() {
 };
     
 function lockTimeB() {
-    var content = "Your address: ";
-    content += zombieMaster;
-    $("#lang4").html(content);
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang4").html(content);
     var event = contractBank.methods.lockTime(zombieMaster).call()
         .then(function (result) {
     var content = "Unix_timestamp: ";
@@ -200,9 +200,9 @@ function unstakeTokens() {
 };
 
 function balanceBank() {
-    var content = "Your address: ";
-    content += zombieMaster;
-    $("#lang6").html(content);
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang6").html(content);
     var event = contractVandals.methods.balanceOf("0xBc6af81CE1bFae76a4cF6eD5BCE128e6FD2f0633").call()
         .then(function (result) {
     var content = "Vandals Bank balance: ";
@@ -248,9 +248,9 @@ function stakeTokens2() {
 };
     
 function stakingBalance2() {
-    var content = "Check your balance staked: ";
-    content += zombieMaster;
-    $("#lang9").html(content);
+    //var content = "Check your balance staked: ";
+    //content += zombieMaster;
+    //$("#lang9").html(content);
     var event = contractBank2.methods.stakingBalance(zombieMaster).call()
         .then(function (result) {
     var content = "Your balance staked is: ";
@@ -275,9 +275,9 @@ function claimTokens2() {
 };
     
 function lockTimeUn() {
-    var content = "Your address: ";
-    content += zombieMaster;
-    $("#lang11").html(content);
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang11").html(content);
     var event = contractBank2.methods.lockTime(zombieMaster).call()
         .then(function (result) {
     var content = "Unix_timestamp: ";
@@ -302,9 +302,9 @@ function unstakeTokens2() {
 };
 
 function balanceBank2() {
-    var content = "Your address: ";
-    content += zombieMaster;
-    $("#lang13").html(content);
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang13").html(content);
     var event = contractUnderground.methods.balanceOf("0x381Fe35FCcA720efda008Ed182D0210519928638").call()
         .then(function (result) {
     var content = "Vandals Bank balance: ";
@@ -316,14 +316,60 @@ function balanceBank2() {
 
 // URGD
 function totalFees() {
-    var content = "Your address: ";
-    content += zombieMaster;
-    $("#lang").html(content);
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang").html(content);
     var event = contractUnderground.methods.totalFees().call()
         .then(function (result) {
     var content = "Total URGD fees (half is burned): ";
             alert(result/100000000);
     content += JSON.stringify(result.toString()/100000000);
     $("#lang").html(content);
+        });;
+};
+
+// PostBox
+function sendMessage() {
+    var sender = $("#sender").val();
+    var recipient = $("#recipient").val();
+    var message = $("#message").val();
+    var url = $("#url").val();
+    var content = "Sending transaction from: ";
+    content += zombieMaster;
+    $("#lang").html(content);
+    var event = contractPostBox.methods.sendMessage(sender, recipient, message, url).send({ from: zombieMaster, value: 10000000000000 })
+        .then(function (receipt) {
+            console.log(receipt);
+    var content = "Transaction sent!: ";
+            alert("Done!");
+    content += JSON.stringify(receipt.transactionHash);
+    $("#lang").html(content);
+        });;
+};
+
+function viewMessage() {
+    var id = $("#id").val();
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang1").html(content);
+    var event = contractPostBox.methods.messages(id).call()
+        .then(function (result) {
+    var content = "Message in a bottle: <br><br>";
+        console.log(result);
+    content += JSON.stringify({ from: result[1].toString(), to: result[2].toString(), message: result[3].toString(), url: result[4].toString() }, null, 2);
+    $("#lang1").html(content);
+       });;
+};
+
+function countMessage() {
+    //var content = "Your address: ";
+    //content += zombieMaster;
+    //$("#lang2").html(content);
+    var event = contractPostBox.methods.messageCount().call()
+        .then(function (result) {
+    var content = "Total messages: ";
+        console.log(result);
+    content += JSON.stringify(result.toString());
+    $("#lang2").html(content);
         });;
 };

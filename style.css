@@ -47,7 +47,7 @@ body {
    margin-left: 50px;
  }
  
- @media screen and (max-height: 512px) {
+ @media screen and (max-width: 512px) {
    .sidenav {padding-top: 15px;}
    .sidenav a {font-size: 18px;}
  }

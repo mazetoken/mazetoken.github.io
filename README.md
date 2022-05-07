@@ -1,5 +1,5 @@
 ## Maze Tokens Underworld
 
-Bitcoin Cash smartBCH
+Collection of tokens and activities on Bitcoin Cash smartBCH and SLP
 
-Bitcoin Cash Simple Ledger Protocol (SLP)
+https://t.me/mazetokens
