@@ -349,27 +349,33 @@ function sendMessage() {
 
 function viewMessage() {
     var id = $("#id").val();
-    //var content = "Your address: ";
-    //content += zombieMaster;
-    //$("#lang1").html(content);
     var event = contractPostBox.methods.messages(id).call()
         .then(function (result) {
     var content = "Post Box message: <br><br>";
         console.log(result);
-    content += JSON.stringify({ from: result[1].toString(), to: result[2].toString(), message: result[3].toString(), url: result[4].toString() }, null, 2);
+    content += JSON.stringify({ id: result[0], from: result[1].toString(), to: result[2].toString(), message: result[3].toString(), url: result[4].toString() }, null, 2);
     $("#lang1").html(content);
        });;
 };
 
 function countMessage() {
-    //var content = "Your address: ";
-    //content += zombieMaster;
-    //$("#lang2").html(content);
     var event = contractPostBox.methods.messageCount().call()
         .then(function (result) {
     var content = "Total messages: ";
         console.log(result);
-    content += JSON.stringify(result.toString());
+    //content += JSON.stringify(result.toString());
+    content += result;
     $("#lang2").html(content);
         });;
+};
+
+function viewLatest() {
+    var event = contractPostBox.methods.message().call()
+        .then(function (result) {
+    var content = "Post Box message: <br><br>";
+        console.log(result);
+    //content += JSON.stringify(result.toString());
+    content += result;
+    $("#lang3").html(content);
+       });;
 };
