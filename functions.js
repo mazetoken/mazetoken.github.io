@@ -353,7 +353,8 @@ function viewMessage() {
         .then(function (result) {
     var content = "Post Box message: <br><br>";
         console.log(result);
-    content += JSON.stringify({ id: result[0], from: result[1].toString(), to: result[2].toString(), message: result[3].toString(), url: result[4].toString() }, null, 2);
+    // content += JSON.stringify({ id: result[0], from: result[1], to: result[2], message: result[3], url: result[4] }, null, 2);
+    content += "id: " + result[0] + " | " + "from: " + result[1] + " | " + "to: " + result[2] + " | " + "message: " + result[3] + " | " + "URL: " + result[4];
     $("#lang1").html(content);
        });;
 };
@@ -378,4 +379,17 @@ function viewLatest() {
     content += result;
     $("#lang3").html(content);
        });;
+};
+
+function allMessages() {
+    var content = "";
+    for(i = 1; i < 20; i++) {
+    var event = contractPostBox.methods.messages(i).call()
+        .then(function (result) {
+        console.log(result);
+    //content += JSON.stringify({ id: result[0], from: result[1], to: result[2], message: result[3], url: result[4] }, null, 2);
+    content += "<tr>" + "<td>" + "id: " + result[0] + "</td>" + "<td>" + "from: " + result[1] + "</td>" + "<td>" + "to: " + result[2] + "</td>" + "<td>" + "message: " + result[3] + "</td>" + "<td>" + "URL: " + result[4] + "</td>" + "</tr>";
+    $("#lang4").html(content);
+       });;
+    }
 };
