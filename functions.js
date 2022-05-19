@@ -388,7 +388,7 @@ function allMessages() {
         .then(function (result) {
         console.log(result);
     //content += JSON.stringify({ id: result[0], from: result[1], to: result[2], message: result[3], url: result[4] }, null, 2);
-    content += "<tr>" + "<td>" + "id: " + result[0] + "</td>" + "<td>" + "from: " + result[1] + "</td>" + "<td>" + "to: " + result[2] + "</td>" + "<td>" + "message: " + result[3] + "</td>" + "<td>" + "URL: " + result[4] + "</td>" + "</tr>";
+    content += "<tr>" + "<td>" + "id: " + result[0] + "</td>" + "<td>" + "from: " + result[1] + "</td>" + "<td>" + "to: " + result[2] + "</td>" + "<td>" + "message: " + result[3] + "</td>" + "<td>" + "URL: " + result[4]  + "</td>" + "</tr>";
     $("#lang4").html(content);
        });;
     }
