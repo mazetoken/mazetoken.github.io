@@ -264,7 +264,7 @@ function claimTokens2() {
     var content = "Sending transaction from: ";
     content += zombieMaster;
     $("#lang10").html(content);
-    var event = contractBank2.methods.claimTokens(zombieMaster).send({ from: zombieMaster, value: 10000000000000 })
+    var event = contractBank2.methods.claimTokens(zombieMaster).send({ from: zombieMaster, value: 20000000000000 })
         .then(function (receipt) {
             console.log(receipt);
     var content = "Transaction sent!: ";
