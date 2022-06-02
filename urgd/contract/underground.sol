@@ -3,6 +3,7 @@ pragma solidity ^0.8.13;
 
 /// UNDERGROUND (URGD) reflection token on Bitcoin Cash smartBCH
 /// 0.25% transfer fee and 0.25% burn fee
+/// Based on BIGSB token (https://bigshortbets.com)
 
 import "./owned.sol";
 import "./interfaces.sol";
