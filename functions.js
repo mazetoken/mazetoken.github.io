@@ -200,9 +200,6 @@ function unstakeTokens() {
 };
 
 function balanceBank() {
-    //var content = "Your address: ";
-    //content += zombieMaster;
-    //$("#lang6").html(content);
     var event = contractVandals.methods.balanceOf("0xBc6af81CE1bFae76a4cF6eD5BCE128e6FD2f0633").call()
         .then(function (result) {
     var content = "Vandals Bank balance: ";
@@ -275,9 +272,6 @@ function claimTokens2() {
 };
     
 function lockTimeUn() {
-    //var content = "Your address: ";
-    //content += zombieMaster;
-    //$("#lang11").html(content);
     var event = contractBank2.methods.lockTime(zombieMaster).call()
         .then(function (result) {
     var content = "Unix_timestamp: ";
@@ -302,15 +296,79 @@ function unstakeTokens2() {
 };
 
 function balanceBank2() {
-    //var content = "Your address: ";
-    //content += zombieMaster;
-    //$("#lang13").html(content);
     var event = contractUnderground.methods.balanceOf("0x381Fe35FCcA720efda008Ed182D0210519928638").call()
         .then(function (result) {
     var content = "Vandals Bank balance: ";
             alert(result/100000000);
     content += JSON.stringify(result.toString()/100000000);
     $("#lang13").html(content);
+        });;
+};
+
+// Stake Funky Bots NFT (Vandals Bank)
+function approveF() {
+    var tokenId = $("#tokenId").val();
+    var content = "Approving transaction from: ";
+    content += zombieMaster;
+    $("#lang14").html(content);
+    var event = contractFunkyBots.methods.approve("0x180B9fDc7E851BAE34E408a26F55D2EfA95320c0", tokenId).send({ from: zombieMaster })
+        .then(function (receipt) {
+            console.log(receipt);
+    var content = "Approved!: ";
+            alert("Done. You can stake it now!")
+    content += JSON.stringify(receipt.transactionHash);
+    $("#lang14").html(content);
+        });;
+};
+
+function stakeNFT() {
+    var tokenId = $("#tokenId").val();
+    var content = "Sending transaction from: ";
+    content += zombieMaster;
+    $("#lang15").html(content);
+    var event = contractBankNFT.methods.stake(tokenId).send({ from: zombieMaster })
+        .then(function (receipt) {
+            console.log(receipt);
+    var content = "Transaction sent!: ";
+            alert("Done. FunkyBot is in the Vandals Bank now!");
+    content += JSON.stringify(receipt.transactionHash);
+    $("#lang15").html(content);
+        });;
+};
+    
+function calculateReward() {
+    var tokenId = $("#tokenId1").val();
+    var event = contractBankNFT.methods.calculateTokens(tokenId).call()
+        .then(function (result) {
+    var content = "VANDALS amount: ";
+            alert(result/100000000);
+    content += JSON.stringify(result.toString()/100000000);
+    $("#lang16").html(content);
+        });;
+};
+    
+function unstakeNFT() {
+    var tokenId = $("#tokenId2").val();
+    var content = "Sending transaction from: ";
+    content += zombieMaster;
+    $("#lang17").html(content);
+    var event = contractBankNFT.methods.unstake(tokenId).send({ from: zombieMaster, value: 50000000000000 })
+        .then(function (receipt) {
+            console.log(receipt);
+    var content = "Transaction sent! ";
+            alert("Done.");
+    content += JSON.stringify(receipt.transactionHash);
+    $("#lang17").html(content);
+        });;
+};
+
+function balanceBankNFT() {
+    var event = contractVandals.methods.balanceOf("0x180B9fDc7E851BAE34E408a26F55D2EfA95320c0").call()
+        .then(function (result) {
+    var content = "Vandals Bank balance: ";
+            alert(result/100000000);
+    content += JSON.stringify(result.toString()/100000000);
+    $("#lang18").html(content);
         });;
 };
 

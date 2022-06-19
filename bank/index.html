@@ -43,22 +43,36 @@
 
    <br>
    
-   <h3>Stake <a href="../zombie/">ZOMBIE</a> and <a href="../maze/">MAZE </a>in Vandals Bank*</h3>
+   <h3>Stake <a href="../zombie/">ZOMBIE</a> and <a href="../maze/">MAZE </a>in Vandals Bank</h3>
    <p>
       You can stake any amount of ZOMBIE and max 100k MAZE tokens at any time in the Vandals Bank.<br><br>
       Staking rewards distribution:<br>
       - 14% of the ZOMBIE amount staked after 7 days - reward is <a href="../vandals/">VANDALS</a>,<br>
-      - 7% of MAZE amount staked after 7 days - reward is <a href="../urgd/">UNDERGROUND</a> (URGD).<br><br>
+      - 7% of MAZE amount staked after 7 days - reward is <a href="../urgd/">UNDERGROUND</a> (URGD).<br>
       For the first time you can claim reward immediately after placing your stake (no need to wait 7 days).<br>
       You have to wait 7 days to claim reward again.<br>
       You can claim staking reward later (e.g. in a month), but you will receive 14% (when staking ZOMBIE) or 7% (when staking MAZE) of your balance staked, but<br>
       if you claim every week you can get up to 730% or 365% per year.<br><br>
       You can unstake at any time.<br><br>
-      You need Bitcoin Cash for blockchain transaction fee.<br>
-      A small amount of BCH (0.00002) is included in the transaction fee at the time the URGD claim is executed. It is used to repurchase and increase liquidity.<br><br>
+      See <a href="../faucet/">Faucet</a> - claim ZOMBIE and URGD.
+   </p>
+
+   <br>
+
+   <h3>Stake <a href="https://mazetoken.github.io/funkybots">Funky Bots NFT</a> in Vandals Bank</h3>
+   <p>You can stake Funky Bots NFTs at any time in the Vandals Bank.<br><br>
+      Staking rewards distribution:<br>
+      - 10 VANDALS per/hour (reward is compounding) for staking one Funky Bots NFT.<br><br>
+      You can unstake at any time.
+   </p>
+
+   <br>
+
+   <p>You need Bitcoin Cash for blockchain transaction fee.<br>
+      A small amount of BCH (0.00002) is included in the transaction fee at the time the URGD claim is executed. It is used to repurchase and increase liquidity.<br>
+      A small amount of BCH (0.00005) is included in the transaction fee at the time a Funky Bot NFT is unstaked.<br><br>
       You must have MetaMask wallet (or other wallet) configured for smartBCH (Bitcoin Cash sidechain).<br>
       Reload the page if Vandals Bank is not connected to MetaMask or "undefined".<br><br>
-      See <a href="../faucet/">Faucet</a> - claim ZOMBIE and URGD.
    </p>
 
    <br>
@@ -148,14 +162,49 @@
    <br>
 
    <div>
+      <h3>Stake Funky Bots NFT <img src="../img/FunkyBot10.png" alt="FunkyBots" width="64"></h3>
+      <input id="tokenId" type="text" size="20" placeholder="tokenId e.g. 1">
+		<button onclick="approveF()" class="button button1">Approve FunkyBots NFT</button>
+		<br>
+      <p>tokenId to approve must be the same as tokenId to stake</p>
+		<div id="lang14"></div>
+      <br>
+      <input type="text" id="tokenId" size="20" placeholder="tokenId e.g. 1">
+		<button onclick="stakeNFT()" class="button button1">Stake FunkyBots NFT</button>
+		<br>
+      <p>tokenId to stake must be the same as tokenId to approve</p>
+		<div id="lang15"></div>
+      <br>
+      <input type="text" id="tokenId1" size="20" placeholder="tokenId e.g. 1">
+      <button onclick="calculateReward()" class="button button1">Check reward</button>
+      <p>Check current reward amount</p>
+      <div id="lang16"></div>
+      <br>
+      <p></p>
+      <input type="text" id="tokenId2" size="20" placeholder="tokenId e.g. 1">
+      <button onclick="unstakeNFT()" class="button button1">Unstake FunkyBots NFT with reward</button>
+      <br>
+		<p></p>
+		<div id="lang17"></div>
+      <br>
+      <button onclick="balanceBankNFT()" class="button button1">Vandals Bank balance</button>
+		<p></p>
+		<div id="lang18"></div>
+   </div>
+
+   <br><br>
+
+   <div>
       <p>
          ZOMBIE token contract address: 0x80453ACDfE0073D6743B27D72e06F48777EeAd80<br>
          VANDALS token contract address: 0x2a886b947d5a8f0e09408C9069914Fa44C06ed7e<br>
          MAZE token contract address: 0x481De06DCA0198844faA36FCa04Db364e5c2f86C<br>
-         URGD token contract address: 0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF<br><br>
-         There are two contracts in the Vandals Bank:<br>
-         Vandals Bank ZOMBIE staking contract address <a href="https://www.smartscan.cash/address/0xBc6af81CE1bFae76a4cF6eD5BCE128e6FD2f0633">0xBc6af81CE1bFae76a4cF6eD5BCE128e6FD2f0633</a> and<br>
-         Vandals Bank MAZE staking contract address <a href="https://www.smartscan.cash/address/0x381Fe35FCcA720efda008Ed182D0210519928638">0x381Fe35FCcA720efda008Ed182D0210519928638</a>.
+         URGD token contract address: 0x423805e13AF3f3183500BaE7Cf15c50420eC0bEF<br>
+         FunkyBots NFT contract address: 0xad2f872AF013C7275eEBC6e7a43d604bA186db6D<br><br>
+         There are three contracts in the Vandals Bank:<br>
+         Vandals Bank ZOMBIE staking contract address <a href="https://sonar.cash/address/0xBc6af81CE1bFae76a4cF6eD5BCE128e6FD2f0633">0xBc6af81CE1bFae76a4cF6eD5BCE128e6FD2f0633</a>,<br>
+         Vandals Bank MAZE staking contract address <a href="https://sonar.cash/address/0x381Fe35FCcA720efda008Ed182D0210519928638">0x381Fe35FCcA720efda008Ed182D0210519928638</a> and<br>
+         Vandals Bank Funky Bots NFT staking contract address <a href="https://sonar.cash/address/0x180B9fDc7E851BAE34E408a26F55D2EfA95320c0">0x180B9fDc7E851BAE34E408a26F55D2EfA95320c0</a>
       </p>
    </div>
 
@@ -199,6 +248,8 @@
    <script src="../contracts/contractMaze.js"></script>
    <script src="../contracts/contractBank2.js"></script>
    <script src="../contracts/contractUnderground.js"></script>
+   <script src="../contracts/contractFunkyBots.js"></script>
+   <script src="../contracts/contractBankNFT.js"></script>
    <script src="../functions.js"></script>
    <!-- <script src="../addtokenweb3.js"></script> -->
   </body>
