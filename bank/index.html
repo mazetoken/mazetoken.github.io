@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8"> 
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="vandals bank, bitcoin cash, bch, smartBCH">
-      <meta name="web" content="">
-	   <link rel="icon" type="image/ico" sizes="32x32" href="img/mfavicon.ico">
-      <title>Maze Tokens Underworld</title>
-      <link rel="stylesheet" href="../style.css">
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js" integrity="sha256-v8y57dJljffyJ0j2GKNvQsReAyDHmzYbD/fQC+g24fc=" crossorigin="anonymous"></script>
-   </head>
-  <body>
-   
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="vandals bank, bitcoin cash, bch, smartBCH">
+   <meta name="web" content="">
+   <link rel="icon" type="image/ico" sizes="32x32" href="img/mfavicon.ico">
+   <title>Maze Tokens Underworld</title>
+   <link rel="stylesheet" href="../style.css">
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/web3@1.7.3/dist/web3.min.js" integrity="sha256-v8y57dJljffyJ0j2GKNvQsReAyDHmzYbD/fQC+g24fc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
    <div style="text-align: left"><span style="font-size: 18px; cursor: pointer;" onclick="openNav()">&#9776; Enter The Underworld</span></div>
    <!-- <div style="text-align: right"><button onclick="darkMode()">light</button></div> -->
 
@@ -42,16 +44,23 @@
    <h2>Vandals Bank is a token distribution application</h2>
 
    <br>
-   
+
+   <h2>Due to the uncertain situation of smartBCH (Bitcoin Cash sidechain) STAKING IS DISABLED.<br>
+      PLEASE UNSTAKE everything by July 31, 2022.<br>
+      If nothing changes (in smartBCH) Vandals Bank will close on August 7.</h2>
+
+   <br>
+
    <h3>Stake <a href="../zombie/">ZOMBIE</a> and <a href="../maze/">MAZE </a>in Vandals Bank</h3>
    <p>
-      You can stake any amount of ZOMBIE and max 100k MAZE tokens at any time in the Vandals Bank.<br><br>
+      You could stake any amount of ZOMBIE and max 100k MAZE tokens at any time in the Vandals Bank.<br><br>
       Staking rewards distribution:<br>
       - 14% of the ZOMBIE amount staked after 7 days - reward is <a href="../vandals/">VANDALS</a>,<br>
       - 7% of MAZE amount staked after 7 days - reward is <a href="../urgd/">UNDERGROUND</a> (URGD).<br>
       For the first time you can claim reward immediately after placing your stake (no need to wait 7 days).<br>
       You have to wait 7 days to claim reward again.<br>
-      You can claim staking reward later (e.g. in a month), but you will receive 14% (when staking ZOMBIE) or 7% (when staking MAZE) of your balance staked, but<br>
+      You can claim staking reward later (e.g. in a month), but you will receive 14% (when staking ZOMBIE) or 7% (when
+      staking MAZE) of your balance staked, but<br>
       if you claim every week you can get up to 730% or 365% per year.<br><br>
       You can unstake at any time.<br><br>
       See <a href="../faucet/">Faucet</a> - claim ZOMBIE and URGD.
@@ -60,7 +69,7 @@
    <br>
 
    <h3>Stake <a href="https://mazetoken.github.io/funkybots">Funky Bots NFT</a> in Vandals Bank</h3>
-   <p>You can stake Funky Bots NFTs at any time in the Vandals Bank.<br><br>
+   <p>You could stake Funky Bots NFTs at any time in the Vandals Bank.<br><br>
       Staking rewards distribution:<br>
       - 10 VANDALS per/hour (reward is compounding) for staking one Funky Bots NFT.<br><br>
       You can unstake at any time.
@@ -69,8 +78,10 @@
    <br>
 
    <p>You need Bitcoin Cash for blockchain transaction fee.<br>
-      A small amount of BCH (0.00002) is included in the transaction fee at the time the URGD claim is executed. It is used to repurchase and increase liquidity.<br>
-      A small amount of BCH (0.00005) is included in the transaction fee at the time a Funky Bot NFT is unstaked.<br><br>
+      A small amount of BCH (0.00002) is included in the transaction fee at the time the URGD claim is executed. It is
+      used to repurchase and increase liquidity.<br>
+      A small amount of BCH (0.00005) is included in the transaction fee at the time a Funky Bot NFT is
+      unstaked.<br><br>
       You must have MetaMask wallet (or other wallet) configured for smartBCH (Bitcoin Cash sidechain).<br>
       Reload the page if Vandals Bank is not connected to MetaMask or "undefined".<br><br>
    </p>
@@ -79,7 +90,8 @@
 
    <div>
       <h3>Stake ZOMBIE <img src="../img/zombie512.png" alt="ZOMBIE" width="64"></h3>
-      <input id="amount1" type="text" size="20" placeholder="e.g. 1000">
+      <p> Staking is disabled</p>
+      <!-- <input id="amount1" type="text" size="20" placeholder="e.g. 1000">
 		<button onclick="approveZ()" class="button button1">Approve ZOMBIE</button>
 		<br>
       <p>Amount to approve must be the same as amount to stake</p>
@@ -90,16 +102,16 @@
 		<br>
       <p>Amount to stake must be the same as amount to approve</p>
 		<div id="lang1"></div>
-      <br>
+      <br> -->
       <button onclick="stakingBalance()" class="button button1">Check your balance staked</button>
-		<br>
-		<p></p>
-		<div id="lang2"></div>
+      <br>
+      <p></p>
+      <div id="lang2"></div>
       <br>
       <button onclick="claimTokens()" class="button button1">Claim VANDALS (staking reward)</button>
       <br>
-		<p></p>
-		<div id="lang3"></div>
+      <p></p>
+      <div id="lang3"></div>
       <br>
       <button onclick="lockTimeB()" class="button button1">Timestamp</button>
       <p>Check the next claim timestamp</p>
@@ -109,19 +121,20 @@
       <br>
       <button onclick="unstakeTokens()" class="button button1">Unstake ZOMBIE</button>
       <br>
-		<p></p>
-		<div id="lang5"></div>
+      <p></p>
+      <div id="lang5"></div>
       <br>
       <button onclick="balanceBank()" class="button button1">Vandals Bank balance</button>
-		<p></p>
-		<div id="lang6"></div>
+      <p></p>
+      <div id="lang6"></div>
    </div>
 
    <br>
 
    <div>
       <h3>Stake MAZE <img src="../img/maze512.png" alt="MAZE" width="64"></h3>
-      <input id="amount4" type="text" size="20" placeholder="e.g. 1000">
+      <p> Staking is disabled</p>
+      <!-- <input id="amount4" type="text" size="20" placeholder="e.g. 1000">
 		<button onclick="approveM()" class="button button1">Approve MAZE</button>
 		<br>
       <p>Amount to approve must be the same as amount to stake</p>
@@ -132,16 +145,16 @@
 		<br>
       <p>Amount to stake must be the same as amount to approve</p>
 		<div id="lang8"></div>
-      <br>
+      <br> -->
       <button onclick="stakingBalance2()" class="button button1">Check your balance staked</button>
-		<br>
-		<p></p>
-		<div id="lang9"></div>
+      <br>
+      <p></p>
+      <div id="lang9"></div>
       <br>
       <button onclick="claimTokens2()" class="button button1">Claim URGD (staking reward)</button>
       <br>
-		<p></p>
-		<div id="lang10"></div>
+      <p></p>
+      <div id="lang10"></div>
       <br>
       <button onclick="lockTimeUn()" class="button button1">Timestamp</button>
       <p>Check the next claim timestamp</p>
@@ -151,19 +164,20 @@
       <br>
       <button onclick="unstakeTokens2()" class="button button1">Unstake MAZE</button>
       <br>
-		<p></p>
-		<div id="lang12"></div>
+      <p></p>
+      <div id="lang12"></div>
       <br>
       <button onclick="balanceBank2()" class="button button1">Vandals Bank balance</button>
-		<p></p>
-		<div id="lang13"></div>
+      <p></p>
+      <div id="lang13"></div>
    </div>
 
    <br>
 
    <div>
       <h3>Stake Funky Bots NFT <img src="../img/FunkyBot10.png" alt="FunkyBots" width="64"></h3>
-      <input id="tokenId" type="text" size="20" placeholder="tokenId e.g. 1">
+      <p> Staking is disabled</p>
+      <!-- <input id="tokenId" type="text" size="20" placeholder="tokenId e.g. 1">
 		<button onclick="approveF()" class="button button1">Approve FunkyBots NFT</button>
 		<br>
       <p>tokenId to approve must be the same as tokenId to stake</p>
@@ -173,7 +187,7 @@
 		<button onclick="stakeNFT()" class="button button1">Stake FunkyBots NFT</button>
 		<br>
       <p>tokenId to stake must be the same as tokenId to approve</p>
-		<div id="lang15"></div>
+		<div id="lang15"></div> -->
       <br>
       <input type="text" id="tokenId1" size="20" placeholder="tokenId e.g. 1">
       <button onclick="calculateReward()" class="button button1">Check reward</button>
@@ -184,12 +198,12 @@
       <input type="text" id="tokenId2" size="20" placeholder="tokenId e.g. 1">
       <button onclick="unstakeNFT()" class="button button1">Unstake FunkyBots NFT with reward</button>
       <br>
-		<p></p>
-		<div id="lang17"></div>
+      <p></p>
+      <div id="lang17"></div>
       <br>
       <button onclick="balanceBankNFT()" class="button button1">Vandals Bank balance</button>
-		<p></p>
-		<div id="lang18"></div>
+      <p></p>
+      <div id="lang18"></div>
    </div>
 
    <br><br>
@@ -212,25 +226,25 @@
 
    <div class="myDiv">
       <br>
-   <footer style="font-size: 14px;">
-      <br>
-      <p>MAZE Tokens Underworld | 2020-2022</p>
-      <p><a href="https://t.me/mazetokens"><img src="../img/telegram.png" alt="Telegram" width="32"></a> <a href="https://github.com/mazetoken/mazetoken.github.io/tree/master/bank"><img src="../img/github.png" alt="Github" width="32"></a> 
-      <a href="mailto:mazetoken@protonmail.com"><img src="../img/email.png" alt="Mail" width="32"></a>
-      </p>
-   </footer>
+      <footer style="font-size: 14px;">
+         <br>
+         <p>MAZE Tokens Underworld | 2020-2022</p>
+         <p><a href="https://t.me/mazetokens"><img src="../img/telegram.png" alt="Telegram" width="32"></a> <a href="https://github.com/mazetoken/mazetoken.github.io/tree/master/bank"><img src="../img/github.png" alt="Github" width="32"></a>
+            <a href="mailto:mazetoken@protonmail.com"><img src="../img/email.png" alt="Mail" width="32"></a>
+         </p>
+      </footer>
       <br>
    </div>
 
    <script>
       function openNav() {
-      document.getElementById("mySidenav").style.width = "225px";
-      document.getElementById("main").style.marginLeft = "225px";
+         document.getElementById("mySidenav").style.width = "225px";
+         document.getElementById("main").style.marginLeft = "225px";
       }
 
       function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-      document.getElementById("main").style.marginLeft= "0";
+         document.getElementById("mySidenav").style.width = "0";
+         document.getElementById("main").style.marginLeft = "0";
       }
    </script>
 
@@ -252,5 +266,6 @@
    <script src="../contracts/contractBankNFT.js"></script>
    <script src="../functions.js"></script>
    <!-- <script src="../addtokenweb3.js"></script> -->
-  </body>
+</body>
+
 </html>
