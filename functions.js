@@ -41,14 +41,24 @@ function claimZombie() {
 };
 
 function lockTimeZ() {
-    //var content = "Your address: ";
-    //content += zombieMaster;
-    //$("#lang1").html(content);
     var event = contractFaucet.methods.lockTime(zombieMaster).call()
         .then(function (result) {
-    var content = "Unix_timestamp: ";
-            alert(result);
-    content += JSON.stringify(result.toString());
+    var content = "Next claim on: ";
+            console.log(result);
+            //alert(result);
+    var a = new Date(result * 1000);
+    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var year = a.getFullYear();
+    var month = months[a.getMonth()];
+    var date = a.getDate();
+    var hour = a.getHours();
+    var min = a.getMinutes();
+    var sec = a.getSeconds();
+    var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
+            alert(time);
+    //return time;
+    //content += JSON.stringify(result.toString());
+    content += JSON.stringify(time.toString());
     $("#lang1").html(content);
         });;
 };
@@ -86,9 +96,22 @@ function lockTimeU() {
     //$("#lang4").html(content);
     var event = contractFaucet2.methods.lockTime(zombieMaster).call()
         .then(function (result) {
-    var content = "Unix_timestamp: ";
-            alert(result);
-    content += JSON.stringify(result.toString());
+    var content = "Next claim on: ";
+            //alert(result);
+            console.log(result);
+    var a = new Date(result * 1000);
+    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var year = a.getFullYear();
+    var month = months[a.getMonth()];
+    var date = a.getDate();
+    var hour = a.getHours();
+    var min = a.getMinutes();
+    var sec = a.getSeconds();
+    var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
+            alert(time);
+    //return time;
+    //content += JSON.stringify(result.toString());
+    content += JSON.stringify(time.toString());
     $("#lang4").html(content);
         });;
 };
@@ -173,14 +196,24 @@ function claimTokens() {
 };
     
 function lockTimeB() {
-    //var content = "Your address: ";
-    //content += zombieMaster;
-    //$("#lang4").html(content);
     var event = contractBank.methods.lockTime(zombieMaster).call()
         .then(function (result) {
-    var content = "Unix_timestamp: ";
-            alert(result);
-    content += JSON.stringify(result.toString());
+    var content = "Next claim on: ";
+            //alert(result);
+            console.log(result);
+    var a = new Date(result * 1000);
+    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var year = a.getFullYear();
+    var month = months[a.getMonth()];
+    var date = a.getDate();
+    var hour = a.getHours();
+    var min = a.getMinutes();
+    var sec = a.getSeconds();
+    var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
+            alert(time);
+    //return time;
+    //content += JSON.stringify(result.toString());
+    content += JSON.stringify(time.toString());
     $("#lang4").html(content);
         });;
 };
@@ -274,9 +307,22 @@ function claimTokens2() {
 function lockTimeUn() {
     var event = contractBank2.methods.lockTime(zombieMaster).call()
         .then(function (result) {
-    var content = "Unix_timestamp: ";
-            alert(result);
-    content += JSON.stringify(result.toString());
+    var content = "Next claim on: ";
+            //alert(result);
+            console.log(result);
+    var a = new Date(result * 1000);
+    var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    var year = a.getFullYear();
+    var month = months[a.getMonth()];
+    var date = a.getDate();
+    var hour = a.getHours();
+    var min = a.getMinutes();
+    var sec = a.getSeconds();
+    var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
+            alert(time);
+    //return time;
+    //content += JSON.stringify(result.toString());
+    content += JSON.stringify(time.toString());
     $("#lang11").html(content);
         });;
 };
