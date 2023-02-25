@@ -1,0 +1,8 @@
+{
+  "names": {
+    "name": "pubKey_hex"
+  },
+  "relays": {
+    "pubKey_hex": [ "wss://relay.damus.io" ]
+  }
+}

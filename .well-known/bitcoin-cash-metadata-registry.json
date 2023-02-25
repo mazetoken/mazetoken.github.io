@@ -1,0 +1,43 @@
+{
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  },
+  "latestRevision": "20230225",
+  "registryIdentity": {
+    "name": "MTBCMR",
+    "description": "Maze Token Bitcoin Cash Metadata Registry",
+    "time": {
+    "begin": "20230225"
+    }
+  },
+  "identities": {
+    "e4213ae79966b62aa5e1c436b2216fb770a5c2a098f7f6f4b55042773bf794bf": [{
+      "name": "Maze Token Access Card",
+      "description": "Maze Token Access Card NFT - Cash Tokens Army",
+      "time": {
+        "begin": "20230225"
+      },
+      "token": {
+        "category": "",
+        "symbol": "MTAC",
+        "decimals": 0
+      },
+      "uris": {
+        "icon": "https://mazetoken.github.io/ctarmy/img/mtacicon.png",
+        "icon-intro": "",
+        "web": "https://mazetoken.github.io/ctarmy/img/mtaciconbig.png"
+      }
+    }]
+  },
+  "extensions": {
+    "contact": {
+      "web": "https://ctarmy.netlify.app",
+      "github": "https://github.com/mazetoken/ctarmy",
+      "matrix": "",
+      "telegram": "https://t.me/mazetokens",
+      "twitter": ""
+    }
+  }
+}
