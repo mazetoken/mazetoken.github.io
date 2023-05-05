@@ -1,43 +1,140 @@
 {
-  "version": {
-    "major": 0,
-    "minor": 1,
-    "patch": 0
-  },
-  "latestRevision": "20230225",
-  "registryIdentity": {
-    "name": "MTBCMR",
-    "description": "Maze Token Bitcoin Cash Metadata Registry",
-    "time": {
-    "begin": "20230225"
-    }
-  },
-  "identities": {
-    "e4213ae79966b62aa5e1c436b2216fb770a5c2a098f7f6f4b55042773bf794bf": [{
-      "name": "Maze Token Access Card",
-      "description": "Maze Token Access Card NFT - Cash Tokens Army",
-      "time": {
-        "begin": "20230225"
-      },
-      "token": {
-        "category": "",
-        "symbol": "MTAC",
-        "decimals": 0
-      },
-      "uris": {
-        "icon": "https://mazetoken.github.io/ctarmy/img/mtacicon.png",
-        "icon-intro": "",
-        "web": "https://mazetoken.github.io/ctarmy/img/mtaciconbig.png"
-      }
-    }]
-  },
-  "extensions": {
-    "contact": {
-      "web": "https://ctarmy.netlify.app",
-      "github": "https://github.com/mazetoken/ctarmy",
-      "matrix": "",
-      "telegram": "https://t.me/mazetokens",
-      "twitter": ""
-    }
-  }
+    "$schema": "https://cashtokens.org/bcmr-v2.schema.json",
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 0
+    },
+    "latestRevision": "2023-05-05T00:00:00.000Z",
+    "registryIdentity": {
+        "name": "MazeToken BCMR",
+        "description": "MazeToken Metadata Registry ",
+        "uris": {
+            "icon": "",
+            "web": "",
+            "registry": "https://mazetoken.github.io/.well-known/bitcoin-cash-metadata-registry.json"
+        }
+    },
+    "identities": {
+        "d5c51587251175ba1033c0916cd087d66f5fcca72b6f9be5250ebc1c01ac6884": {
+            "2023-05-05T00:00:00.000Z": {
+                "name": "Oogly Boogly",
+                "description": "test FT",
+                "token": {
+                    "category": "d5c51587251175ba1033c0916cd087d66f5fcca72b6f9be5250ebc1c01ac6884",
+                    "decimals": 0,
+                    "symbol": "OGG"
+                },
+                "uris": {
+                    "icon": "",
+                    "web": "",
+                    "blog": "",
+                    "chat": "",
+                    "forum": "",
+                    "registry": "https://mazetoken.github.io/.well-known/bitcoin-cash-metadata-registry.json",
+                    "support": "",
+                    "custom-uri-identifier": "protocol://connection-info-for-some-protocol"
+                }
+            }
+        },
+        "5d7eb92631a0c644bc6340dd0939e8f09caa7f5da9b8accb5190473347af9314": {
+            "2023-05-05T00:00:00.000Z": {
+                "name": "Oogly Boogly NFT",
+                "description": "test NFT",
+                "token": {
+                    "category": "5d7eb92631a0c644bc6340dd0939e8f09caa7f5da9b8accb5190473347af9314",
+                    "symbol": "OGB",
+                    "nfts": {
+                        "description": "",
+                        "parse": {
+                            "bytecode": "00d2",
+                            "types": {
+                                "01": {
+                                    "name": "NFT #1",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                },
+                                "02": {
+                                    "name": "NFT #2",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                },
+                                "03": {
+                                    "name": "NFT #3",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                },
+                                "04": {
+                                    "name": "NFT #4",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                },
+                                "05": {
+                                    "name": "NFT #5",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                },
+                                "06": {
+                                    "name": "NFT #06",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                },
+                                "07": {
+                                    "name": "NFT #7",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                },
+                                "08": {
+                                    "name": "NFT #8",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                },
+                                "09": {
+                                    "name": "NFT #9",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                },
+                                "10": {
+                                    "name": "NFT #10",
+                                    "description": "test NFT",
+                                    "uris": {
+                                        "icon": ""
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "uris": {
+                    "icon": "",
+                    "web": "",
+                    "blog": "",
+                    "chat": "",
+                    "forum": "",
+                    "registry": "https://mazetoken.github.io/.well-known/bitcoin-cash-metadata-registry.json",
+                    "support": "",
+                    "custom-uri-identifier": "protocol://connection-info-for-some-protocol"
+                }
+            }
+        }
+    },
+    "license": "CC0-1.0"
 }
