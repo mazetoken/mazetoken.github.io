@@ -5,31 +5,31 @@
         "minor": 1,
         "patch": 0
     },
-    "latestRevision": "2023-05-05T00:00:00.000Z",
+    "latestRevision": "2023-05-07T00:00:00.000Z",
     "registryIdentity": {
         "name": "MazeToken BCMR",
-        "description": "MazeToken Metadata Registry ",
+        "description": "MazeToken Bitcoin Cash Metadata Registry",
         "uris": {
             "icon": "",
-            "web": "",
+            "web": "https://mazetoken.github.io",
             "registry": "https://mazetoken.github.io/.well-known/bitcoin-cash-metadata-registry.json"
         }
     },
     "identities": {
-        "d5c51587251175ba1033c0916cd087d66f5fcca72b6f9be5250ebc1c01ac6884": {
-            "2023-05-05T00:00:00.000Z": {
-                "name": "Oogly Boogly",
-                "description": "test FT",
+        "e9600fc1288efd206948bfa59731e90a2bb69c83eabea48bdd4ffd32ed33de6b": {
+            "2023-05-07T00:00:00.000Z": {
+                "name": "Maze Token",
+                "description": "Maze Token on testnet",
                 "token": {
-                    "category": "d5c51587251175ba1033c0916cd087d66f5fcca72b6f9be5250ebc1c01ac6884",
+                    "category": "e9600fc1288efd206948bfa59731e90a2bb69c83eabea48bdd4ffd32ed33de6b",
                     "decimals": 0,
-                    "symbol": "OGG"
+                    "symbol": "MAZE"
                 },
                 "uris": {
-                    "icon": "",
-                    "web": "",
+                    "icon": "https://mazetoken.github.io/cashtokenswallet/img/mazeicon.png",
+                    "web": "https://mazetoken.github.io",
                     "blog": "",
-                    "chat": "",
+                    "chat": "https://t.me/mazetokens",
                     "forum": "",
                     "registry": "https://mazetoken.github.io/.well-known/bitcoin-cash-metadata-registry.json",
                     "support": "",
@@ -37,86 +37,86 @@
                 }
             }
         },
-        "5d7eb92631a0c644bc6340dd0939e8f09caa7f5da9b8accb5190473347af9314": {
-            "2023-05-05T00:00:00.000Z": {
-                "name": "Oogly Boogly NFT",
-                "description": "test NFT",
+        "b84556b3b4a5c1f4538673b5c6af15972cc9b92cba2f93aa3d5b90b05c9bf2dd": {
+            "2023-05-07T00:00:00.000Z": {
+                "name": "Maze Tokens Underworld",
+                "description": "Maze Tokens Underworld NFTs on testnet",
                 "token": {
-                    "category": "5d7eb92631a0c644bc6340dd0939e8f09caa7f5da9b8accb5190473347af9314",
-                    "symbol": "OGB",
+                    "category": "b84556b3b4a5c1f4538673b5c6af15972cc9b92cba2f93aa3d5b90b05c9bf2dd",
+                    "symbol": "MTU",
                     "nfts": {
                         "description": "",
                         "parse": {
                             "bytecode": "00d2",
                             "types": {
                                 "01": {
-                                    "name": "NFT #1",
+                                    "name": "MTU #1",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/1.png"
                                     }
                                 },
                                 "02": {
-                                    "name": "NFT #2",
+                                    "name": "MTU #2",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/2.png"
                                     }
                                 },
                                 "03": {
-                                    "name": "NFT #3",
+                                    "name": "MTU #3",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/3.png"
                                     }
                                 },
                                 "04": {
-                                    "name": "NFT #4",
+                                    "name": "MTU #4",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/4.png"
                                     }
                                 },
                                 "05": {
-                                    "name": "NFT #5",
+                                    "name": "MTU #5",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/5.png"
                                     }
                                 },
                                 "06": {
-                                    "name": "NFT #06",
+                                    "name": "MTU #06",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/6.png"
                                     }
                                 },
                                 "07": {
-                                    "name": "NFT #7",
+                                    "name": "MTU #7",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/7.png"
                                     }
                                 },
                                 "08": {
-                                    "name": "NFT #8",
+                                    "name": "MTU #8",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/8.png"
                                     }
                                 },
                                 "09": {
-                                    "name": "NFT #9",
+                                    "name": "MTU #9",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/9.png"
                                     }
                                 },
                                 "10": {
-                                    "name": "NFT #10",
+                                    "name": "MTU #10",
                                     "description": "test NFT",
                                     "uris": {
-                                        "icon": ""
+                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/10.png"
                                     }
                                 }
                             }
@@ -124,10 +124,10 @@
                     }
                 },
                 "uris": {
-                    "icon": "",
-                    "web": "",
+                    "icon": "https://mazetoken.github.io/cashtokenswallet/img/mazeicon.png",
+                    "web": "https://mazetoken.github.io",
                     "blog": "",
-                    "chat": "",
+                    "chat": "https://t.me/mazetokens",
                     "forum": "",
                     "registry": "https://mazetoken.github.io/.well-known/bitcoin-cash-metadata-registry.json",
                     "support": "",
