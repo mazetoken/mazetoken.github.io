@@ -1,14 +1,10 @@
 {
     "$schema": "https://cashtokens.org/bcmr-v2.schema.json",
-    "version": {
-        "major": 1,
-        "minor": 1,
-        "patch": 0
-    },
-    "latestRevision": "2023-05-07T00:00:00.000Z",
+    "version": { "major": 1, "minor": 1, "patch": 0 },
+    "latestRevision": "2023-05-15T00:00:00.000Z",
     "registryIdentity": {
-        "name": "MazeToken BCMR",
-        "description": "MazeToken Bitcoin Cash Metadata Registry",
+        "name": "MTU BCMR",
+        "description": "Maze Tokens Underworld Bitcoin Cash Metadata Registry",
         "uris": {
             "icon": "",
             "web": "https://mazetoken.github.io",
@@ -16,122 +12,20 @@
         }
     },
     "identities": {
-        "e9600fc1288efd206948bfa59731e90a2bb69c83eabea48bdd4ffd32ed33de6b": {
-            "2023-05-07T00:00:00.000Z": {
-                "name": "Maze Token",
-                "description": "Maze Token on testnet",
+        "b69f76548653033603cdcb81299e3c1d1f3d61ad66e7ba0e6569b493605b4cbe": {
+            "2023-05-15T00:00:00.000Z": {
+                "name": "Microfi Free Flow",
+                "description": "Microfi Free Flow (XMI) is an experimental fungible CashToken issued on Bitcoin Cash blockchain. Total fixed supply is 1000000.00 XMI. The smallest unit is MI (it is like satoshi on Bitcoin) and represents a decimal, one zero and 1. Total amount of 1 million XMI (100 million MI) is distributed for free.",
                 "token": {
-                    "category": "e9600fc1288efd206948bfa59731e90a2bb69c83eabea48bdd4ffd32ed33de6b",
-                    "decimals": 0,
-                    "symbol": "MAZE"
+                    "category": "b69f76548653033603cdcb81299e3c1d1f3d61ad66e7ba0e6569b493605b4cbe",
+                    "decimals": 2,
+                    "symbol": "XMI"
                 },
                 "uris": {
-                    "icon": "https://mazetoken.github.io/cashtokenswallet/img/mazeicon.png",
-                    "web": "https://mazetoken.github.io",
-                    "blog": "",
+                    "icon": "https://bafybeiekc4wo27tmfi26zzujs3qfn2z5osncs74zzdr53l52apu2toswzm.ipfs.dweb.link",
+                    "web": "https://microfi.univer.se",
                     "chat": "https://t.me/mazetokens",
-                    "forum": "",
-                    "registry": "https://mazetoken.github.io/.well-known/bitcoin-cash-metadata-registry.json",
-                    "support": "",
-                    "custom-uri-identifier": "protocol://connection-info-for-some-protocol"
-                }
-            }
-        },
-        "b84556b3b4a5c1f4538673b5c6af15972cc9b92cba2f93aa3d5b90b05c9bf2dd": {
-            "2023-05-07T00:00:00.000Z": {
-                "name": "Maze Tokens Underworld",
-                "description": "Maze Tokens Underworld NFTs on testnet",
-                "token": {
-                    "category": "b84556b3b4a5c1f4538673b5c6af15972cc9b92cba2f93aa3d5b90b05c9bf2dd",
-                    "symbol": "MTU",
-                    "nfts": {
-                        "description": "",
-                        "parse": {
-                            "bytecode": "00d2",
-                            "types": {
-                                "01": {
-                                    "name": "MTU #1",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/1.png"
-                                    }
-                                },
-                                "02": {
-                                    "name": "MTU #2",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/2.png"
-                                    }
-                                },
-                                "03": {
-                                    "name": "MTU #3",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/3.png"
-                                    }
-                                },
-                                "04": {
-                                    "name": "MTU #4",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/4.png"
-                                    }
-                                },
-                                "05": {
-                                    "name": "MTU #5",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/5.png"
-                                    }
-                                },
-                                "06": {
-                                    "name": "MTU #06",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/6.png"
-                                    }
-                                },
-                                "07": {
-                                    "name": "MTU #7",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/7.png"
-                                    }
-                                },
-                                "08": {
-                                    "name": "MTU #8",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/8.png"
-                                    }
-                                },
-                                "09": {
-                                    "name": "MTU #9",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/9.png"
-                                    }
-                                },
-                                "10": {
-                                    "name": "MTU #10",
-                                    "description": "test NFT",
-                                    "uris": {
-                                        "icon": "https://mazetoken.github.io/cashtokenswallet/img/mtu/10.png"
-                                    }
-                                }
-                            }
-                        }
-                    }
-                },
-                "uris": {
-                    "icon": "https://mazetoken.github.io/cashtokenswallet/img/mazeicon.png",
-                    "web": "https://mazetoken.github.io",
-                    "blog": "",
-                    "chat": "https://t.me/mazetokens",
-                    "forum": "",
-                    "registry": "https://mazetoken.github.io/.well-known/bitcoin-cash-metadata-registry.json",
-                    "support": "",
-                    "custom-uri-identifier": "protocol://connection-info-for-some-protocol"
+                    "registry": "https://bafkreiejafiz23ewtyh6m3dpincmxouohdcimrd33abacrq3h2pacewwjm.ipfs.dweb.link"
                 }
             }
         }
