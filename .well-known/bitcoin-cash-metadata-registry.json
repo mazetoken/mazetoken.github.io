@@ -1,7 +1,7 @@
 {
     "$schema": "https://cashtokens.org/bcmr-v2.schema.json",
     "version": { "major": 1, "minor": 1, "patch": 0 },
-    "latestRevision": "2023-05-15T00:00:00.000Z",
+    "latestRevision": "2023-05-28T00:00:00.000Z",
     "registryIdentity": {
         "name": "MTU BCMR",
         "description": "Maze Tokens Underworld Bitcoin Cash Metadata Registry",
@@ -21,11 +21,12 @@
                     "decimals": 2,
                     "symbol": "XMI"
                 },
+                "migrated": "2023-05-28T00:00:00.000Z",
                 "uris": {
-                    "icon": "https://bafybeiekc4wo27tmfi26zzujs3qfn2z5osncs74zzdr53l52apu2toswzm.ipfs.dweb.link",
+                    "icon": "https://bafybeiekc4wo27tmfi26zzujs3qfn2z5osncs74zzdr53l52apu2toswzm.ipfs.dweb.link/",
                     "web": "https://microfi.univer.se",
-                    "chat": "https://t.me/mazetokens",
-                    "registry": "https://bafkreiejafiz23ewtyh6m3dpincmxouohdcimrd33abacrq3h2pacewwjm.ipfs.dweb.link/"
+                    "chat": "https://t.me/mazetokens/",
+                    "registry": "https://bafkreiee6zmfsp2iqd74z6lqaqu4u3nhew5r3ukpr4bjxhmuakal55limm.ipfs.dweb.link/"
                 }
             }
         }
