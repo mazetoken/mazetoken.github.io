@@ -29,6 +29,932 @@
                     "registry": "https://bafkreiee6zmfsp2iqd74z6lqaqu4u3nhew5r3ukpr4bjxhmuakal55limm.ipfs.dweb.link/"
                 }
             }
+        },
+        "4b53fb421e760fa3d6d1250b921a7833a6dad04e3566314164059aa0afd987d6": {
+            "2023-05-29T00:00:00.000Z": {
+                "name": "The Legendary Zombie Government Coins",
+                "description": "Risen from the ashes. Made of a special metal alloy that was said to have magical properties. With embossed symbols and scary face profile. Discovered by an unknown desert traveler. So far, 129 have been found. Called The Legendary Zombie Government Coins. No one knows whether they come from the past or the future ...",
+                "token": {
+                    "category": "4b53fb421e760fa3d6d1250b921a7833a6dad04e3566314164059aa0afd987d6",
+                    "symbol": "LZGC",
+                    "nfts": {
+                        "description": "The Legendary Zombie Government Coins",
+                        "parse": {
+                            "bytecode": "00d2",
+                            "types": {
+                                "00": {
+                                    "name": "Legendary Zombie Government Coin #0",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/0.png"
+                                    }
+                                },
+                                "0001": {
+                                    "name": "Legendary Zombie Government Coin #1",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/1.png"
+                                    }
+                                },
+                                "0002": {
+                                    "name": "Legendary Zombie Government Coin #2",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/2.png"
+                                    }
+                                },
+                                "0003": {
+                                    "name": "Legendary Zombie Government Coin #3",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/3.png"
+                                    }
+                                },
+                                "0004": {
+                                    "name": "Legendary Zombie Government Coin #4",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/4.png"
+                                    }
+                                },
+                                "0005": {
+                                    "name": "Legendary Zombie Government Coin #5",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/5.png"
+                                    }
+                                },
+                                "0006": {
+                                    "name": "Legendary Zombie Government Coin #6",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/6.png"
+                                    }
+                                },
+                                "0007": {
+                                    "name": "Legendary Zombie Government Coin #7",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/7.png"
+                                    }
+                                },
+                                "0008": {
+                                    "name": "Legendary Zombie Government Coin #8",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/8.png"
+                                    }
+                                },
+                                "0009": {
+                                    "name": "Legendary Zombie Government Coin #9",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/9.png"
+                                    }
+                                },
+                                "0010": {
+                                    "name": "Legendary Zombie Government Coin #10",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/10.png"
+                                    }
+                                },
+                                "0011": {
+                                    "name": "Legendary Zombie Government Coin #11",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/11.png"
+                                    }
+                                },
+                                "0012": {
+                                    "name": "Legendary Zombie Government Coin #12",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/12.png"
+                                    }
+                                },
+                                "0013": {
+                                    "name": "Legendary Zombie Government Coin #13",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/13.png"
+                                    }
+                                },
+                                "0014": {
+                                    "name": "Legendary Zombie Government Coin #14",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/14.png"
+                                    }
+                                },
+                                "0015": {
+                                    "name": "Legendary Zombie Government Coin #15",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/15.png"
+                                    }
+                                },
+                                "0016": {
+                                    "name": "Legendary Zombie Government Coin #16",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/16.png"
+                                    }
+                                },
+                                "0017": {
+                                    "name": "Legendary Zombie Government Coin #17",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/17.png"
+                                    }
+                                },
+                                "0018": {
+                                    "name": "Legendary Zombie Government Coin #18",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/18.png"
+                                    }
+                                },
+                                "0019": {
+                                    "name": "Legendary Zombie Government Coin #19",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/19.png"
+                                    }
+                                },
+                                "0020": {
+                                    "name": "Legendary Zombie Government Coin #20",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/20.png"
+                                    }
+                                },
+                                "0021": {
+                                    "name": "Legendary Zombie Government Coin #21",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/21.png"
+                                    }
+                                },
+                                "0022": {
+                                    "name": "Legendary Zombie Government Coin #22",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/22.png"
+                                    }
+                                },
+                                "0023": {
+                                    "name": "Legendary Zombie Government Coin #23",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/23.png"
+                                    }
+                                },
+                                "0024": {
+                                    "name": "Legendary Zombie Government Coin #24",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/24.png"
+                                    }
+                                },
+                                "0025": {
+                                    "name": "Legendary Zombie Government Coin #25",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/25.png"
+                                    }
+                                },
+                                "0026": {
+                                    "name": "Legendary Zombie Government Coin #26",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/26.png"
+                                    }
+                                },
+                                "0027": {
+                                    "name": "Legendary Zombie Government Coin #27",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/27.png"
+                                    }
+                                },
+                                "0028": {
+                                    "name": "Legendary Zombie Government Coin #28",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/28.png"
+                                    }
+                                },
+                                "0029": {
+                                    "name": "Legendary Zombie Government Coin #29",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/29.png"
+                                    }
+                                },
+                                "0030": {
+                                    "name": "Legendary Zombie Government Coin #30",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/30.png"
+                                    }
+                                },
+                                "0031": {
+                                    "name": "Legendary Zombie Government Coin #31",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/31.png"
+                                    }
+                                },
+                                "0032": {
+                                    "name": "Legendary Zombie Government Coin #32",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/32.png"
+                                    }
+                                },
+                                "0033": {
+                                    "name": "Legendary Zombie Government Coin #33",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/33.png"
+                                    }
+                                },
+                                "0034": {
+                                    "name": "Legendary Zombie Government Coin #34",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/34.png"
+                                    }
+                                },
+                                "0035": {
+                                    "name": "Legendary Zombie Government Coin #35",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/35.png"
+                                    }
+                                },
+                                "0036": {
+                                    "name": "Legendary Zombie Government Coin #36",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/36.png"
+                                    }
+                                },
+                                "0037": {
+                                    "name": "Legendary Zombie Government Coin #37",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/37.png"
+                                    }
+                                },
+                                "0038": {
+                                    "name": "Legendary Zombie Government Coin #38",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/38.png"
+                                    }
+                                },
+                                "0039": {
+                                    "name": "Legendary Zombie Government Coin #39",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/39.png"
+                                    }
+                                },
+                                "0040": {
+                                    "name": "Legendary Zombie Government Coin #40",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/40.png"
+                                    }
+                                },
+                                "0041": {
+                                    "name": "Legendary Zombie Government Coin #41",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/41.png"
+                                    }
+                                },
+                                "0042": {
+                                    "name": "Legendary Zombie Government Coin #42",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/42.png"
+                                    }
+                                },
+                                "0043": {
+                                    "name": "Legendary Zombie Government Coin #43",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/43.png"
+                                    }
+                                },
+                                "0044": {
+                                    "name": "Legendary Zombie Government Coin #44",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/44.png"
+                                    }
+                                },
+                                "0045": {
+                                    "name": "Legendary Zombie Government Coin #45",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/45.png"
+                                    }
+                                },
+                                "0046": {
+                                    "name": "Legendary Zombie Government Coin #46",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/46.png"
+                                    }
+                                },
+                                "0047": {
+                                    "name": "Legendary Zombie Government Coin #47",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/47.png"
+                                    }
+                                },
+                                "0048": {
+                                    "name": "Legendary Zombie Government Coin #48",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/48.png"
+                                    }
+                                },
+                                "0049": {
+                                    "name": "Legendary Zombie Government Coin #49",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/49.png"
+                                    }
+                                },
+                                "0050": {
+                                    "name": "Legendary Zombie Government Coin #50",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/50.png"
+                                    }
+                                },
+                                "0051": {
+                                    "name": "Legendary Zombie Government Coin #51",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/51.png"
+                                    }
+                                },
+                                "0052": {
+                                    "name": "Legendary Zombie Government Coin #52",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/52.png"
+                                    }
+                                },
+                                "0053": {
+                                    "name": "Legendary Zombie Government Coin #53",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/53.png"
+                                    }
+                                },
+                                "0054": {
+                                    "name": "Legendary Zombie Government Coin #54",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/54.png"
+                                    }
+                                },
+                                "0055": {
+                                    "name": "Legendary Zombie Government Coin #55",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/55.png"
+                                    }
+                                },
+                                "0056": {
+                                    "name": "Legendary Zombie Government Coin #56",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/56.png"
+                                    }
+                                },
+                                "0057": {
+                                    "name": "Legendary Zombie Government Coin #57",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/57.png"
+                                    }
+                                },
+                                "0058": {
+                                    "name": "Legendary Zombie Government Coin #58",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/58.png"
+                                    }
+                                },
+                                "0059": {
+                                    "name": "Legendary Zombie Government Coin #59",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/59.png"
+                                    }
+                                },
+                                "0060": {
+                                    "name": "Legendary Zombie Government Coin #60",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/60.png"
+                                    }
+                                },
+                                "0061": {
+                                    "name": "Legendary Zombie Government Coin #61",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/61.png"
+                                    }
+                                },
+                                "0062": {
+                                    "name": "Legendary Zombie Government Coin #62",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/62.png"
+                                    }
+                                },
+                                "0063": {
+                                    "name": "Legendary Zombie Government Coin #63",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/63.png"
+                                    }
+                                },
+                                "0064": {
+                                    "name": "Legendary Zombie Government Coin #64",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/64.png"
+                                    }
+                                },
+                                "0065": {
+                                    "name": "Legendary Zombie Government Coin #65",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/65.png"
+                                    }
+                                },
+                                "0066": {
+                                    "name": "Legendary Zombie Government Coin #66",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/66.png"
+                                    }
+                                },
+                                "0067": {
+                                    "name": "Legendary Zombie Government Coin #67",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/67.png"
+                                    }
+                                },
+                                "0068": {
+                                    "name": "Legendary Zombie Government Coin #68",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeidck4fuim7um6u3zs2j54yuia5kn5n2djyma37rw74pom45iqonky.ipfs.nftstorage.link/68.png"
+                                    }
+                                },
+                                "0069": {
+                                    "name": "Legendary Zombie Government Coin #69",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/1.png"
+                                    }
+                                },
+                                "0070": {
+                                    "name": "Legendary Zombie Government Coin #70",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/70.png"
+                                    }
+                                },
+                                "0071": {
+                                    "name": "Legendary Zombie Government Coin #71",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/71.png"
+                                    }
+                                },
+                                "0072": {
+                                    "name": "Legendary Zombie Government Coin #72",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/72.png"
+                                    }
+                                },
+                                "0073": {
+                                    "name": "Legendary Zombie Government Coin #73",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/73.png"
+                                    }
+                                },
+                                "0074": {
+                                    "name": "Legendary Zombie Government Coin #74",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/74.png"
+                                    }
+                                },
+                                "0075": {
+                                    "name": "Legendary Zombie Government Coin #75",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/75.png"
+                                    }
+                                },
+                                "0076": {
+                                    "name": "Legendary Zombie Government Coin #76",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/76.png"
+                                    }
+                                },
+                                "0077": {
+                                    "name": "Legendary Zombie Government Coin #77",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/77.png"
+                                    }
+                                },
+                                "0078": {
+                                    "name": "Legendary Zombie Government Coin #78",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/78.png"
+                                    }
+                                },
+                                "0079": {
+                                    "name": "Legendary Zombie Government Coin #79",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/79.png"
+                                    }
+                                },
+                                "0080": {
+                                    "name": "Legendary Zombie Government Coin #80",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/80.png"
+                                    }
+                                },
+                                "0081": {
+                                    "name": "Legendary Zombie Government Coin #81",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/81.png"
+                                    }
+                                },
+                                "0082": {
+                                    "name": "Legendary Zombie Government Coin #82",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/82.png"
+                                    }
+                                },
+                                "0083": {
+                                    "name": "Legendary Zombie Government Coin #83",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/83.png"
+                                    }
+                                },
+                                "0084": {
+                                    "name": "Legendary Zombie Government Coin #84",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/84.png"
+                                    }
+                                },
+                                "0085": {
+                                    "name": "Legendary Zombie Government Coin #85",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/85.png"
+                                    }
+                                },
+                                "0086": {
+                                    "name": "Legendary Zombie Government Coin #86",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/86.png"
+                                    }
+                                },
+                                "0087": {
+                                    "name": "Legendary Zombie Government Coin #87",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/87.png"
+                                    }
+                                },
+                                "0088": {
+                                    "name": "Legendary Zombie Government Coin #88",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/88.png"
+                                    }
+                                },
+                                "0089": {
+                                    "name": "Legendary Zombie Government Coin #89",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/89.png"
+                                    }
+                                },
+                                "0090": {
+                                    "name": "Legendary Zombie Government Coin #90",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/90.png"
+                                    }
+                                },
+                                "0091": {
+                                    "name": "Legendary Zombie Government Coin #91",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/91.png"
+                                    }
+                                },
+                                "0092": {
+                                    "name": "Legendary Zombie Government Coin #92",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/92.png"
+                                    }
+                                },
+                                "0093": {
+                                    "name": "Legendary Zombie Government Coin #93",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/93.png"
+                                    }
+                                },
+                                "0094": {
+                                    "name": "Legendary Zombie Government Coin #94",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/94.png"
+                                    }
+                                },
+                                "0095": {
+                                    "name": "Legendary Zombie Government Coin #95",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/95.png"
+                                    }
+                                },
+                                "0096": {
+                                    "name": "Legendary Zombie Government Coin #96",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/96.png"
+                                    }
+                                },
+                                "0097": {
+                                    "name": "Legendary Zombie Government Coin #97",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/97.png"
+                                    }
+                                },
+                                "0098": {
+                                    "name": "Legendary Zombie Government Coin #98",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/98.png"
+                                    }
+                                },
+                                "0099": {
+                                    "name": "Legendary Zombie Government Coin #99",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/99.png"
+                                    }
+                                },
+                                "0100": {
+                                    "name": "Legendary Zombie Government Coin #100",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/100.png"
+                                    }
+                                },
+                                "0101": {
+                                    "name": "Legendary Zombie Government Coin #101",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/101.png"
+                                    }
+                                },
+                                "0102": {
+                                    "name": "Legendary Zombie Government Coin #102",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/102.png"
+                                    }
+                                },
+                                "0103": {
+                                    "name": "Legendary Zombie Government Coin #103",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/103.png"
+                                    }
+                                },
+                                "0104": {
+                                    "name": "Legendary Zombie Government Coin #104",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/104.png"
+                                    }
+                                },
+                                "0105": {
+                                    "name": "Legendary Zombie Government Coin #105",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/105.png"
+                                    }
+                                },
+                                "0106": {
+                                    "name": "Legendary Zombie Government Coin #106",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/106.png"
+                                    }
+                                },
+                                "0107": {
+                                    "name": "Legendary Zombie Government Coin #107",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/107.png"
+                                    }
+                                },
+                                "0108": {
+                                    "name": "Legendary Zombie Government Coin #108",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/108.png"
+                                    }
+                                },
+                                "0109": {
+                                    "name": "Legendary Zombie Government Coin #109",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/109.png"
+                                    }
+                                },
+                                "0110": {
+                                    "name": "Legendary Zombie Government Coin #110",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/110.png"
+                                    }
+                                },
+                                "0111": {
+                                    "name": "Legendary Zombie Government Coin #111",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/111.png"
+                                    }
+                                },
+                                "0112": {
+                                    "name": "Legendary Zombie Government Coin #112",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/112.png"
+                                    }
+                                },
+                                "0113": {
+                                    "name": "Legendary Zombie Government Coin #113",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/113.png"
+                                    }
+                                },
+                                "0114": {
+                                    "name": "Legendary Zombie Government Coin #114",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/114.png"
+                                    }
+                                },
+                                "0115": {
+                                    "name": "Legendary Zombie Government Coin #115",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/115.png"
+                                    }
+                                },
+                                "0116": {
+                                    "name": "Legendary Zombie Government Coin #116",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/116.png"
+                                    }
+                                },
+                                "0117": {
+                                    "name": "Legendary Zombie Government Coin #117",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/117.png"
+                                    }
+                                },
+                                "0118": {
+                                    "name": "Legendary Zombie Government Coin #118",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/118.png"
+                                    }
+                                },
+                                "0119": {
+                                    "name": "Legendary Zombie Government Coin #119",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/119.png"
+                                    }
+                                },
+                                "0120": {
+                                    "name": "Legendary Zombie Government Coin #120",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/120.png"
+                                    }
+                                },
+                                "0121": {
+                                    "name": "Legendary Zombie Government Coin #121",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/121.png"
+                                    }
+                                },
+                                "0122": {
+                                    "name": "Legendary Zombie Government Coin #122",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/122.png"
+                                    }
+                                },
+                                "0123": {
+                                    "name": "Legendary Zombie Government Coin #123",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/123.png"
+                                    }
+                                },
+                                "0124": {
+                                    "name": "Legendary Zombie Government Coin #124",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/124.png"
+                                    }
+                                },
+                                "0125": {
+                                    "name": "Legendary Zombie Government Coin #125",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/125.png"
+                                    }
+                                },
+                                "0126": {
+                                    "name": "Legendary Zombie Government Coin #126",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/126.png"
+                                    }
+                                },
+                                "0127": {
+                                    "name": "Legendary Zombie Government Coin #127",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/127.png"
+                                    }
+                                },
+                                "0128": {
+                                    "name": "Legendary Zombie Government Coin #128",
+                                    "description": "The Legendary Zombie Government Coins",
+                                    "uris": {
+                                        "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/128.png"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "uris": {
+                    "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/0.png",
+                    "chat": "https://t.me/mazetokens/",
+                    "registry": "https://bafkreiftzflf6s5vrtgzcpxraa5xfy2zhwibnmnoqtmrh47p35n4sahq6i.ipfs.nftstorage.link/"
+                }
+            }
         }
     },
     "license": "CC0-1.0"
