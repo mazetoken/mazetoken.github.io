@@ -1,12 +1,12 @@
 {
     "$schema": "https://cashtokens.org/bcmr-v2.schema.json",
     "version": { "major": 1, "minor": 1, "patch": 0 },
-    "latestRevision": "2023-05-28T00:00:00.000Z",
+    "latestRevision": "2023-06-14T00:00:00.000Z",
     "registryIdentity": {
         "name": "MTU BCMR",
         "description": "Maze Tokens Underworld Bitcoin Cash Metadata Registry",
         "uris": {
-            "icon": "",
+            "icon": "https://raw.githubusercontent.com/mazetoken/mazetoken.github.io/0fb71618108a813c40228de7d412432467eda45b/img/maze512.png",
             "web": "https://mazetoken.github.io",
             "registry": "https://mazetoken.github.io/.well-known/bitcoin-cash-metadata-registry.json"
         }
@@ -953,6 +953,60 @@
                     "icon": "https://bafybeibdyoxoo33giequucc6s5smfm2dlpmhkdxzyircogtgt2ykmzggqe.ipfs.nftstorage.link/0.png",
                     "chat": "https://t.me/mazetokens/",
                     "registry": "https://bafkreiftzflf6s5vrtgzcpxraa5xfy2zhwibnmnoqtmrh47p35n4sahq6i.ipfs.nftstorage.link/"
+                }
+            }
+        },
+        "15b6e0152a4ecb7a561ac0e1f3dca540db8133c520bffdaf532e6d99b4f980e3": {
+            "2023-06-14T00:00:00.000Z": {
+                "name": "MESH",
+                "description": "MESH, CRC20 CashToken. Total supply: 1 million. MESH, DARK, LOLLIPOP - trilogy - fungible tokens, 2023.",
+                "token": {
+                    "category": "15b6e0152a4ecb7a561ac0e1f3dca540db8133c520bffdaf532e6d99b4f980e3",
+                    "decimals": 8,
+                    "symbol": "MESH"
+                },
+                "migrated": "2023-04-16T00:00:00.000Z",
+                "uris": {
+                    "icon": "https://bafybeicunoxcyp53bwhwgbrevvu7gckpn52zubbvzintk2oaptjgdsvfmq.ipfs.dweb.link/mesh.png",
+                    "web": "https://mazetoken.github.io/crc20/",
+                    "chat": "https://t.me/mazetokens/",
+                    "registry":"https://bafkreia5hqjblc56p4ohlgwjnz2gzqijyhm4fryqld4imtclo3oaqjsipu.ipfs.dweb.link/"
+                }
+            }
+        },
+        "4a3cf93cc0921e64c1f6dd6f8e348888be5e289d0b4f6cedb9b718b8d9590259": {
+            "2023-06-14T00:00:00.000Z": {
+                "name": "DARK",
+                "description": "DARK, CRC20 CashToken. Total supply: 10 million. MESH, DARK, LOLLIPOP - trilogy - fungible tokens, 2023.",
+                "token": {
+                    "category": "4a3cf93cc0921e64c1f6dd6f8e348888be5e289d0b4f6cedb9b718b8d9590259",
+                    "decimals": 8,
+                    "symbol": "DARK"
+                },
+                "migrated": "2023-04-16T00:00:00.000Z",
+                "uris": {
+                    "icon": "https://bafybeicunoxcyp53bwhwgbrevvu7gckpn52zubbvzintk2oaptjgdsvfmq.ipfs.dweb.link/dark.png",
+                    "web": "https://mazetoken.github.io/crc20/",
+                    "chat": "https://t.me/mazetokens/",
+                    "registry":"https://bafkreia5hqjblc56p4ohlgwjnz2gzqijyhm4fryqld4imtclo3oaqjsipu.ipfs.dweb.link/"
+                }
+            }
+        },
+        "bc1faf2615c0b2bdf94036f40f7b3b7bca87f8e515660905b4c454e150ee4f68": {
+            "2023-06-14T00:00:00.000Z": {
+                "name": "LOLLIPOP",
+                "description": "LOLLIPOP, CRC20 CashToken. Total supply: 100 million. MESH, DARK, LOLLIPOP - trilogy - fungible tokens, 2023.",
+                "token": {
+                    "category": "bc1faf2615c0b2bdf94036f40f7b3b7bca87f8e515660905b4c454e150ee4f68",
+                    "decimals": 2,
+                    "symbol": "LOLLIPOP"
+                },
+                "migrated": "2023-04-16T00:00:00.000Z",
+                "uris": {
+                    "icon": "https://bafybeicunoxcyp53bwhwgbrevvu7gckpn52zubbvzintk2oaptjgdsvfmq.ipfs.dweb.link/lollipop.png",
+                    "web": "https://mazetoken.github.io/crc20/",
+                    "chat": "https://t.me/mazetokens/",
+                    "registry":"https://bafkreia5hqjblc56p4ohlgwjnz2gzqijyhm4fryqld4imtclo3oaqjsipu.ipfs.dweb.link/"
                 }
             }
         }
