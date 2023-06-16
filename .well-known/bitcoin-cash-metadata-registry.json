@@ -955,60 +955,6 @@
                     "registry": "https://bafkreiftzflf6s5vrtgzcpxraa5xfy2zhwibnmnoqtmrh47p35n4sahq6i.ipfs.nftstorage.link/"
                 }
             }
-        },
-        "15b6e0152a4ecb7a561ac0e1f3dca540db8133c520bffdaf532e6d99b4f980e3": {
-            "2023-06-15T00:00:00.000Z": {
-                "name": "MESH",
-                "description": "MESH is inspired by the mesh network and participation in the transmission of information.",
-                "token": {
-                    "category": "15b6e0152a4ecb7a561ac0e1f3dca540db8133c520bffdaf532e6d99b4f980e3",
-                    "decimals": 8,
-                    "symbol": "MESH"
-                },
-                "migrated": "2023-06-15T00:00:00.000Z",
-                "uris": {
-                    "icon": "https://bafkreic5frc5xyn63fuxe63oqtgyj3eml4jcklepazqjlv3l3gs5ciiptq.ipfs.nftstorage.link/",
-                    "web": "https://mazetoken.github.io/crc20/",
-                    "chat": "https://t.me/mazetokens/",
-                    "registry":"https://bafkreichokvzko53y4olq2jehr5uaudw26ve77dplcxpittczlbwuot7iu.ipfs.nftstorage.link/"
-                }
-            }
-        },
-        "4a3cf93cc0921e64c1f6dd6f8e348888be5e289d0b4f6cedb9b718b8d9590259": {
-            "2023-06-15T00:00:00.000Z": {
-                "name": "DARK",
-                "description": "DARK is inspired by the power of darkness - you should not be afraid of it, but you should understand and harness it.",
-                "token": {
-                    "category": "4a3cf93cc0921e64c1f6dd6f8e348888be5e289d0b4f6cedb9b718b8d9590259",
-                    "decimals": 8,
-                    "symbol": "DARK"
-                },
-                "migrated": "2023-06-15T00:00:00.000Z",
-                "uris": {
-                    "icon": "https://bafkreightpafngc7qgpzav65d6r42ztcvcaildfnhg67ziw4g6xde6aol4.ipfs.nftstorage.link/",
-                    "web": "https://mazetoken.github.io/crc20/",
-                    "chat": "https://t.me/mazetokens/",
-                    "registry":"https://bafkreiezi44zsrbk6fldz234l7dolwhvd6svxkpeaaj4nzfxx46sl5qova.ipfs.nftstorage.link/"
-                }
-            }
-        },
-        "bc1faf2615c0b2bdf94036f40f7b3b7bca87f8e515660905b4c454e150ee4f68": {
-            "2023-06-15T00:00:00.000Z": {
-                "name": "LOLLIPOP",
-                "description": "LOLLIPOP is inspired by the security defense model - breaking one layer of security can lead to access to a given resource.",
-                "token": {
-                    "category": "bc1faf2615c0b2bdf94036f40f7b3b7bca87f8e515660905b4c454e150ee4f68",
-                    "decimals": 2,
-                    "symbol": "LOLLIPOP"
-                },
-                "migrated": "2023-06-15T00:00:00.000Z",
-                "uris": {
-                    "icon": "https://bafybeieqhjbm33hxdjx7jshd3hmy75sbr7q5ko3enq7vcxwp7vltxdtej4.ipfs.nftstorage.link/",
-                    "web": "https://mazetoken.github.io/crc20/",
-                    "chat": "https://t.me/mazetokens/",
-                    "registry":"https://bafkreia7sopbvfwbrybic37yhlou7vx2byp3nh7e7vvbd6jhgceqjpr7my.ipfs.nftstorage.link/"
-                }
-            }
         }
     },
     "license": "CC0-1.0"
