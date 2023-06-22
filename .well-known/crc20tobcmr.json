@@ -1,0 +1,2991 @@
+{
+  "$schema": "https://cashtokens.org/bcmr-v2.schema.json",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "latestRevision": "2023-06-22T07:51:20.000Z",
+  "registryIdentity": {
+    "name": "CRC-20 Token Registry",
+    "description": "Automatically generated registry of tokens created according to CRC-20 specification.",
+    "uris": {
+      "icon": "https://ipfs.pat.mn/ipfs/QmUcyzmwyWqi7iP1PX7wtHGNozWFyughboorVSKTkWMdyY",
+      "web": "https://ipfs.pat.mn/ipfs/QmYB7QLm7tyjqTawkV5GqRQPW2AAaZTsb2weCfmP6bP34Z",
+      "registry": "https://gitlab.com/0353F40E/crc20-to-bcmr"
+    }
+  },
+  "license": "CC0-1.0",
+  "identities": {
+    "e34f2e5f98df33c7130c72b5bda11ec078daf0536e91d92f626ac0b826a2c9b4": {
+      "2023-05-15T12:29:56.000Z": {
+        "name": "[CRC20-$CATS] CashCats",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 847063477bf664e83343a6de99cfa09f90b190490730cc8ca2b415338f1237ee.",
+        "token": {
+          "category": "e34f2e5f98df33c7130c72b5bda11ec078daf0536e91d92f626ac0b826a2c9b4",
+          "decimals": 2,
+          "symbol": "CRC20X-2443415453"
+        }
+      }
+    },
+    "83b75938d4a2aa6d40ea7f7d59a515c59331dd905740acb4c816c5ba130bb0c2": {
+      "2023-05-22T14:13:54.000Z": {
+        "name": "[CRC20-2023] 2023",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 20230000000000\\nGenesis TXID: b659c44c00ae28e3a57d27e1d720dc273da970287d87b55ff9e029a826fe4477.",
+        "token": {
+          "category": "83b75938d4a2aa6d40ea7f7d59a515c59331dd905740acb4c816c5ba130bb0c2",
+          "decimals": 8,
+          "symbol": "CRC20-2023"
+        }
+      }
+    },
+    "056469ad41e98fae4a28040c0ce03791de1b9ba93048e6b236e84c1ed58bab59": {
+      "2023-05-22T11:55:29.000Z": {
+        "name": "[CRC20-8888] 8888",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 6ab043e2ce6f902078d72f0cbc19c5fb0b1a6606a6df714bd8841e8f314da755.",
+        "token": {
+          "category": "056469ad41e98fae4a28040c0ce03791de1b9ba93048e6b236e84c1ed58bab59",
+          "decimals": 8,
+          "symbol": "CRC20-8888"
+        }
+      }
+    },
+    "87503344ada208c3d3253f7265701e332c228f511c6e910c28e06849744d2010": {
+      "2023-05-22T15:55:29.000Z": {
+        "name": "[CRC20-9527] 9527",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 73b0cf581a23695f1846f10a90e8fd8848556698a37922a83fff9999b2a78355.",
+        "token": {
+          "category": "87503344ada208c3d3253f7265701e332c228f511c6e910c28e06849744d2010",
+          "decimals": 8,
+          "symbol": "CRC20-9527"
+        }
+      }
+    },
+    "0d538dba8ede9fe5ca0c576c1c830a03bef6f11ef9f48033b5abd6dff333b6d2": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-<10K] <10K",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 04192cdeedd34db6567edeca153951592e54c9adef2fb5dfed2d553a20f31daa.",
+        "token": {
+          "category": "0d538dba8ede9fe5ca0c576c1c830a03bef6f11ef9f48033b5abd6dff333b6d2",
+          "decimals": 8,
+          "symbol": "CRC20X-3C31304B"
+        }
+      }
+    },
+    "7eddacf490d885764c2c37da797ed7ada7f256db4fd7b52170fb1d818b564744": {
+      "2023-05-22T23:20:28.000Z": {
+        "name": "[CRC20-A] A",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 21000000\\nGenesis TXID: e255112423d51ba777c9acea758d9f5804ddf07e247f99d3260e0ee7279136e7.",
+        "token": {
+          "category": "7eddacf490d885764c2c37da797ed7ada7f256db4fd7b52170fb1d818b564744",
+          "decimals": 0,
+          "symbol": "CRC20X-41"
+        }
+      }
+    },
+    "65a715781407749510017891f30e51b99d39cab22ce69a235bce808a186a4475": {
+      "2023-05-31T15:54:47.000Z": {
+        "name": "[CRC20-AAAA] AAAA",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7124cd32033aba118019b1a74eea4a10ff489485759d641c9baaf4f3302c63dd.",
+        "token": {
+          "category": "65a715781407749510017891f30e51b99d39cab22ce69a235bce808a186a4475",
+          "decimals": 8,
+          "symbol": "CRC20-AAAA"
+        }
+      }
+    },
+    "9792870f6958f51fa40ac323855d01f72c3e5391abd846dfbe150553ecd269cb": {
+      "2023-05-22T11:55:29.000Z": {
+        "name": "[CRC20-ABC] ABC",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: b8a46397a5a5abff408de850799d2d2420478a08fe90499618c347bd24cc12f8.",
+        "token": {
+          "category": "9792870f6958f51fa40ac323855d01f72c3e5391abd846dfbe150553ecd269cb",
+          "decimals": 8,
+          "symbol": "CRC20-ABC"
+        }
+      }
+    },
+    "a901837139da3ae30fd5e82c49c94a141316a261f8381eb751ece74ae8108920": {
+      "2023-05-29T06:24:41.000Z": {
+        "name": "[CRC20-ADA] Cardano",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 4500000000000000\\nGenesis TXID: 3d317aff4485c23308875bc8a0da2af5f2d43502bfd6d6cddf88c55f2bbe9c03.",
+        "token": {
+          "category": "a901837139da3ae30fd5e82c49c94a141316a261f8381eb751ece74ae8108920",
+          "decimals": 8,
+          "symbol": "CRC20-ADA"
+        }
+      }
+    },
+    "13321a560770e5f43000516d9b8eb50399fd49f4c8b9b0d67e21f7526b730291": {
+      "2023-05-30T01:05:56.000Z": {
+        "name": "[CRC20-adlp] adip",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: c9ed130920ed20793ad7f307bd47648e49cce8dd33e6d7d6bc0046201c6228e1.",
+        "token": {
+          "category": "13321a560770e5f43000516d9b8eb50399fd49f4c8b9b0d67e21f7526b730291",
+          "decimals": 8,
+          "symbol": "CRC20X-61646C70"
+        }
+      }
+    },
+    "92589c712b2b5d84ab0af11321bc098c8eb4dcf19ccbb9d609f0728c22ef66bc": {
+      "2023-05-22T18:06:29.000Z": {
+        "name": "[CRC20-AI] hongmeng",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2000000000000000\\nGenesis TXID: 6c5cc7cf878888a5d0d97ab65417e21b3a7de7857cf0dec610b1eecc6e1605c9.",
+        "token": {
+          "category": "92589c712b2b5d84ab0af11321bc098c8eb4dcf19ccbb9d609f0728c22ef66bc",
+          "decimals": 8,
+          "symbol": "CRC20-AI"
+        }
+      }
+    },
+    "8ee82cd1ebb3016329fb3674799166d793dbc39441f4665ce1ac6c8dcaa546f6": {
+      "2023-05-22T12:55:29.000Z": {
+        "name": "[CRC20-ANON] ANONYMOUS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: caa73c4b902584ae5e09c9795592a5ace88f7ab363d2c34f9ce5bce42f6c1dce.",
+        "token": {
+          "category": "8ee82cd1ebb3016329fb3674799166d793dbc39441f4665ce1ac6c8dcaa546f6",
+          "decimals": 8,
+          "symbol": "CRC20-ANON"
+        }
+      }
+    },
+    "82d72bec7a4f0e2c6cbd67b0b07cfa24a49673656e3de86d948603a24c2a5bfa": {
+      "2023-05-21T12:52:28.000Z": {
+        "name": "[CRC20-APE] ApeCoin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 670b9ae8db1f96405f4e58f2b3dd79ef57b3fce54b6cc07bf085283742fd7f0a.",
+        "token": {
+          "category": "82d72bec7a4f0e2c6cbd67b0b07cfa24a49673656e3de86d948603a24c2a5bfa",
+          "decimals": 8,
+          "symbol": "CRC20-APE"
+        }
+      }
+    },
+    "67246cd154e2c16370cd4b3b05cfe96bd2f9ec1e340f56c2b4edcd27ca51f5d3": {
+      "2023-06-14T09:08:56.000Z": {
+        "name": "[CRC20-AVS] AVENGERS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 293cf785e366c13becc86f86623fda1943e0a8696f4385e039dd292376f20cd5.",
+        "token": {
+          "category": "67246cd154e2c16370cd4b3b05cfe96bd2f9ec1e340f56c2b4edcd27ca51f5d3",
+          "decimals": 8,
+          "symbol": "CRC20-AVS"
+        }
+      }
+    },
+    "93b8ab26d5bc666c47b2ecd0f6e37da700d973ec24ae4b01c6075228a8f3b4bb": {
+      "2023-05-22T23:20:28.000Z": {
+        "name": "[CRC20-B] B",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 21000000\\nGenesis TXID: 8d9424c62370a32c51d122f73d0cedbdb279c5f14b34b10bdf269e1826ecb522.",
+        "token": {
+          "category": "93b8ab26d5bc666c47b2ecd0f6e37da700d973ec24ae4b01c6075228a8f3b4bb",
+          "decimals": 0,
+          "symbol": "CRC20X-42"
+        }
+      }
+    },
+    "3402576334f928f19b9a564958869e5c250ba08cefa186e58fd644ee433449a8": {
+      "2023-05-22T18:06:29.000Z": {
+        "name": "[CRC20-BAI] hongmeng",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2000000000000000\\nGenesis TXID: 0c3e07b9a6181d7d367a0164af47007c0a13f6a5d8e75a738f4608caee98dc34.",
+        "token": {
+          "category": "3402576334f928f19b9a564958869e5c250ba08cefa186e58fd644ee433449a8",
+          "decimals": 8,
+          "symbol": "CRC20-BAI"
+        }
+      }
+    },
+    "37a4d6b36e118042ce89e383662645fbbe3c0391e8d076c3fcc8d06b12c46c49": {
+      "2023-05-28T12:15:25.000Z": {
+        "name": "[CRC20-BALI] BALI",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 629ae5198247e1dc2a24a399fbfe9dc100fb390d024f5b7bc3c7375a842520de.",
+        "token": {
+          "category": "37a4d6b36e118042ce89e383662645fbbe3c0391e8d076c3fcc8d06b12c46c49",
+          "decimals": 8,
+          "symbol": "CRC20-BALI"
+        }
+      }
+    },
+    "a2e8bed750208c02bb7063960694bbd1d4aec397f9ee030c500a56538eba0711": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-BANK] BANK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 84c1d4110ec75441e273387e9512119d4dec7d57566175accbbdb913a4fb6655.",
+        "token": {
+          "category": "a2e8bed750208c02bb7063960694bbd1d4aec397f9ee030c500a56538eba0711",
+          "decimals": 8,
+          "symbol": "CRC20-BANK"
+        }
+      }
+    },
+    "4bcf14efc931a0e823038e058ec89f5dcc47d158c210dceee2f42d53f32d49c1": {
+      "2023-05-28T22:20:07.000Z": {
+        "name": "[CRC20-base58] base58",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: ec9c4129a736638808fbcba0822c0a660c4723fd13a919e932bc89ac32d67aa3.",
+        "token": {
+          "category": "4bcf14efc931a0e823038e058ec89f5dcc47d158c210dceee2f42d53f32d49c1",
+          "decimals": 8,
+          "symbol": "CRC20X-626173653538"
+        }
+      }
+    },
+    "9c9ce3f8b14a5342eef17b1a88fbfab3649b0e05e68a5a2edba051d7d249a618": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-BAYC] BAYC",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: d74788bc9c2eb8bd7bd5f269647762a9132049123a4e1a1a468736db7c09d130.",
+        "token": {
+          "category": "9c9ce3f8b14a5342eef17b1a88fbfab3649b0e05e68a5a2edba051d7d249a618",
+          "decimals": 8,
+          "symbol": "CRC20-BAYC"
+        }
+      }
+    },
+    "ff8dd7a614e4ce27dd64f7b99260a6f5cd0597d4e78391cb13edbb41c5f37028": {
+      "2023-05-22T20:55:17.000Z": {
+        "name": "[CRC20-BC2] BCH 2.0",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 4200000000000000\\nGenesis TXID: 9c66f2f394cf82ecdf3cdfd1f46ed6ae0d3e31cb4f545aa92cca4ca42ecf2cab.",
+        "token": {
+          "category": "ff8dd7a614e4ce27dd64f7b99260a6f5cd0597d4e78391cb13edbb41c5f37028",
+          "decimals": 8,
+          "symbol": "CRC20-BC2"
+        }
+      }
+    },
+    "8464295bc3a6eb8864bce5c318a15bae53181e3193f6241e395c0ca60b5bf110": {
+      "2023-06-14T14:44:29.000Z": {
+        "name": "[CRC20-BCASH] Be Cash",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000000\\nGenesis TXID: e928c69f653e7de8981c6a4fda3fd87bb51066f2d07f29826b4147d18353cdb0.",
+        "token": {
+          "category": "8464295bc3a6eb8864bce5c318a15bae53181e3193f6241e395c0ca60b5bf110",
+          "decimals": 8,
+          "symbol": "CRC20-BCASH"
+        }
+      }
+    },
+    "457cfeb02823c9a4fbbab3d9d8dfca9126745697f2587fb7a8407f1caf65bb0b": {
+      "2023-05-25T11:22:47.000Z": {
+        "name": "[CRC20-BCC] BCC",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7c852971d9706c79e03a9eeb0f2f2c081491588026cc1e195107dbe229b1ce24.",
+        "token": {
+          "category": "457cfeb02823c9a4fbbab3d9d8dfca9126745697f2587fb7a8407f1caf65bb0b",
+          "decimals": 8,
+          "symbol": "CRC20-BCC"
+        }
+      }
+    },
+    "54fe09e6498ba0dbf0078b85b4bc3cfe51debfcb97f565a72cf794251e687388": {
+      "2023-05-15T11:32:06.000Z": {
+        "name": "[CRC20-BCH] Bitcoin cash",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: a145e4692d5877df270518971f0b7a93fbf27a0475c2a3933e973c531ab48ebd.",
+        "token": {
+          "category": "54fe09e6498ba0dbf0078b85b4bc3cfe51debfcb97f565a72cf794251e687388",
+          "decimals": 8,
+          "symbol": "CRC20-BCH"
+        }
+      }
+    },
+    "d68c7484352c82ac8d60e4fa4d4227a7b4e1ac646ace9ac283321e3e816294e4": {
+      "2023-05-22T17:13:29.000Z": {
+        "name": "[CRC20-BCH20] BCH20",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: a90cc7c905af305062007a3edc48bf2f317d8c517a9b4eac62dcdecde1e722d7.",
+        "token": {
+          "category": "d68c7484352c82ac8d60e4fa4d4227a7b4e1ac646ace9ac283321e3e816294e4",
+          "decimals": 8,
+          "symbol": "CRC20-BCH20"
+        }
+      }
+    },
+    "b46bc74c10a8f4f42cd477c6e754cd94b36dcc0ab9ddfc162a069ec66c175219": {
+      "2023-05-22T13:38:11.000Z": {
+        "name": "[CRC20-BCHB] Bitcoin Cash Belief Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7792db0cf5de11ca07789cf8857ece223721ed63736a34b6d6a7f8cac1763153.",
+        "token": {
+          "category": "b46bc74c10a8f4f42cd477c6e754cd94b36dcc0ab9ddfc162a069ec66c175219",
+          "decimals": 8,
+          "symbol": "CRC20-BCHB"
+        }
+      }
+    },
+    "3402082b671948a871979696ce64a257744d85657f031d1ba964dda5fc1ec460": {
+      "2023-05-24T02:30:05.000Z": {
+        "name": "[CRC20-BCHDAO] 0045876sdkgjedmsegigsdkldgjeigesdlkjgsdg",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000000\\nGenesis TXID: 79e914adc44156c0a06393063a20e7bb536a803d11a0e044483a114868e0c930.",
+        "token": {
+          "category": "3402082b671948a871979696ce64a257744d85657f031d1ba964dda5fc1ec460",
+          "decimals": 8,
+          "symbol": "CRC20-BCHDAO"
+        }
+      }
+    },
+    "a7bcf2373b05b0d09aa12b7e3479631dff162dde5e28b78334ad478fb26769db": {
+      "2023-05-23T08:42:36.000Z": {
+        "name": "[CRC20-BCHN] BCHN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 8cb9742d85ffd67644fcb4bc4b413c182415d3447233833f5e47f77b8c4e8154.",
+        "token": {
+          "category": "a7bcf2373b05b0d09aa12b7e3479631dff162dde5e28b78334ad478fb26769db",
+          "decimals": 8,
+          "symbol": "CRC20-BCHN"
+        }
+      }
+    },
+    "17a22580b6ba01f043b5dc9c6da4cc9d8d072731bf40c6f08652d6d4ccc498f7": {
+      "2023-06-15T03:09:01.000Z": {
+        "name": "[CRC20-BCHSUN] BCHSUN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 500000000000000\\nGenesis TXID: 5ac7f241d5cd6cad36ae8fd59f063bc555784f0c463f98efac88b532ed14e8bc.",
+        "token": {
+          "category": "17a22580b6ba01f043b5dc9c6da4cc9d8d072731bf40c6f08652d6d4ccc498f7",
+          "decimals": 8,
+          "symbol": "CRC20-BCHSUN"
+        }
+      }
+    },
+    "0cb2a7980811919c9781a8179ba65eb697324babf383b93ff35b74cc1de1e493": {
+      "2023-05-23T06:46:49.000Z": {
+        "name": "[CRC20-BCMR] BCMR",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 12838feba6ef2f392a5a6c843b250e206ecc304b75327bc16a043297f29cc9f6.",
+        "token": {
+          "category": "0cb2a7980811919c9781a8179ba65eb697324babf383b93ff35b74cc1de1e493",
+          "decimals": 8,
+          "symbol": "CRC20-BCMR"
+        }
+      }
+    },
+    "5c218d8012d85d380e425b6533d6f21af31419ad5dac0f960d35dae3f85f198d": {
+      "2023-06-19T07:27:19.000Z": {
+        "name": "[CRC20-BDC] BuddyEC",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: 399d2705282dda49d980409ef79b4e17b700594673cbbf3f8a6c330a4fd0308a.",
+        "token": {
+          "category": "5c218d8012d85d380e425b6533d6f21af31419ad5dac0f960d35dae3f85f198d",
+          "decimals": 8,
+          "symbol": "CRC20-BDC"
+        }
+      }
+    },
+    "2a8ef39e358f466597a181413b38282d013665e475f1f75d3b8d12ddcfa4a716": {
+      "2023-05-15T11:32:06.000Z": {
+        "name": "[CRC20-BDCH] BDCH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 32463d8e4e8ef8a92075982c6a4740324188b897653f53bbf2fe08416fee299f.",
+        "token": {
+          "category": "2a8ef39e358f466597a181413b38282d013665e475f1f75d3b8d12ddcfa4a716",
+          "decimals": 4,
+          "symbol": "CRC20-BDCH"
+        }
+      }
+    },
+    "5eef262011c3dada5773fa75fe399ecc648b8dd5661c643591f87b43a3b4b7e5": {
+      "2023-05-22T09:55:35.000Z": {
+        "name": "[CRC20-BDOG] BDOG",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 74535eb8c0282d38fd3e65b2296cb7574209dd84ce8e476369a2cafdaa39cfc4.",
+        "token": {
+          "category": "5eef262011c3dada5773fa75fe399ecc648b8dd5661c643591f87b43a3b4b7e5",
+          "decimals": 8,
+          "symbol": "CRC20-BDOG"
+        }
+      }
+    },
+    "c1a96f97890030fa9e56311c1489c664b289c921baa25b19397e1003d63b342f": {
+      "2023-05-16T08:12:57.000Z": {
+        "name": "[CRC20-BEAR] Bear Coin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: dbd16c50ea922f04ed936999db71451ce0eaf7614b2a472cad350d1e44588d61.",
+        "token": {
+          "category": "c1a96f97890030fa9e56311c1489c664b289c921baa25b19397e1003d63b342f",
+          "decimals": 8,
+          "symbol": "CRC20-BEAR"
+        }
+      }
+    },
+    "61699967ba717def54003c5737ae6f141ca31b007949361bb69aefdfd2122e4b": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-BEER] BEER",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 65327d8ca63026e0a957600c48446f6126ac3db4739917da5ce15b5e043996cc.",
+        "token": {
+          "category": "61699967ba717def54003c5737ae6f141ca31b007949361bb69aefdfd2122e4b",
+          "decimals": 8,
+          "symbol": "CRC20-BEER"
+        }
+      }
+    },
+    "c69a6d46c4fe1286ae50eb6953ce278152e4216e08eb459fbc70bcab20cce827": {
+      "2023-05-22T17:06:53.000Z": {
+        "name": "[CRC20-belief] belief",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 1edf89f6321f715702035174b4edd58c7c70518db3e157576a9c8d9511d63f41.",
+        "token": {
+          "category": "c69a6d46c4fe1286ae50eb6953ce278152e4216e08eb459fbc70bcab20cce827",
+          "decimals": 8,
+          "symbol": "CRC20X-62656C696566"
+        }
+      }
+    },
+    "bf5e8e6026b0c2b21257e645bbd860224ed11e3a375d0e2731fadcdcf6f9df1e": {
+      "2023-05-22T16:56:01.000Z": {
+        "name": "[CRC20-BELIEF] BELIEF",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: c4c257c3dc570b043a24fea0a0de42739047ecf1c9cdc4397eed76b3fa13232f.",
+        "token": {
+          "category": "bf5e8e6026b0c2b21257e645bbd860224ed11e3a375d0e2731fadcdcf6f9df1e",
+          "decimals": 8,
+          "symbol": "CRC20-BELIEF"
+        }
+      }
+    },
+    "444e1e958ac3df2c12d6fd626231d8486271a8418072acc4e4de62fd17f8fe73": {
+      "2023-05-26T22:20:10.000Z": {
+        "name": "[CRC20-BINANCE] BINANCE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2000000000000\\nGenesis TXID: 08dd4a307f3138a0259af7d932468f4ac169ce565dea2f61254de386cc8decc5.",
+        "token": {
+          "category": "444e1e958ac3df2c12d6fd626231d8486271a8418072acc4e4de62fd17f8fe73",
+          "decimals": 8,
+          "symbol": "CRC20-BINANCE"
+        }
+      }
+    },
+    "617e68a060026640135a4427b11e14d242c44f7e51f3b6ffdbccbb2c677039de": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-BIT] BIT",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 88ffe5b1b706c29679a96d68dc6a93f9964d42ddf235d4d681b7e8770d4ce589.",
+        "token": {
+          "category": "617e68a060026640135a4427b11e14d242c44f7e51f3b6ffdbccbb2c677039de",
+          "decimals": 8,
+          "symbol": "CRC20-BIT"
+        }
+      }
+    },
+    "6dd9a157b774b30e058fd353c414bf33a5c83f5502fe98e6b1a8496de3ded385": {
+      "2023-05-22T13:38:11.000Z": {
+        "name": "[CRC20-BITCOIN] BITCOIN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 579d5e2818f4ab87eec673e1696b7fd12fb9a0c50b8cc40fb5bc7121c0446dbb.",
+        "token": {
+          "category": "6dd9a157b774b30e058fd353c414bf33a5c83f5502fe98e6b1a8496de3ded385",
+          "decimals": 8,
+          "symbol": "CRC20-BITCOIN"
+        }
+      }
+    },
+    "3e24596d7e1984e4c14ee1127239a0379dc9cf3583808172944fbf83f1715fb0": {
+      "2023-06-18T10:24:59.000Z": {
+        "name": "[CRC20-BLiNk] BLiNk",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1200000000000000\\nGenesis TXID: e0b1c3a34f9c5c263743fe8617dbd4a6da76b347332c692d5b45b08fa65ce8c3.",
+        "token": {
+          "category": "3e24596d7e1984e4c14ee1127239a0379dc9cf3583808172944fbf83f1715fb0",
+          "decimals": 8,
+          "symbol": "CRC20X-424C694E6B"
+        }
+      }
+    },
+    "45af45aa478a9328d91c621a4181e87d742e413299872ebb535bc19a32cf80a7": {
+      "2023-06-19T11:48:29.000Z": {
+        "name": "[CRC20-BLINK] BLINK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 9721cbe68341ef230679ba571f4ef2bb96a6ac82b8004fb4eadd8e30ebce6490.",
+        "token": {
+          "category": "45af45aa478a9328d91c621a4181e87d742e413299872ebb535bc19a32cf80a7",
+          "decimals": 8,
+          "symbol": "CRC20-BLINK"
+        }
+      }
+    },
+    "4f7b64e4f9aa896f1077c04869552b793c1550dad8ceb3fda289d2235fa05302": {
+      "2023-05-22T13:15:27.000Z": {
+        "name": "[CRC20-BNB] BNB",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 53c0e8432e6a7bf69cd11d5f35f6a24017459e1743fc133c20ad0d9f79781676.",
+        "token": {
+          "category": "4f7b64e4f9aa896f1077c04869552b793c1550dad8ceb3fda289d2235fa05302",
+          "decimals": 8,
+          "symbol": "CRC20-BNB"
+        }
+      }
+    },
+    "1b950d248fff44bdccf6ec999df0e44992f66f3cb4dcbc7e3bbc9658bddcff6d": {
+      "2023-06-14T06:59:41.000Z": {
+        "name": "[CRC20-BNC] Binance Coin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000000\\nGenesis TXID: 4890164bfb00f07ba4a4b8720f1523f3fef55c07b8e43f9563437a201ed2e296.",
+        "token": {
+          "category": "1b950d248fff44bdccf6ec999df0e44992f66f3cb4dcbc7e3bbc9658bddcff6d",
+          "decimals": 8,
+          "symbol": "CRC20-BNC"
+        }
+      }
+    },
+    "437c5b5677a9558a7cea60b8ffb642712dd0eb56706e24930cf52b049764364b": {
+      "2023-05-22T13:38:11.000Z": {
+        "name": "[CRC20-BRC] BRC",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7e77bdce0c3ae3806cdff23aa142d5576e1b06abdf6703f08c2d46b9354944a7.",
+        "token": {
+          "category": "437c5b5677a9558a7cea60b8ffb642712dd0eb56706e24930cf52b049764364b",
+          "decimals": 8,
+          "symbol": "CRC20-BRC"
+        }
+      }
+    },
+    "04295a0b50e9bb3100505e2affda83cd80ccf4e01b52bf6fdde0f2a4ed7be21d": {
+      "2023-06-22T03:49:50.000Z": {
+        "name": "[CRC20-BSUN] To appreciate BCH SUn",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 42000000000000\\nGenesis TXID: 4043ea6a7e867cc043856969c582d2b54ca9f155ddcab96a17807d355ec7ffea.",
+        "token": {
+          "category": "04295a0b50e9bb3100505e2affda83cd80ccf4e01b52bf6fdde0f2a4ed7be21d",
+          "decimals": 8,
+          "symbol": "CRC20-BSUN"
+        }
+      }
+    },
+    "c8416888c9a2b1f162455887287dacbafe9e549c6f03507d73af79f71761f350": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-BSV] BSV",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 3537310868faebff482544f710d22754d5e07633e950ccdd1fb895e49af2a652.",
+        "token": {
+          "category": "c8416888c9a2b1f162455887287dacbafe9e549c6f03507d73af79f71761f350",
+          "decimals": 8,
+          "symbol": "CRC20-BSV"
+        }
+      }
+    },
+    "79c8f3774aa4a7c38b641bcb413d5a2c4629b62ddea7aadbdeac580fe79a4b92": {
+      "2023-05-22T11:18:41.000Z": {
+        "name": "[CRC20-btc] btc",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 4e13d8a1c3826bf16800c81a907fb45c055b38e425006d1d900b95569b7c7d66.",
+        "token": {
+          "category": "79c8f3774aa4a7c38b641bcb413d5a2c4629b62ddea7aadbdeac580fe79a4b92",
+          "decimals": 8,
+          "symbol": "CRC20X-627463"
+        }
+      }
+    },
+    "e1e222270f2e362acd4750ccdf122ddac851b3141d1dabfe5d2b15c0d25c4324": {
+      "2023-05-15T11:32:06.000Z": {
+        "name": "[CRC20-BTC] Bitcoin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 1d1b3e06b80dd7acca1be286d56703f2a96f8bf92c447bde7caf4a91b9482fd7.",
+        "token": {
+          "category": "e1e222270f2e362acd4750ccdf122ddac851b3141d1dabfe5d2b15c0d25c4324",
+          "decimals": 8,
+          "symbol": "CRC20-BTC"
+        }
+      }
+    },
+    "efb13609037aa072fbc8cdc0a95d3e23345c52a194434beafde98721f0f4c26a": {
+      "2023-05-28T22:11:29.000Z": {
+        "name": "[CRC20-BTC+] BTC+",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: ae58cb4b6034f1eeb509a838673ac1093c5aba17b812ba2ad4b8a1de125e4ffe.",
+        "token": {
+          "category": "efb13609037aa072fbc8cdc0a95d3e23345c52a194434beafde98721f0f4c26a",
+          "decimals": 8,
+          "symbol": "CRC20X-4254432B"
+        }
+      }
+    },
+    "d208c4ee55479d5dc7b45218b8368d700e6201fed85392538499cdacbbeca552": {
+      "2023-06-14T12:07:29.000Z": {
+        "name": "[CRC20-BTS] BitStarz",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 5af5bf4a8b955b506cb1bd64bdba6a5a49461ef6e21280d9620ef1ba7a101671.",
+        "token": {
+          "category": "d208c4ee55479d5dc7b45218b8368d700e6201fed85392538499cdacbbeca552",
+          "decimals": 8,
+          "symbol": "CRC20-BTS"
+        }
+      }
+    },
+    "bc4222b38e526f4c80f83c2f7c859e622b76df33d511639640f1aef34aa61e1e": {
+      "2023-05-16T08:01:43.000Z": {
+        "name": "[CRC20-BULL] Bull Coin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 39ce775301f7b1280c7106e18bf7ca93153264322829f0e9cd654f7e24cc6ae6.",
+        "token": {
+          "category": "bc4222b38e526f4c80f83c2f7c859e622b76df33d511639640f1aef34aa61e1e",
+          "decimals": 8,
+          "symbol": "CRC20-BULL"
+        }
+      }
+    },
+    "fb976cd37601f8166a3eceef8c080b120d1b7fae2b0a0454bfa56c2edc6b5dbb": {
+      "2023-06-01T04:21:43.000Z": {
+        "name": "[CRC20-BWB] Bismuth Win Bi",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 6a97be094efb853b2f6b0db908b8cc08af17bc66aa9292e8f152a994b50ae8d1.",
+        "token": {
+          "category": "fb976cd37601f8166a3eceef8c080b120d1b7fae2b0a0454bfa56c2edc6b5dbb",
+          "decimals": 8,
+          "symbol": "CRC20-BWB"
+        }
+      }
+    },
+    "4384e037c0f7eec88b0e563f74aa284358740cb07987188a83d6c8eedbe1d99e": {
+      "2023-05-21T12:50:14.000Z": {
+        "name": "[CRC20-CAKE] PancakeSwap Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: e980658f54a10ab753ff4e2d83877858f147f3ae5bb6ed8566199a06f6c3b703.",
+        "token": {
+          "category": "4384e037c0f7eec88b0e563f74aa284358740cb07987188a83d6c8eedbe1d99e",
+          "decimals": 8,
+          "symbol": "CRC20-CAKE"
+        }
+      }
+    },
+    "bf93c0d6a858cb97c2249c0361e0ddc1213191c72fbc6a3e5d10ffa1dc861426": {
+      "2023-05-22T10:39:20.000Z": {
+        "name": "[CRC20-canonical] CRC",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: e6b3f3dc7336686dafc59c0b369a8207b87f7ac381404d1e9de4cc9af0082036.",
+        "token": {
+          "category": "bf93c0d6a858cb97c2249c0361e0ddc1213191c72fbc6a3e5d10ffa1dc861426",
+          "decimals": 8,
+          "symbol": "CRC20X-63616E6F6E6963616C"
+        }
+      }
+    },
+    "dcb37bd7ab9310b558b1110ce0a1841a1320c0a1f780442bf810728a3ab19ee1": {
+      "2023-05-22T16:01:43.000Z": {
+        "name": "[CRC20-CAOBI] 2",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 210000000000000\\nGenesis TXID: 0cff655cd3d30db33a9899af231b02608db0c45537d88ea177ff3293022b078a.",
+        "token": {
+          "category": "dcb37bd7ab9310b558b1110ce0a1841a1320c0a1f780442bf810728a3ab19ee1",
+          "decimals": 8,
+          "symbol": "CRC20-CAOBI"
+        }
+      }
+    },
+    "48ecdb39f9961c22a04662eb72c0b8b9078083b5dd6a025bd581a5df9ae2eb82": {
+      "2023-05-15T11:32:06.000Z": {
+        "name": "[CRC20-CASH] cash",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: bec0c53625b5faaf84a1cf63775e9be1d5cbb63fbf68414f01859eb0a9d45513.",
+        "token": {
+          "category": "48ecdb39f9961c22a04662eb72c0b8b9078083b5dd6a025bd581a5df9ae2eb82",
+          "decimals": 8,
+          "symbol": "CRC20-CASH"
+        }
+      }
+    },
+    "c895c0b54d65c96f105f422a42c9756755f50f0766d309546cbbeee02c068a4f": {
+      "2023-05-22T10:24:00.000Z": {
+        "name": "[CRC20-cash] cash",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: f9be142a35e923c0a60a7b798e37ed4602554b2a2c1300a58b3d0b6135535b39.",
+        "token": {
+          "category": "c895c0b54d65c96f105f422a42c9756755f50f0766d309546cbbeee02c068a4f",
+          "decimals": 8,
+          "symbol": "CRC20X-63617368"
+        }
+      }
+    },
+    "843b382b7835e3b0428bbd94f41d5c920d8b96f8235dac4b56275befc7245b61": {
+      "2023-05-23T11:27:29.000Z": {
+        "name": "[CRC20-CASHDAO] DAO CASH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: b4f3c4c626f1f95bd3dec8d799f43a47f996dfd9f063eee1ac8a795d2c25b010.",
+        "token": {
+          "category": "843b382b7835e3b0428bbd94f41d5c920d8b96f8235dac4b56275befc7245b61",
+          "decimals": 8,
+          "symbol": "CRC20-CASHDAO"
+        }
+      }
+    },
+    "3a7aba58bcff7571caa9ecd5c828927cf31cdbbe43b4a50b47f6f37bbb83a6d2": {
+      "2023-05-23T11:27:29.000Z": {
+        "name": "[CRC20-CashDAO] Dao for CASH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 4135f68c46957eed1170a6b324bb21b3d8af8a9c2f97cf64af2f9f883e15c0e4.",
+        "token": {
+          "category": "3a7aba58bcff7571caa9ecd5c828927cf31cdbbe43b4a50b47f6f37bbb83a6d2",
+          "decimals": 8,
+          "symbol": "CRC20X-4361736844414F"
+        }
+      }
+    },
+    "0384a0a9b44b741b36f4dff28ca4c7eed4d9f7a7b5944a0afe84e2ee745b68e0": {
+      "2023-05-22T13:59:03.000Z": {
+        "name": "[CRC20-CASHDISK] CASHDISK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 0f32c4dba73cd9f6746708858cbb7d4f69713b8b6b12be11c98c3cbf03ced79f.",
+        "token": {
+          "category": "0384a0a9b44b741b36f4dff28ca4c7eed4d9f7a7b5944a0afe84e2ee745b68e0",
+          "decimals": 8,
+          "symbol": "CRC20-CASHDISK"
+        }
+      }
+    },
+    "07a57fbeae3c092d4085c60dc786799698b62c4abb502ad698fd762a9d2d5f71": {
+      "2023-06-19T11:48:29.000Z": {
+        "name": "[CRC20-Cashtokens] Cashtokens",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: 3a241d42aa3ea5f643976ddd91c089d5413d30c94d66fa152d740b035dbc0ebb.",
+        "token": {
+          "category": "07a57fbeae3c092d4085c60dc786799698b62c4abb502ad698fd762a9d2d5f71",
+          "decimals": 8,
+          "symbol": "CRC20X-43617368746F6B656E73"
+        }
+      }
+    },
+    "dea7d41ec0fdfe9f6b1084b8400ee32393da12c8f5fcfb912fd8957f1f7936fe": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-CAT] CAT",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: daf2d84a98a371f7ddb42023e207547c1c43ac4fb43a1bce5928da3bc8f6c56e.",
+        "token": {
+          "category": "dea7d41ec0fdfe9f6b1084b8400ee32393da12c8f5fcfb912fd8957f1f7936fe",
+          "decimals": 8,
+          "symbol": "CRC20-CAT"
+        }
+      }
+    },
+    "f4978474e3295d92b9a0aeae8fbf8bf79ddc2cd2ce54772190456f67ba7a8f7e": {
+      "2023-05-16T08:01:43.000Z": {
+        "name": "[CRC20-CATS] cats",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 3525adad6990d40abc3fe85c2a8f7f9990d10ca84df952710c87ce370dd39459.",
+        "token": {
+          "category": "f4978474e3295d92b9a0aeae8fbf8bf79ddc2cd2ce54772190456f67ba7a8f7e",
+          "decimals": 8,
+          "symbol": "CRC20-CATS"
+        }
+      }
+    },
+    "651ecc74e47f5d59e0cb62a897108c705f05c454602f54f7762fcf36df4d119c": {
+      "2023-06-21T12:35:14.000Z": {
+        "name": "[CRC20-CBC] BCH mint",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 4dfa2be1b1d81cf3506296032c421d0bcbfd05f336654cd70fff85630e65dc2c.",
+        "token": {
+          "category": "651ecc74e47f5d59e0cb62a897108c705f05c454602f54f7762fcf36df4d119c",
+          "decimals": 8,
+          "symbol": "CRC20-CBC"
+        }
+      }
+    },
+    "6a79bea0d95650afa23837d13872676a13e76c4028bae24670667e98f1085ccf": {
+      "2023-06-14T08:27:05.000Z": {
+        "name": "[CRC20-CHN] Cashmoon",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: b460ae0e8a55393985b8bf0f2630efe7e5146cb3e66e80ac1fd3253e379d25fe.",
+        "token": {
+          "category": "6a79bea0d95650afa23837d13872676a13e76c4028bae24670667e98f1085ccf",
+          "decimals": 8,
+          "symbol": "CRC20-CHN"
+        }
+      }
+    },
+    "c6e40df42483850e8f39824494ec63e0d19123fc98998d8c46d85201870ccdfe": {
+      "2023-06-20T04:06:19.000Z": {
+        "name": "[CRC20-CHY] Cherrytoken",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: a4e725a5076e5adb5e279b0dc46269ef799a5acd20149c875082368aa0f46e79.",
+        "token": {
+          "category": "c6e40df42483850e8f39824494ec63e0d19123fc98998d8c46d85201870ccdfe",
+          "decimals": 8,
+          "symbol": "CRC20-CHY"
+        }
+      }
+    },
+    "977847b824f2b9f8e2325f4c8f1d950ca1c95261a065787b04cc97994c42c897": {
+      "2023-06-13T09:11:55.000Z": {
+        "name": "[CRC20-CMWT] CMWorksTokens",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 9e162a0774fdaa6d614bb30d4a447cf4219695d844629a1465eba126f6e0c3b9.",
+        "token": {
+          "category": "977847b824f2b9f8e2325f4c8f1d950ca1c95261a065787b04cc97994c42c897",
+          "decimals": 8,
+          "symbol": "CRC20-CMWT"
+        }
+      }
+    },
+    "7888ebc645302800df14cad9a3b9a2a9dcb4a3aaa184c1e8db4736ec61e070c2": {
+      "2023-05-25T10:30:29.000Z": {
+        "name": "[CRC20-CNC] 0xssd56774sdgwekjgd875dkjlk6784dsxd",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 5dd91422c77c241defeca38e4fdf6e3a32f0469da371ceaf22f8ab1e088b2336.",
+        "token": {
+          "category": "7888ebc645302800df14cad9a3b9a2a9dcb4a3aaa184c1e8db4736ec61e070c2",
+          "decimals": 8,
+          "symbol": "CRC20-CNC"
+        }
+      }
+    },
+    "caa46c7729d74fc34ffa69e4e37d7ff9119b5ec655d81971e2a8d3f1fb1335c8": {
+      "2023-05-30T08:07:23.000Z": {
+        "name": "[CRC20-CNY] Chinese Yuan",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2000000000000000\\nGenesis TXID: 3c0a09847a26e30343cb41aac3c6da8a12bb413dc9472509f713ec5c33bcf9ca.",
+        "token": {
+          "category": "caa46c7729d74fc34ffa69e4e37d7ff9119b5ec655d81971e2a8d3f1fb1335c8",
+          "decimals": 8,
+          "symbol": "CRC20-CNY"
+        }
+      }
+    },
+    "43064bc96088126a00e1d289979191222045141e30abbc2bff34ab32c0fd437c": {
+      "2023-06-03T07:23:11.000Z": {
+        "name": "[CRC20-COCAINE] COCAINE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000\\nGenesis TXID: 4f8f0d013fd1629afb057a1ee73a9fdf376b9909e17ec2c19523121fba24bee9.",
+        "token": {
+          "category": "43064bc96088126a00e1d289979191222045141e30abbc2bff34ab32c0fd437c",
+          "decimals": 8,
+          "symbol": "CRC20-COCAINE"
+        }
+      }
+    },
+    "63975c08c5d8cd015cde069045d2626ef185dd7c527e56ceba1c45aeeff85e97": {
+      "2023-06-03T06:30:20.000Z": {
+        "name": "[CRC20-COCAINUM] Cocainum",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 66666600000000\\nGenesis TXID: 18a8d245bea81357f7a4e1017d2f57d31cf9308714f68a9def90554196801ea8.",
+        "token": {
+          "category": "63975c08c5d8cd015cde069045d2626ef185dd7c527e56ceba1c45aeeff85e97",
+          "decimals": 8,
+          "symbol": "CRC20-COCAINUM"
+        }
+      }
+    },
+    "57accbc685332f7d405a006d751c5ce99da627782b28b5642f3e1b447bb15741": {
+      "2023-05-22T17:18:25.000Z": {
+        "name": "[CRC20-CODE] CODE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 57a8d930df8b5ce1e46c70af8aedcc23cf8f829626708942c678050a3794be57.",
+        "token": {
+          "category": "57accbc685332f7d405a006d751c5ce99da627782b28b5642f3e1b447bb15741",
+          "decimals": 8,
+          "symbol": "CRC20-CODE"
+        }
+      }
+    },
+    "c931a05f6ccbb88fd3ced130036147685137128344b86921d45f0e8e030f2a40": {
+      "2023-06-13T14:18:58.000Z": {
+        "name": "[CRC20-cof] coffeecoin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 8dfe36c4017df17de3c3a685415ba82f43788597691f63e026d1fc46e40e3aea.",
+        "token": {
+          "category": "c931a05f6ccbb88fd3ced130036147685137128344b86921d45f0e8e030f2a40",
+          "decimals": 8,
+          "symbol": "CRC20X-636F66"
+        }
+      }
+    },
+    "ab20581ba0495f3264a33224cc7dc48d522aa424d5e81f0839d412563752006e": {
+      "2023-05-28T05:10:37.000Z": {
+        "name": "[CRC20-coin] cashcoin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 28729239e4f15248981c3654c50e803fdfa5e30744013f99c344d690e95fca63.",
+        "token": {
+          "category": "ab20581ba0495f3264a33224cc7dc48d522aa424d5e81f0839d412563752006e",
+          "decimals": 8,
+          "symbol": "CRC20X-636F696E"
+        }
+      }
+    },
+    "6833f1d2979e3b4a97cb767da3e507e625e10f60ba28f60014cf25525c82e81c": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-COIN] COIN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 51714c727c2a1cc271747fe852ce732f336dfb3f9924e465972d3631efdd01a2.",
+        "token": {
+          "category": "6833f1d2979e3b4a97cb767da3e507e625e10f60ba28f60014cf25525c82e81c",
+          "decimals": 8,
+          "symbol": "CRC20-COIN"
+        }
+      }
+    },
+    "8d76840bf20eb57f002e67f0ddec0698639db6c99c4a9c736f711b7c86fcbf22": {
+      "2023-05-21T11:13:40.000Z": {
+        "name": "[CRC20-CRC] CRC",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 81f1ac4f4f9d50a5d2372ecd8a6d70fff8f502effb9393d9620084ee385850d8.",
+        "token": {
+          "category": "8d76840bf20eb57f002e67f0ddec0698639db6c99c4a9c736f711b7c86fcbf22",
+          "decimals": 8,
+          "symbol": "CRC20-CRC"
+        }
+      }
+    },
+    "01f6d72a78b3e4a8cd2111de93a1dab293bb10cf3b5155b94c72521735fb5b33": {
+      "2023-05-22T13:57:43.000Z": {
+        "name": "[CRC20-crc] crc",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: f1fdd579befebee7583c571d9a745fc7549484b8d6c1f36359f6fabc453beaad.",
+        "token": {
+          "category": "01f6d72a78b3e4a8cd2111de93a1dab293bb10cf3b5155b94c72521735fb5b33",
+          "decimals": 8,
+          "symbol": "CRC20X-637263"
+        }
+      }
+    },
+    "23e2d5a5adf847e6875a0c7daf61b7c9bb70a5b4fb3bb7cd64878602a3d74d3b": {
+      "2023-06-16T11:05:49.000Z": {
+        "name": "[CRC20-CRC MONEY] CRC MONEY",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000\\nGenesis TXID: cd34e53c1a8efaf67c937ce84ada400bcb734b9858733c34a9cad4e447f8fee2.",
+        "token": {
+          "category": "23e2d5a5adf847e6875a0c7daf61b7c9bb70a5b4fb3bb7cd64878602a3d74d3b",
+          "decimals": 8,
+          "symbol": "CRC20X-435243204D4F4E4559"
+        }
+      }
+    },
+    "c83b6e9c22e6324cbc1efa66ba44328e2fe0f9a93f74ea512fe706a97637df74": {
+      "2023-05-21T06:55:21.000Z": {
+        "name": "[CRC20-CRC20] CRC20",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: e48985a285d038699328e71e6e57abe361acab85f753bf09421db0f63d72a46f.",
+        "token": {
+          "category": "c83b6e9c22e6324cbc1efa66ba44328e2fe0f9a93f74ea512fe706a97637df74",
+          "decimals": 8,
+          "symbol": "CRC20-CRC20"
+        }
+      }
+    },
+    "7c22ac617c4c957c120699cea77ebd45d659182a20c788bf0d29925f0147db20": {
+      "2023-05-22T14:42:26.000Z": {
+        "name": "[CRC20-CRCD] crcd",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: fdbf76dd50aa579eee67f1707e18c64ca142cf8604f192ad5813a82dc4a2f383.",
+        "token": {
+          "category": "7c22ac617c4c957c120699cea77ebd45d659182a20c788bf0d29925f0147db20",
+          "decimals": 8,
+          "symbol": "CRC20-CRCD"
+        }
+      }
+    },
+    "095b6da4b330c84502a6b1097487260f95b8bf79a40688aa55a64062bd2e0572": {
+      "2023-05-22T13:02:47.000Z": {
+        "name": "[CRC20-CRY] CRYPTO",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 210000000000000\\nGenesis TXID: 6e95eb402cc58fc320fbe539760f99c8852259d8d212e1ad36aae99bb8619446.",
+        "token": {
+          "category": "095b6da4b330c84502a6b1097487260f95b8bf79a40688aa55a64062bd2e0572",
+          "decimals": 8,
+          "symbol": "CRC20-CRY"
+        }
+      }
+    },
+    "5bc8c71ebc01604a85bff7d8a311be3a9b38b44a39831810b0efca0a9fbea97c": {
+      "2023-06-19T05:21:29.000Z": {
+        "name": "[CRC20-cSRY] cSRY",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 150000000000000\\nGenesis TXID: 427dd1dbd37c9cd45f8bc159733f8df58ffad38394f4a5db8339031edf5f4e2e.",
+        "token": {
+          "category": "5bc8c71ebc01604a85bff7d8a311be3a9b38b44a39831810b0efca0a9fbea97c",
+          "decimals": 8,
+          "symbol": "CRC20X-63535259"
+        }
+      }
+    },
+    "f7f9b837dcfa99a0a8e754790c4f5e226fc0721a0dc7f798a605dbdac725e785": {
+      "2023-06-19T11:48:29.000Z": {
+        "name": "[CRC20-CTN] Cash Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 9854ce60a23392fc383fb2efbb1071d688df49eaf1c3118e39b6761d5d8e1e79.",
+        "token": {
+          "category": "f7f9b837dcfa99a0a8e754790c4f5e226fc0721a0dc7f798a605dbdac725e785",
+          "decimals": 8,
+          "symbol": "CRC20-CTN"
+        }
+      }
+    },
+    "6d95fef6c991629fb5e470a08f8e6c5135156b8ff9b7272cab0757584b48748e": {
+      "2023-06-16T09:52:41.000Z": {
+        "name": "[CRC20-CUT] Crypto Unity Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: bd4345eee8fa55df47b8ab003eefe0780244078866a7ec72918ab362f6c61199.",
+        "token": {
+          "category": "6d95fef6c991629fb5e470a08f8e6c5135156b8ff9b7272cab0757584b48748e",
+          "decimals": 8,
+          "symbol": "CRC20-CUT"
+        }
+      }
+    },
+    "44a10dcbee273f8c7bf5ba2003bd1a378757fb6ba2b24a8f1fca0c5f72ceaf6f": {
+      "2023-05-15T12:29:56.000Z": {
+        "name": "[CRC20-DAO] Decentralized Autonomous Organization",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 3fca837401ea50b5c8878aa7f268a9d76ed9b9455e0de5a3f4cf7a29aa6ed981.",
+        "token": {
+          "category": "44a10dcbee273f8c7bf5ba2003bd1a378757fb6ba2b24a8f1fca0c5f72ceaf6f",
+          "decimals": 2,
+          "symbol": "CRC20-DAO"
+        }
+      }
+    },
+    "4a3cf93cc0921e64c1f6dd6f8e348888be5e289d0b4f6cedb9b718b8d9590259": {
+      "2023-06-12T15:33:09.000Z": {
+        "name": "[CRC20-DARK] DARK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: 0d5aa4df8b8438e75ae3838eb2691d78c01ce445051517e83e375d80f5f7d0b3.",
+        "token": {
+          "category": "4a3cf93cc0921e64c1f6dd6f8e348888be5e289d0b4f6cedb9b718b8d9590259",
+          "decimals": 8,
+          "symbol": "CRC20-DARK"
+        }
+      }
+    },
+    "b0ac6cf7d8e6db58d20233d524eb0230b32ff552926c88af0bad70433e828d41": {
+      "2023-05-23T00:06:23.000Z": {
+        "name": "[CRC20-DECI] decimals",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 23bec4747c1ec01760bb8306e689e8a7827a0aa34ee1e3e1ef0bde5582861f59.",
+        "token": {
+          "category": "b0ac6cf7d8e6db58d20233d524eb0230b32ff552926c88af0bad70433e828d41",
+          "decimals": 8,
+          "symbol": "CRC20-DECI"
+        }
+      }
+    },
+    "3e98caa0baeebf09dbd494da86f0ced4f4fce7355bb0177773ac9fd50adba57a": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-DEFI] DEFI",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: e7f93a06efa2663dd7d68242097b85e7de28e615eabdd2a3dda488908d926f71.",
+        "token": {
+          "category": "3e98caa0baeebf09dbd494da86f0ced4f4fce7355bb0177773ac9fd50adba57a",
+          "decimals": 8,
+          "symbol": "CRC20-DEFI"
+        }
+      }
+    },
+    "249b3b930144c5ca51e5d3a911146713c4086d3f9acd01c05f7e2425f73196e0": {
+      "2023-05-28T05:35:30.000Z": {
+        "name": "[CRC20-DICK] DICK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 910937a24fbb3261485505211394e5ff048a52fa2f011eacffc0b2b61900518b.",
+        "token": {
+          "category": "249b3b930144c5ca51e5d3a911146713c4086d3f9acd01c05f7e2425f73196e0",
+          "decimals": 8,
+          "symbol": "CRC20-DICK"
+        }
+      }
+    },
+    "8f58bd362401b87f4addc67c3376ceba25d56391f2aacaefdb992b3dfc43b207": {
+      "2023-05-23T02:37:43.000Z": {
+        "name": "[CRC20-dick] dick",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 57c48237781f50c92833e62846fa27433b383650a60bbf7179f2898963f924c6.",
+        "token": {
+          "category": "8f58bd362401b87f4addc67c3376ceba25d56391f2aacaefdb992b3dfc43b207",
+          "decimals": 8,
+          "symbol": "CRC20X-6469636B"
+        }
+      }
+    },
+    "804bb170682e881e618dcc3c955b6ece4c961fa6a24505065a8ee19f68cfeb50": {
+      "2023-05-22T12:55:29.000Z": {
+        "name": "[CRC20-DISK] DISK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 74d7417a3a5dc320d1d589bcc8e61fefb8a22f84eba18583c307bf695c0a84c0.",
+        "token": {
+          "category": "804bb170682e881e618dcc3c955b6ece4c961fa6a24505065a8ee19f68cfeb50",
+          "decimals": 8,
+          "symbol": "CRC20-DISK"
+        }
+      }
+    },
+    "d60055c62b06e829070d4d09d238419ba4d2dd703a95b39811351faa8c7d1eb4": {
+      "2023-05-22T15:41:14.000Z": {
+        "name": "[CRC20-DOG] 2",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 91672a452a195802775e7a6bcaaf8982c65ec7b5fec1c233021a6b3fce9d7fbb.",
+        "token": {
+          "category": "d60055c62b06e829070d4d09d238419ba4d2dd703a95b39811351faa8c7d1eb4",
+          "decimals": 8,
+          "symbol": "CRC20-DOG"
+        }
+      }
+    },
+    "3c7a563da7c4461e916e66b9543c11bbb3d43a97b62bb052201ed7e6160b8488": {
+      "2023-05-16T11:16:45.000Z": {
+        "name": "[CRC20-Doge] Doge Coin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: 4cd2959d8cc5caeacf24afabe995f42c3fc27bea998b803500a39d37a33241d9.",
+        "token": {
+          "category": "3c7a563da7c4461e916e66b9543c11bbb3d43a97b62bb052201ed7e6160b8488",
+          "decimals": 8,
+          "symbol": "CRC20X-446F6765"
+        }
+      }
+    },
+    "18918f5cb8a76b08b0ddc551c425b4bb43d3d7645f7a79bb5aac5ec578d3ef1a": {
+      "2023-05-21T12:50:14.000Z": {
+        "name": "[CRC20-DOGE] DOGE COIN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: fed7adf73634128214e283e055d9d18228d58e23791e53e7f6045cd9a9ea318b.",
+        "token": {
+          "category": "18918f5cb8a76b08b0ddc551c425b4bb43d3d7645f7a79bb5aac5ec578d3ef1a",
+          "decimals": 8,
+          "symbol": "CRC20-DOGE"
+        }
+      }
+    },
+    "4c9cf4cb093c552f7782a1064288452480dbf78673abf2236375dc5c96e1ded7": {
+      "2023-06-14T11:22:05.000Z": {
+        "name": "[CRC20-DOTC] Dotcoin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 999900000000\\nGenesis TXID: f22516da4587e2c1ee2beaee89aa7e1be6e11526669f1a236f8a00bbc9014a5c.",
+        "token": {
+          "category": "4c9cf4cb093c552f7782a1064288452480dbf78673abf2236375dc5c96e1ded7",
+          "decimals": 8,
+          "symbol": "CRC20-DOTC"
+        }
+      }
+    },
+    "521565680a61cc66b76278a5f588317a768f2319184caf79dc314ab6ffdf0cad": {
+      "2023-06-13T12:40:32.000Z": {
+        "name": "[CRC20-DRB] Dragonball",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 200000000000\\nGenesis TXID: b7321670023add3d6003e1bafbfcf0dfa099b73230f42e020d851fbfe85f5383.",
+        "token": {
+          "category": "521565680a61cc66b76278a5f588317a768f2319184caf79dc314ab6ffdf0cad",
+          "decimals": 8,
+          "symbol": "CRC20-DRB"
+        }
+      }
+    },
+    "b360eca42a30ad403ebb4c40e608e8288f690daed43dc17b320dd42952dfece6": {
+      "2023-05-21T17:04:35.000Z": {
+        "name": "[CRC20-DROP] DROP",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 0bfe86709d2d7b674d78923ad01c7215c05242d6c26ed58b98bb242a096f8d72.",
+        "token": {
+          "category": "b360eca42a30ad403ebb4c40e608e8288f690daed43dc17b320dd42952dfece6",
+          "decimals": 8,
+          "symbol": "CRC20-DROP"
+        }
+      }
+    },
+    "83c47301b51a1db52df4dfab3a4b7298c96d587885843732db0e8b5156e57d3e": {
+      "2023-05-22T17:13:29.000Z": {
+        "name": "[CRC20-DTE] hongmeng",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 2c5edf3a03c3464b95f601eec23aa2c8b6fdbf21aedfc60eb605c104f4ff7811.",
+        "token": {
+          "category": "83c47301b51a1db52df4dfab3a4b7298c96d587885843732db0e8b5156e57d3e",
+          "decimals": 8,
+          "symbol": "CRC20-DTE"
+        }
+      }
+    },
+    "232cd8b289c706c7c849c0946f91e3723b50b50e3f62d818421c124bced99d61": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-DYOR] DYOR",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 0f35999bed7ef3ff03fa123f4b186068de146457d27a7d23d6a236048bdc8e03.",
+        "token": {
+          "category": "232cd8b289c706c7c849c0946f91e3723b50b50e3f62d818421c124bced99d61",
+          "decimals": 8,
+          "symbol": "CRC20-DYOR"
+        }
+      }
+    },
+    "c3835f2eff4f0b2aa5cacf167ea848536bbab581560523d393fcc44dab31c3c3": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-ELON] ELON",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 5d5178dafd4133d51c99db980788ee07ab9235636f9970787b18dc0c878a98fe.",
+        "token": {
+          "category": "c3835f2eff4f0b2aa5cacf167ea848536bbab581560523d393fcc44dab31c3c3",
+          "decimals": 8,
+          "symbol": "CRC20-ELON"
+        }
+      }
+    },
+    "b3345eabf2d9c7fea93ce09ccc5163d3248a3d0d82ad88699b18ffa3316286f4": {
+      "2023-06-19T08:14:29.000Z": {
+        "name": "[CRC20-eREAP] ERC20 REAP",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: e0ab7df9c835396c7ec349fee16e15a80ff813807dd6ac8bedaa87419cef8fd6.",
+        "token": {
+          "category": "b3345eabf2d9c7fea93ce09ccc5163d3248a3d0d82ad88699b18ffa3316286f4",
+          "decimals": 8,
+          "symbol": "CRC20X-6552454150"
+        }
+      }
+    },
+    "0b3c21b7dd7435e7b2b8d8672044e97ddb1e76f74d7fb8ab1602921be209dfb5": {
+      "2023-05-21T12:50:14.000Z": {
+        "name": "[CRC20-ETH] Ethereum Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7b776d79bfb85918209741192f0e0e8023dab0a441802096564e85e7092b45e7.",
+        "token": {
+          "category": "0b3c21b7dd7435e7b2b8d8672044e97ddb1e76f74d7fb8ab1602921be209dfb5",
+          "decimals": 8,
+          "symbol": "CRC20-ETH"
+        }
+      }
+    },
+    "8289446b51686944e8c1ee4ee1bb979a294e4f5da254c11ab3491d57287a2912": {
+      "2023-05-22T17:06:53.000Z": {
+        "name": "[CRC20-EVM] EVM",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 4000000000000000\\nGenesis TXID: 3a227df11bf54b176bafdd5268567c5212f98ed017799885bb713693eafaf18d.",
+        "token": {
+          "category": "8289446b51686944e8c1ee4ee1bb979a294e4f5da254c11ab3491d57287a2912",
+          "decimals": 8,
+          "symbol": "CRC20-EVM"
+        }
+      }
+    },
+    "99680cf82058b5135246efb3bd1f851e073e3035505734fab3f864b751f08e67": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-FAKE] FAKE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: a5ad370bdcfd1fbb8b3a3d45c18d5540d558560e2ab70d82cd889eaf3e86104e.",
+        "token": {
+          "category": "99680cf82058b5135246efb3bd1f851e073e3035505734fab3f864b751f08e67",
+          "decimals": 8,
+          "symbol": "CRC20-FAKE"
+        }
+      }
+    },
+    "46fe43bd406ffd13e8bbb9512ce06efec45ddad3e48e9d7385bdac860a9ce5ad": {
+      "2023-05-23T12:31:08.000Z": {
+        "name": "[CRC20-FART] FART Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000000\\nGenesis TXID: c215b38092f9c9115976f285ae8cc8d34632fc4131f3adc9ac5d471d2d065809.",
+        "token": {
+          "category": "46fe43bd406ffd13e8bbb9512ce06efec45ddad3e48e9d7385bdac860a9ce5ad",
+          "decimals": 8,
+          "symbol": "CRC20-FART"
+        }
+      }
+    },
+    "129e8e030596c0d746a9b03168d9dd260d632cb35a07d0051fa285cc02bf8d92": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-FISH] FISH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: b9f9c15be84ac3d34634f412968bddf739aee03ff16ad264f858ea563e2173cc.",
+        "token": {
+          "category": "129e8e030596c0d746a9b03168d9dd260d632cb35a07d0051fa285cc02bf8d92",
+          "decimals": 8,
+          "symbol": "CRC20-FISH"
+        }
+      }
+    },
+    "7d5a0687a312e9de2009ae6d1d546fc86924cb0f7577c5490509a0566a232f40": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-FOMO] FOMO",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 5f69b9bd817328e44eb31717c7a989cf6b0de3f9208710ec0df637284d93539f.",
+        "token": {
+          "category": "7d5a0687a312e9de2009ae6d1d546fc86924cb0f7577c5490509a0566a232f40",
+          "decimals": 8,
+          "symbol": "CRC20-FOMO"
+        }
+      }
+    },
+    "ee239ac3003f224d7fe613d435bcff1c6e4c2943648123e16c15ddeca1719051": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-FORK] FORK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 355ef90d1f23b387d96c8305607025d88f92286b4a4703b396e1b5b8927bc371.",
+        "token": {
+          "category": "ee239ac3003f224d7fe613d435bcff1c6e4c2943648123e16c15ddeca1719051",
+          "decimals": 8,
+          "symbol": "CRC20-FORK"
+        }
+      }
+    },
+    "b4c58e798dfb3b187f2be99c98f096679ddf35cfe8c578c2649db0374891559c": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-FREE] FREE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 16e2be4de522410571f0f40d47219124e90564d57be254d444a096224b838dde.",
+        "token": {
+          "category": "b4c58e798dfb3b187f2be99c98f096679ddf35cfe8c578c2649db0374891559c",
+          "decimals": 8,
+          "symbol": "CRC20-FREE"
+        }
+      }
+    },
+    "4b63dde38762e1362021da1d77dedc38ffb6909d93f3889d2c83e4ce7cedddb5": {
+      "2023-05-22T16:56:01.000Z": {
+        "name": "[CRC20-Frog] Frog",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: 877bb2f28a31b7786e323c36798d11ae2bbb0151bdaeb24b94b2205f821508bc.",
+        "token": {
+          "category": "4b63dde38762e1362021da1d77dedc38ffb6909d93f3889d2c83e4ce7cedddb5",
+          "decimals": 8,
+          "symbol": "CRC20X-46726F67"
+        }
+      }
+    },
+    "548801c3fa97ea1ecd38d5f2ea37368ebf04d5aba686c2bc9004ef73ff8b3e5d": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-FROG] FROG",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 643647411e9455aebeab304c29e73c6bb6df78bec5466081a07c5670074db1fe.",
+        "token": {
+          "category": "548801c3fa97ea1ecd38d5f2ea37368ebf04d5aba686c2bc9004ef73ff8b3e5d",
+          "decimals": 8,
+          "symbol": "CRC20-FROG"
+        }
+      }
+    },
+    "2493dd85c620cc1b4d2eb14121c3ccaa2bd1d74ff766db638a0b401aa28fbe6f": {
+      "2023-05-20T16:55:52.000Z": {
+        "name": "[CRC20-FUCK] FUCK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: bd8c8d58dcf5631aee31cdcc92a651d307786dbab6a33b8d5aa13637511fbfef.",
+        "token": {
+          "category": "2493dd85c620cc1b4d2eb14121c3ccaa2bd1d74ff766db638a0b401aa28fbe6f",
+          "decimals": 8,
+          "symbol": "CRC20-FUCK"
+        }
+      }
+    },
+    "7260da7f57191b925746a57c416d7b81d7dbf77c247224948fb9bbce3caf5fe9": {
+      "2023-05-22T13:57:43.000Z": {
+        "name": "[CRC20-fuck] fuck",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7ec784539a4eec872dbb00b090606ea3109fcba98867c8daf3e8f361009c8d8b.",
+        "token": {
+          "category": "7260da7f57191b925746a57c416d7b81d7dbf77c247224948fb9bbce3caf5fe9",
+          "decimals": 8,
+          "symbol": "CRC20X-6675636B"
+        }
+      }
+    },
+    "0ffb221e08fc87b0f9b6b9aa2bc1fb95b6e56b3c353f45d241fcb306e84c8665": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-FUD] FUD",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: ced10bbe742dcbf2de37bbe8ffa10a6c3b408b0024a510256755589bcd4f8024.",
+        "token": {
+          "category": "0ffb221e08fc87b0f9b6b9aa2bc1fb95b6e56b3c353f45d241fcb306e84c8665",
+          "decimals": 8,
+          "symbol": "CRC20-FUD"
+        }
+      }
+    },
+    "7214fc104143d145037cf47c7805aafb87f6e933bc334fedb035cbd15722c1ae": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-GAME] GAME",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 63ed66f1280ba9f40dbd27984007875aa6523df21498418a2faf68557719312c.",
+        "token": {
+          "category": "7214fc104143d145037cf47c7805aafb87f6e933bc334fedb035cbd15722c1ae",
+          "decimals": 8,
+          "symbol": "CRC20-GAME"
+        }
+      }
+    },
+    "8bf6fbb116b50c4471277c7a6758aeaf30a1dabadb2c4e8a1690e87731dd2813": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-GAS] GAS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: ade6078a3f3091bec29d0a2ffa57cac47bc891d0c647c8f54fada48ba18d99c9.",
+        "token": {
+          "category": "8bf6fbb116b50c4471277c7a6758aeaf30a1dabadb2c4e8a1690e87731dd2813",
+          "decimals": 8,
+          "symbol": "CRC20-GAS"
+        }
+      }
+    },
+    "15d40335f211c14e2631220e0c36e2c943771acd9c8f097b7360e7836ca9c025": {
+      "2023-05-26T22:20:10.000Z": {
+        "name": "[CRC20-GATE] GATE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2000000000000\\nGenesis TXID: 63f58f368f96b885d4947b315a7172769304af468ca7bb9d61dbee71388cc902.",
+        "token": {
+          "category": "15d40335f211c14e2631220e0c36e2c943771acd9c8f097b7360e7836ca9c025",
+          "decimals": 8,
+          "symbol": "CRC20-GATE"
+        }
+      }
+    },
+    "84901734f375460ef329d9af9fee69fb8c5cb3af403ad0a0c63a53aac4360c1a": {
+      "2023-06-06T12:18:50.000Z": {
+        "name": "[CRC20-GCH] GigaChad",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 69420000\\nGenesis TXID: 812ff4bb222a3cf7e996da62eeba9e4feb44e34f62aecb12efb0fc7160fb01b4.",
+        "token": {
+          "category": "84901734f375460ef329d9af9fee69fb8c5cb3af403ad0a0c63a53aac4360c1a",
+          "decimals": 3,
+          "symbol": "CRC20-GCH"
+        }
+      }
+    },
+    "a0c6a56a4861f47659eb94d12760dc3e3e3caf39d9fc8a733eb415480c0e0564": {
+      "2023-06-13T12:40:32.000Z": {
+        "name": "[CRC20-GCT] Gucat",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 200000000000\\nGenesis TXID: 25e0f6f0cbc18c3d0af5c0d5a0204d4d4b359610fe5e10d48c41ccc3a7139bcc.",
+        "token": {
+          "category": "a0c6a56a4861f47659eb94d12760dc3e3e3caf39d9fc8a733eb415480c0e0564",
+          "decimals": 8,
+          "symbol": "CRC20-GCT"
+        }
+      }
+    },
+    "dd7395621b814ee571d9aabfe6c8ab05ed814b6fe996b4313c33641d3228e6bf": {
+      "2023-05-22T18:06:29.000Z": {
+        "name": "[CRC20-GHJ] hongmeng",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1880000000000000\\nGenesis TXID: d11ee72ea90405eda7ec3f14d95c7c356acb1c2c81a09575eecef9cf5f1e8f7b.",
+        "token": {
+          "category": "dd7395621b814ee571d9aabfe6c8ab05ed814b6fe996b4313c33641d3228e6bf",
+          "decimals": 8,
+          "symbol": "CRC20-GHJ"
+        }
+      }
+    },
+    "22f80a2a9f4e18e801a0e2f7a41d39d157ae97fd107d194333cf0b7aab287629": {
+      "2023-05-22T13:57:43.000Z": {
+        "name": "[CRC20-gm] gm",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 1feb2ef7ebb799379c892b107fb092adab289e01b05a2be07c1f4cc143d31387.",
+        "token": {
+          "category": "22f80a2a9f4e18e801a0e2f7a41d39d157ae97fd107d194333cf0b7aab287629",
+          "decimals": 8,
+          "symbol": "CRC20X-676D"
+        }
+      }
+    },
+    "959d2c30ddc029417fe32e5675b71ecf35260cfd88236411b7fa59e31cd727d4": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-GM] GM",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 1f2818a746c1a918583ae7a55fa00ec379701713e1b48d9a89232c38212c52aa.",
+        "token": {
+          "category": "959d2c30ddc029417fe32e5675b71ecf35260cfd88236411b7fa59e31cd727d4",
+          "decimals": 8,
+          "symbol": "CRC20-GM"
+        }
+      }
+    },
+    "5601997f80f5a107011cb29ce5c3f9079d6ed4c1f7c80bc80b6aa5cd0d6fa5a4": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-GN] GN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: e8ba4289cf0594b9ab8d68ea7a8cda88a27e973ad59d859af0de865afc711eaf.",
+        "token": {
+          "category": "5601997f80f5a107011cb29ce5c3f9079d6ed4c1f7c80bc80b6aa5cd0d6fa5a4",
+          "decimals": 8,
+          "symbol": "CRC20-GN"
+        }
+      }
+    },
+    "c9c318488cc1fcb8e4f2b40c1ee2cc54a212bea8a64a074848db63d283cab91b": {
+      "2023-05-22T13:02:47.000Z": {
+        "name": "[CRC20-GOD] DOD",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 447a44e4c4fd3db2057277b6715891c857536436ae95ce9503830dada4de69fc.",
+        "token": {
+          "category": "c9c318488cc1fcb8e4f2b40c1ee2cc54a212bea8a64a074848db63d283cab91b",
+          "decimals": 8,
+          "symbol": "CRC20-GOD"
+        }
+      }
+    },
+    "3521b48663e7018931ecc9fb6703415b6589bdcdec5d89c206a3b2c4a29271c3": {
+      "2023-05-23T11:24:49.000Z": {
+        "name": "[CRC20-GODS] GODS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 6bfdc133090c11b98080d598ea59b577e1a33a2a60a8140106f76f8137b6a3d3.",
+        "token": {
+          "category": "3521b48663e7018931ecc9fb6703415b6589bdcdec5d89c206a3b2c4a29271c3",
+          "decimals": 8,
+          "symbol": "CRC20-GODS"
+        }
+      }
+    },
+    "eaf370f1126766c78dbc92f4e81eea44a1bc0c0e343cc6c57c695659c77129d1": {
+      "2023-05-22T13:57:43.000Z": {
+        "name": "[CRC20-gods] gods",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 3fd8eb64495509bbd389e4eea78016edfce3c2c3a4e701468bc94923a0abac62.",
+        "token": {
+          "category": "eaf370f1126766c78dbc92f4e81eea44a1bc0c0e343cc6c57c695659c77129d1",
+          "decimals": 8,
+          "symbol": "CRC20X-676F6473"
+        }
+      }
+    },
+    "5dc6c27f3e6a88fd674726cc77c79c68c05c329c6e295f5599c348a80ef0ff3b": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-GOLD] GOLD",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 3439f34a73b79c123d2c231d93697b274a80ee3f8fe8b62b2130961991e28536.",
+        "token": {
+          "category": "5dc6c27f3e6a88fd674726cc77c79c68c05c329c6e295f5599c348a80ef0ff3b",
+          "decimals": 8,
+          "symbol": "CRC20-GOLD"
+        }
+      }
+    },
+    "2bb3662093bb8929dd15a04efb90869f12fe0394f2d648587ea4e3547634f0df": {
+      "2023-05-23T02:37:43.000Z": {
+        "name": "[CRC20-gold] gold",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 1e0bb3c4b31f7b30ded0ebdb4ae8bccc6442ec37ef8ce1d3b8ea3dc32349d821.",
+        "token": {
+          "category": "2bb3662093bb8929dd15a04efb90869f12fe0394f2d648587ea4e3547634f0df",
+          "decimals": 8,
+          "symbol": "CRC20X-676F6C64"
+        }
+      }
+    },
+    "d5ac05307e6d5871c77865f0d2fb8bbb625b9c93abf5e38e7c0d03044a7b0c31": {
+      "2023-05-26T14:52:02.000Z": {
+        "name": "[CRC20-GOOD] GOOD",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 910ed76cd4942f6f35013c3b140c1c4d55e505be394b1cd260de3e9fd16fcbcd.",
+        "token": {
+          "category": "d5ac05307e6d5871c77865f0d2fb8bbb625b9c93abf5e38e7c0d03044a7b0c31",
+          "decimals": 8,
+          "symbol": "CRC20-GOOD"
+        }
+      }
+    },
+    "7d4223b28ee33291f066fcd05b922430feb5e2bdc7a711561fa081ac26d64489": {
+      "2023-06-19T10:02:58.000Z": {
+        "name": "[CRC20-Gree] Green Bug",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: d326e544313225ce154bc0652450675b31c6ea60b83eae42546855ed2364a1ae.",
+        "token": {
+          "category": "7d4223b28ee33291f066fcd05b922430feb5e2bdc7a711561fa081ac26d64489",
+          "decimals": 8,
+          "symbol": "CRC20X-47726565"
+        }
+      }
+    },
+    "7682047a54438ba7b83a513b0468ff535ff109ec12b654bbfbdd1589d793fc71": {
+      "2023-06-14T03:14:29.000Z": {
+        "name": "[CRC20-GU] Gugu",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: da1075fa04784aa3f20ec6bca022866e4c77781336dbd3d84026b1e609b30d9f.",
+        "token": {
+          "category": "7682047a54438ba7b83a513b0468ff535ff109ec12b654bbfbdd1589d793fc71",
+          "decimals": 8,
+          "symbol": "CRC20-GU"
+        }
+      }
+    },
+    "e5243913cfe35a8d73bbd34e2887e29d8503147f3e6b5f8f0f4389b57721c0ba": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-HASH] HASH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: d1a2cb7c6d1afe13fb96da1d9189a54ac0ae43677c6c299f1f45a9144a541f1f.",
+        "token": {
+          "category": "e5243913cfe35a8d73bbd34e2887e29d8503147f3e6b5f8f0f4389b57721c0ba",
+          "decimals": 8,
+          "symbol": "CRC20-HASH"
+        }
+      }
+    },
+    "b6c7860966a6d7ce9e423862ed286c0c7c5f8512e2ab4bed63200cdd0f8fd424": {
+      "2023-06-14T08:27:05.000Z": {
+        "name": "[CRC20-HBL] High BCH Light ",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: e0dc3b071129084ca03b222196e626029f67a887a0c2f30dde53f7081cff0c95.",
+        "token": {
+          "category": "b6c7860966a6d7ce9e423862ed286c0c7c5f8512e2ab4bed63200cdd0f8fd424",
+          "decimals": 8,
+          "symbol": "CRC20-HBL"
+        }
+      }
+    },
+    "fb429898c4dddf98e40ed90bf60e09c0f2f8a14bb3e6c0f72b81de568d3585a8": {
+      "2023-05-26T14:05:41.000Z": {
+        "name": "[CRC20-HELP] HELP",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: a78907d126aa12d333a32079e2ad923bab11a7f6fb05e379a0cea662aec8f00d.",
+        "token": {
+          "category": "fb429898c4dddf98e40ed90bf60e09c0f2f8a14bb3e6c0f72b81de568d3585a8",
+          "decimals": 8,
+          "symbol": "CRC20-HELP"
+        }
+      }
+    },
+    "ab014f69536f0a9d0b1cf375e54c81e1565ecba1f35b8b7813fd7527c33d88ee": {
+      "2023-05-29T10:41:04.000Z": {
+        "name": "[CRC20-HKD] Hong Kong Dollar",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 5000000000000\\nGenesis TXID: d7884d0de15d4d8ac1b2dd3c65922d2ad5a98be7aa860e6be7c870b0e1cb3cc4.",
+        "token": {
+          "category": "ab014f69536f0a9d0b1cf375e54c81e1565ecba1f35b8b7813fd7527c33d88ee",
+          "decimals": 1,
+          "symbol": "CRC20-HKD"
+        }
+      }
+    },
+    "e3cc528c67fb5584b3ede8f0bd43bcd4d48841be62fca507862b7aefea8e730b": {
+      "2023-06-15T03:09:01.000Z": {
+        "name": "[CRC20-HNLG] HeneralLuga Coin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: b20fc838daf419393f8c845ef3a8f27b1c96e785d90ac49c0537c6040fc87298.",
+        "token": {
+          "category": "e3cc528c67fb5584b3ede8f0bd43bcd4d48841be62fca507862b7aefea8e730b",
+          "decimals": 8,
+          "symbol": "CRC20-HNLG"
+        }
+      }
+    },
+    "7d740837b8ec7937e069e958fcd5ae67634f079157742f6a4ac70a8ae2905b50": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-HODL] HODL",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 47b5f53cff765bb5605964ffcf654a8b990131113512c32e8ec7613bec179757.",
+        "token": {
+          "category": "7d740837b8ec7937e069e958fcd5ae67634f079157742f6a4ac70a8ae2905b50",
+          "decimals": 8,
+          "symbol": "CRC20-HODL"
+        }
+      }
+    },
+    "e26bba58fb7c02cdc307576d97c265b11a952751eb7d019cd35e8c17ff634f35": {
+      "2023-05-22T15:01:04.000Z": {
+        "name": "[CRC20-HT] Huobi Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 226d9400baccef1963055a29dbe1cbe22c0d5143af8eca49054119ba0a2b66b4.",
+        "token": {
+          "category": "e26bba58fb7c02cdc307576d97c265b11a952751eb7d019cd35e8c17ff634f35",
+          "decimals": 8,
+          "symbol": "CRC20-HT"
+        }
+      }
+    },
+    "360a902e86a85ce776a94ad7da8e122aa783d02e454322f08d072b5233abdbad": {
+      "2023-06-14T10:08:25.000Z": {
+        "name": "[CRC20-IKUN] IKUN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 69473183a265048ad2cc6b68e3dad7dc27fcc9f5615642808b34ffc362db85ce.",
+        "token": {
+          "category": "360a902e86a85ce776a94ad7da8e122aa783d02e454322f08d072b5233abdbad",
+          "decimals": 8,
+          "symbol": "CRC20-IKUN"
+        }
+      }
+    },
+    "f7e265d0df46d9a924f311fd0bdf437e79262060a7f4cf326c22dd9f3025a67d": {
+      "2023-06-21T11:33:36.000Z": {
+        "name": "[CRC20-INF] Infinity",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: bb9e74729a17f157040393fb5e74ac7ac62568b12873c11a7c85b9f596e66912.",
+        "token": {
+          "category": "f7e265d0df46d9a924f311fd0bdf437e79262060a7f4cf326c22dd9f3025a67d",
+          "decimals": 8,
+          "symbol": "CRC20-INF"
+        }
+      }
+    },
+    "85c0e9d6da7e12d1e9db9d5b57a6c25f4b2bd8f9cde73ec0cd62439f2d372cb7": {
+      "2023-05-26T14:48:41.000Z": {
+        "name": "[CRC20-KING] KING",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 127c4b4fb46554aa9143ff33ce8dbee3e8550ad892f09c7b3abe549a93fe53a5.",
+        "token": {
+          "category": "85c0e9d6da7e12d1e9db9d5b57a6c25f4b2bd8f9cde73ec0cd62439f2d372cb7",
+          "decimals": 8,
+          "symbol": "CRC20-KING"
+        }
+      }
+    },
+    "4bf71474807941cedd5d486336f6d3bde55fddc8fa1554cb5756a5cc9934a951": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-KISS] KISS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 768992475960bebe29724487a39e428c4ad3280360261ffae5964afe6773d754.",
+        "token": {
+          "category": "4bf71474807941cedd5d486336f6d3bde55fddc8fa1554cb5756a5cc9934a951",
+          "decimals": 8,
+          "symbol": "CRC20-KISS"
+        }
+      }
+    },
+    "7b15599e3c9153dc705e08f1cd95089aa6c0836fa087e1f14a0363a8a43d47c6": {
+      "2023-05-22T15:41:14.000Z": {
+        "name": "[CRC20-KITTY] 1",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: de3f05501fd8e701c36a5afe81e68cdff61b0f895b6e86d44a8378c1d21dd022.",
+        "token": {
+          "category": "7b15599e3c9153dc705e08f1cd95089aa6c0836fa087e1f14a0363a8a43d47c6",
+          "decimals": 8,
+          "symbol": "CRC20-KITTY"
+        }
+      }
+    },
+    "8381e5bd1614653d690a4da6c232fbd332e877c988087c2837f48d1db37df84c": {
+      "2023-06-15T03:09:01.000Z": {
+        "name": "[CRC20-KTN] KTN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 250000000000000\\nGenesis TXID: 577276af9c16928eac0f7aab27acf3e162b7e6ed7952c038c8fc8adb324d3e14.",
+        "token": {
+          "category": "8381e5bd1614653d690a4da6c232fbd332e877c988087c2837f48d1db37df84c",
+          "decimals": 8,
+          "symbol": "CRC20-KTN"
+        }
+      }
+    },
+    "ef105984ff505ab273368e9e6267551ad60c53895c414e6b37392173c315c751": {
+      "2023-06-21T03:27:30.000Z": {
+        "name": "[CRC20-KWK] Kwek token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 7a9dda729838066995f2c3497b121561487aeb0f7765d90b8d58b68449c8709a.",
+        "token": {
+          "category": "ef105984ff505ab273368e9e6267551ad60c53895c414e6b37392173c315c751",
+          "decimals": 8,
+          "symbol": "CRC20-KWK"
+        }
+      }
+    },
+    "e12b1d5027b502ec33faf1cd26731c75c6ec34c64c0ee1a9e0800e6157fea63d": {
+      "2023-05-22T15:41:14.000Z": {
+        "name": "[CRC20-LADY] 2",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 3dd0b5bbfa73aeeceeeee90dc9e2dd8c957ee5faa4a5cfc0a223cd237b5ec84f.",
+        "token": {
+          "category": "e12b1d5027b502ec33faf1cd26731c75c6ec34c64c0ee1a9e0800e6157fea63d",
+          "decimals": 8,
+          "symbol": "CRC20-LADY"
+        }
+      }
+    },
+    "a6c5d16e1f14ad01ecd629eee1f2b844209a19011704fc800d2e4fa674a50424": {
+      "2023-05-23T01:48:54.000Z": {
+        "name": "[CRC20-LADYS] LADYS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: ed8ab58688b37fb5f3d3c2d8fc98bb8c48026d47aa612278bfb55f45db52df8a.",
+        "token": {
+          "category": "a6c5d16e1f14ad01ecd629eee1f2b844209a19011704fc800d2e4fa674a50424",
+          "decimals": 8,
+          "symbol": "CRC20-LADYS"
+        }
+      }
+    },
+    "6187f7d3494e4b63d6e704ebbb7616cb486f3fb4dcccfad0904aee605b725eb7": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-LAMBO] LAMBO",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: ca8ab33eefc79d879f584f8a15abe4ef58826fc2caac22c2a669e8eb0279e4cc.",
+        "token": {
+          "category": "6187f7d3494e4b63d6e704ebbb7616cb486f3fb4dcccfad0904aee605b725eb7",
+          "decimals": 8,
+          "symbol": "CRC20-LAMBO"
+        }
+      }
+    },
+    "305b61d7451ff3e0ee28b0c40ae0bbe2f911fd6fe2f60c5934250c81ab32f4e1": {
+      "2023-05-15T12:29:56.000Z": {
+        "name": "[CRC20-LAW] LAWTOKEN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000\\nGenesis TXID: c9f6d7f6b4844b5689f0966e8586bd42e4b755ecd4cd801de1e23a4184a04d42.",
+        "token": {
+          "category": "305b61d7451ff3e0ee28b0c40ae0bbe2f911fd6fe2f60c5934250c81ab32f4e1",
+          "decimals": 2,
+          "symbol": "CRC20-LAW"
+        }
+      }
+    },
+    "2020268ba46314e4e95f4c9a6df21875edc549e66245a3ffb6fa207386f02763": {
+      "2023-05-22T14:13:54.000Z": {
+        "name": "[CRC20-LFG] LFG",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 2fbc52f74fa590acddc89c6e1a970ec74b6d62c5185beefc810f9045927d1648.",
+        "token": {
+          "category": "2020268ba46314e4e95f4c9a6df21875edc549e66245a3ffb6fa207386f02763",
+          "decimals": 8,
+          "symbol": "CRC20-LFG"
+        }
+      }
+    },
+    "e581b4ec14ab717d61fcd32e03a78c4448c2a164454ac3f0ee741b2702b84f7c": {
+      "2023-05-26T22:20:10.000Z": {
+        "name": "[CRC20-LIKE] LIKE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 6f5f89b379e4efafc4c5b5178fd7ccfce678a171dbfc485120ec9ebc4465f8e2.",
+        "token": {
+          "category": "e581b4ec14ab717d61fcd32e03a78c4448c2a164454ac3f0ee741b2702b84f7c",
+          "decimals": 8,
+          "symbol": "CRC20-LIKE"
+        }
+      }
+    },
+    "df690062e3dd547f8167350272fb113dadeab9fb2b53fba25923a8db388bc54b": {
+      "2023-05-29T06:24:41.000Z": {
+        "name": "[CRC20-LINK] Chainlink",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: c91bb945f4dbfbd785d51cb8fbb97832ea3dbcfe6c804284f55164853e9bcefa.",
+        "token": {
+          "category": "df690062e3dd547f8167350272fb113dadeab9fb2b53fba25923a8db388bc54b",
+          "decimals": 8,
+          "symbol": "CRC20-LINK"
+        }
+      }
+    },
+    "bc1faf2615c0b2bdf94036f40f7b3b7bca87f8e515660905b4c454e150ee4f68": {
+      "2023-06-12T18:15:06.000Z": {
+        "name": "[CRC20-LOLLIPOP] LOLLIPOP",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000\\nGenesis TXID: cad4fad2354d93119149ae847cfc6222a8af0ae399e1173c65571d86a1395901.",
+        "token": {
+          "category": "bc1faf2615c0b2bdf94036f40f7b3b7bca87f8e515660905b4c454e150ee4f68",
+          "decimals": 2,
+          "symbol": "CRC20-LOLLIPOP"
+        }
+      }
+    },
+    "1991173da29a4312793f5fc9ca0611bb96c7a01278a0c145557e93a60002e9a3": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-LOVE] LOVE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: b6a83d67c9fae23ce1f03c25d55a4f1863afd31ff3f403763fbad83521aeb0fe.",
+        "token": {
+          "category": "1991173da29a4312793f5fc9ca0611bb96c7a01278a0c145557e93a60002e9a3",
+          "decimals": 8,
+          "symbol": "CRC20-LOVE"
+        }
+      }
+    },
+    "a22d9e5a05850310654d3e994e31389570c7d7b6541b4b86886534271a6b7014": {
+      "2023-05-29T06:24:41.000Z": {
+        "name": "[CRC20-LTC] Litecoin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 840000000000000\\nGenesis TXID: c9bab927a6f86d27b77f5ae8c30d1926d44c885c4321a3d92ecf93fdd39f02c4.",
+        "token": {
+          "category": "a22d9e5a05850310654d3e994e31389570c7d7b6541b4b86886534271a6b7014",
+          "decimals": 8,
+          "symbol": "CRC20-LTC"
+        }
+      }
+    },
+    "dd676ce069d5b8c9e57a15b8e28aaf0c877b785ee0b25cd50bd4dcc52444b2d4": {
+      "2023-05-22T16:01:43.000Z": {
+        "name": "[CRC20-MARS] 2",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 210000000000000\\nGenesis TXID: 9a7b6edd5f0c52422607707bcc51c05b993110750387538c9d37e7addf67acc8.",
+        "token": {
+          "category": "dd676ce069d5b8c9e57a15b8e28aaf0c877b785ee0b25cd50bd4dcc52444b2d4",
+          "decimals": 8,
+          "symbol": "CRC20-MARS"
+        }
+      }
+    },
+    "58120e2b15778a2b8a9c27dc1e950ea8a7c01a61b8efbb363bd356e9a04e8589": {
+      "2023-05-23T03:01:12.000Z": {
+        "name": "[CRC20-MCF] MCF",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 6bf36118fb5da20be3ef5f87165d2a209799747201620795ff8324d29c8dd582.",
+        "token": {
+          "category": "58120e2b15778a2b8a9c27dc1e950ea8a7c01a61b8efbb363bd356e9a04e8589",
+          "decimals": 8,
+          "symbol": "CRC20-MCF"
+        }
+      }
+    },
+    "92f66c642c0dbef234e24ff3ec9a6674d75a252136efa1794ca3ff26505b627e": {
+      "2023-05-15T11:32:06.000Z": {
+        "name": "[CRC20-MEME] Meme Coin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7721ce5f008d3ae6baea72c9133dffa9861ed54cbdf94efc3a1f8c7ee28bdaa0.",
+        "token": {
+          "category": "92f66c642c0dbef234e24ff3ec9a6674d75a252136efa1794ca3ff26505b627e",
+          "decimals": 8,
+          "symbol": "CRC20-MEME"
+        }
+      }
+    },
+    "b720a2a1429887aca7048c05ce7e43d906db4ae0372921672e1dad45388685c2": {
+      "2023-05-22T11:43:29.000Z": {
+        "name": "[CRC20-meme] MEME",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: df83dff643431d82e9b109d66a40a2339c80d998f96741a96f23d30542311a7f.",
+        "token": {
+          "category": "b720a2a1429887aca7048c05ce7e43d906db4ae0372921672e1dad45388685c2",
+          "decimals": 8,
+          "symbol": "CRC20X-6D656D65"
+        }
+      }
+    },
+    "15b6e0152a4ecb7a561ac0e1f3dca540db8133c520bffdaf532e6d99b4f980e3": {
+      "2023-06-12T15:33:09.000Z": {
+        "name": "[CRC20-MESH] MESH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000000\\nGenesis TXID: ed37237ec5f77a87fce34ded53bf46d6b2eaba7ab4c2be2d5779970fc4069bf4.",
+        "token": {
+          "category": "15b6e0152a4ecb7a561ac0e1f3dca540db8133c520bffdaf532e6d99b4f980e3",
+          "decimals": 8,
+          "symbol": "CRC20-MESH"
+        }
+      }
+    },
+    "911b419a7875a2204955f6cf45b7a61cfe30f64562bdf749d64e50688b71c080": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-META] META",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 5cc7bb5f5de2adf95c50a588bc253031b9ded56879e4b4e654cfedcd372f6abe.",
+        "token": {
+          "category": "911b419a7875a2204955f6cf45b7a61cfe30f64562bdf749d64e50688b71c080",
+          "decimals": 8,
+          "symbol": "CRC20-META"
+        }
+      }
+    },
+    "a862f7cf96b7ec8ad297bc705ace590bd82a6a24546bafcd80a7624948ed251c": {
+      "2023-05-26T22:20:10.000Z": {
+        "name": "[CRC20-MEXC] MEXC",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 62393c4db97582eed1bbe2ab84cdca989eef5296428aff9cde99cdd654544aba.",
+        "token": {
+          "category": "a862f7cf96b7ec8ad297bc705ace590bd82a6a24546bafcd80a7624948ed251c",
+          "decimals": 8,
+          "symbol": "CRC20-MEXC"
+        }
+      }
+    },
+    "6c638834fba5f95587f0c1d62e35a4758a5a250df8ea6f0562d9daed6ba4a8b0": {
+      "2023-05-22T13:38:11.000Z": {
+        "name": "[CRC20-MINT] Mint Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: a1ab9810ea03f53a9c43a44d00cbaf12a7b893650e161dd0dbdfa6bccb102804.",
+        "token": {
+          "category": "6c638834fba5f95587f0c1d62e35a4758a5a250df8ea6f0562d9daed6ba4a8b0",
+          "decimals": 8,
+          "symbol": "CRC20-MINT"
+        }
+      }
+    },
+    "09250822e5b76bbb53bca3953131681a302f7273bba9f0c52593e6a3ba2bc85d": {
+      "2023-05-15T12:29:56.000Z": {
+        "name": "[CRC20-MIST] MistToken",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000\\nGenesis TXID: 38b43192dc968b5077d7687fc51089cdbec99332fcdaa2695a34201998e4af36.",
+        "token": {
+          "category": "09250822e5b76bbb53bca3953131681a302f7273bba9f0c52593e6a3ba2bc85d",
+          "decimals": 2,
+          "symbol": "CRC20-MIST"
+        }
+      }
+    },
+    "b9fff7d3faeccfc9822036811e35023709ba539e366b78c00c62a1b93c3e3a78": {
+      "2023-05-15T11:32:06.000Z": {
+        "name": "[CRC20-mming] m",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 4ffac55bc719977b92babd5666ae373975640f506a28ddb0959ffd6b01e7839d.",
+        "token": {
+          "category": "b9fff7d3faeccfc9822036811e35023709ba539e366b78c00c62a1b93c3e3a78",
+          "decimals": 8,
+          "symbol": "CRC20X-6D6D696E67"
+        }
+      }
+    },
+    "e9d2c6241dde3a6f2c4dcc190fd3b7a7acb7c1091decfda470998f7639a973fc": {
+      "2023-05-22T10:24:00.000Z": {
+        "name": "[CRC20-MONEY] MONEY",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 210000000000000\\nGenesis TXID: 9daec0b5db73867d86665eb028866436fe3426238f20a04bfb60807c99e7a679.",
+        "token": {
+          "category": "e9d2c6241dde3a6f2c4dcc190fd3b7a7acb7c1091decfda470998f7639a973fc",
+          "decimals": 8,
+          "symbol": "CRC20-MONEY"
+        }
+      }
+    },
+    "1a05beaaaacdafe8e69d954b935b684d75e3360b34d22143d0edd9c8af155062": {
+      "2023-05-21T10:57:28.000Z": {
+        "name": "[CRC20-MOON] MOON",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 1b868d1f70fea907b0b0eccb7fd55bba553308d410d6cf194f275c2ec1521df0.",
+        "token": {
+          "category": "1a05beaaaacdafe8e69d954b935b684d75e3360b34d22143d0edd9c8af155062",
+          "decimals": 8,
+          "symbol": "CRC20-MOON"
+        }
+      }
+    },
+    "1364104430dbd7f0ad36d4e9224cfb9c3a5f98db3ee70435d947b2e246a351ae": {
+      "2023-05-22T16:01:43.000Z": {
+        "name": "[CRC20-moon] 2",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 210000000000000\\nGenesis TXID: 6d974382fd421ca4ce97a0157a1e0b27cccdfd20310d6ebe862d36806eb01ff4.",
+        "token": {
+          "category": "1364104430dbd7f0ad36d4e9224cfb9c3a5f98db3ee70435d947b2e246a351ae",
+          "decimals": 8,
+          "symbol": "CRC20X-6D6F6F6E"
+        }
+      }
+    },
+    "96c64af84cee1e60c0ee8b9c9bdd309d6f94043e0aeeed38a546a47f314e0f6a": {
+      "2023-05-22T13:38:11.000Z": {
+        "name": "[CRC20-MUSK] MUSK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 79f9ae754ec6b2a501de3eb0edf484ecdc3c5a59ed4f34b063fc4e0c60ddcb60.",
+        "token": {
+          "category": "96c64af84cee1e60c0ee8b9c9bdd309d6f94043e0aeeed38a546a47f314e0f6a",
+          "decimals": 8,
+          "symbol": "CRC20-MUSK"
+        }
+      }
+    },
+    "b248fe7a71364d497ae0c6b8b0ae7a5434231ae8ad09bc7f094de9e32c47e538": {
+      "2023-06-19T03:18:31.000Z": {
+        "name": "[CRC20-MyCRC20] My CRC20",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7ea4e3ec9f23a4bb1b1f8add44d6eef568f4bbf5b808802a2a20174829aaa666.",
+        "token": {
+          "category": "b248fe7a71364d497ae0c6b8b0ae7a5434231ae8ad09bc7f094de9e32c47e538",
+          "decimals": 8,
+          "symbol": "CRC20X-4D794352433230"
+        }
+      }
+    },
+    "a6d5f57ab03f69aa4c3a433601d6cfff1a9f9bcac8d6e0de04a138cd805db286": {
+      "2023-06-19T02:52:31.000Z": {
+        "name": "[CRC20-MYERC20] MY ERC20",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 4eb119a5cb030ac86e3ac0658d357873c90af929140b8a5a77147dbb4bf4e962.",
+        "token": {
+          "category": "a6d5f57ab03f69aa4c3a433601d6cfff1a9f9bcac8d6e0de04a138cd805db286",
+          "decimals": 8,
+          "symbol": "CRC20-MYERC20"
+        }
+      }
+    },
+    "877af04df735f554cdc390778212d61b7353814c08e85dc5c8f818788ec69484": {
+      "2023-05-15T12:09:36.000Z": {
+        "name": "[CRC20-NAKA] nakamoto",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: fffef4a7a2f700a6e5d32a1caa0f4bd9b18ae0edb98bc323222437cc259ba141.",
+        "token": {
+          "category": "877af04df735f554cdc390778212d61b7353814c08e85dc5c8f818788ec69484",
+          "decimals": 8,
+          "symbol": "CRC20-NAKA"
+        }
+      }
+    },
+    "9c6ce5315c7ef4e3c1d3f9ec3de245059f1ddf6348eacef4deda9f1f4378738f": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-NALS] NALS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 72db5ece7639d090f33e2798355630096d8d5ba8d2d26701fbe189ed37f62dea.",
+        "token": {
+          "category": "9c6ce5315c7ef4e3c1d3f9ec3de245059f1ddf6348eacef4deda9f1f4378738f",
+          "decimals": 8,
+          "symbol": "CRC20-NALS"
+        }
+      }
+    },
+    "b3d4f2a85c0bd2b3752e0e3933cdeff7ab07ebedf47fc287aae4b99c3ecfede9": {
+      "2023-05-30T15:39:23.000Z": {
+        "name": "[CRC20-NB] NB",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: e928599728db5518c0d18fadcdca1737fa618ab61ae9bc410ed4031ed8fd7edc.",
+        "token": {
+          "category": "b3d4f2a85c0bd2b3752e0e3933cdeff7ab07ebedf47fc287aae4b99c3ecfede9",
+          "decimals": 8,
+          "symbol": "CRC20-NB"
+        }
+      }
+    },
+    "b4a63aed14d39dad887625ad9e5a3675708846f29820b01e01f16d0fb182e3c8": {
+      "2023-06-19T05:21:29.000Z": {
+        "name": "[CRC20-NEW] New",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: fc06bd3b0cc8c29eff8f861e54d95282f293591ea55998b2eb7b6fd8555d6cd3.",
+        "token": {
+          "category": "b4a63aed14d39dad887625ad9e5a3675708846f29820b01e01f16d0fb182e3c8",
+          "decimals": 8,
+          "symbol": "CRC20-NEW"
+        }
+      }
+    },
+    "cf300b7f2f1127fcdca0faf9cd73fa436f245b6b0d15675c264781ac94e492b5": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-NEWS] NEWS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: f25768f942ae836506b1e91c0119001475f1c86460987aa7fc2161890b0ef48b.",
+        "token": {
+          "category": "cf300b7f2f1127fcdca0faf9cd73fa436f245b6b0d15675c264781ac94e492b5",
+          "decimals": 8,
+          "symbol": "CRC20-NEWS"
+        }
+      }
+    },
+    "2f2c6af3d1a30b623b3525a27c2d304ed38af7e6cec871316c7f3373cdccd1d9": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-NFT] NFT",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 11144f48a47fedb440a94757787f4fe2b3a5987f4d0cc773e15973cf2de262b0.",
+        "token": {
+          "category": "2f2c6af3d1a30b623b3525a27c2d304ed38af7e6cec871316c7f3373cdccd1d9",
+          "decimals": 8,
+          "symbol": "CRC20-NFT"
+        }
+      }
+    },
+    "6da773808c547e765541d632d30d2bce899da78a3167fafd82feaaa465671562": {
+      "2023-06-01T09:49:14.000Z": {
+        "name": "[CRC20-NIUB] NIUB",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: d007ebe67de75a00cb761684a39bed6f6a86a478c94c12b81428e945011ee633.",
+        "token": {
+          "category": "6da773808c547e765541d632d30d2bce899da78a3167fafd82feaaa465671562",
+          "decimals": 8,
+          "symbol": "CRC20-NIUB"
+        }
+      }
+    },
+    "25542ef8744620f19e2c1877aed062c506893d3764b282609bf5b8e31aecdf1b": {
+      "2023-06-21T06:15:40.000Z": {
+        "name": "[CRC20-NNA] Nana token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 160b703993fe2f792629c5ba9c464c63ac0e6fe8c302c2bffea7582a69440288.",
+        "token": {
+          "category": "25542ef8744620f19e2c1877aed062c506893d3764b282609bf5b8e31aecdf1b",
+          "decimals": 8,
+          "symbol": "CRC20-NNA"
+        }
+      }
+    },
+    "3f7a3259e2daf31af3349a24f465b6f878441fcc167fbcb967b7f71cd63f8845": {
+      "2023-06-22T01:07:26.000Z": {
+        "name": "[CRC20-NOVA] NOVA",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 1bcd89a9e1e9a5d82758da8baf4f4ceecdea7f67fe27280fd97cc5d79f973d5c.",
+        "token": {
+          "category": "3f7a3259e2daf31af3349a24f465b6f878441fcc167fbcb967b7f71cd63f8845",
+          "decimals": 8,
+          "symbol": "CRC20-NOVA"
+        }
+      }
+    },
+    "29134841fbf96d5c34116864a2f1c3b787a31665e1e71f58e5b7d2e93aac1ba6": {
+      "2023-05-22T09:55:35.000Z": {
+        "name": "[CRC20-OBCH] OBCH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 935fec4aee47cd601186a1fb3c949642d1cf48220bfd3cacc361f5a30d48f51d.",
+        "token": {
+          "category": "29134841fbf96d5c34116864a2f1c3b787a31665e1e71f58e5b7d2e93aac1ba6",
+          "decimals": 8,
+          "symbol": "CRC20-OBCH"
+        }
+      }
+    },
+    "4c2841a4121828e979b876b8ad228c493c28ffe5dc4459236b52cd967f4340bf": {
+      "2023-05-26T22:20:10.000Z": {
+        "name": "[CRC20-OKEX] OKEX",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2000000000000\\nGenesis TXID: 22f11f6c6a26a877dfbb2657a6f14b6950433df15ad166273122c2e63ca03dff.",
+        "token": {
+          "category": "4c2841a4121828e979b876b8ad228c493c28ffe5dc4459236b52cd967f4340bf",
+          "decimals": 8,
+          "symbol": "CRC20-OKEX"
+        }
+      }
+    },
+    "52a15ec68fc429c449ea2e10cd06c24a207310d3bc4c83395004e2b3778d73d8": {
+      "2023-05-22T11:02:44.000Z": {
+        "name": "[CRC20-OKX] OKX",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 8880\\nGenesis TXID: 1af62991a7ba6b2e91538d3be389e1970e03230d020be0543505e92af418197d.",
+        "token": {
+          "category": "52a15ec68fc429c449ea2e10cd06c24a207310d3bc4c83395004e2b3778d73d8",
+          "decimals": 1,
+          "symbol": "CRC20-OKX"
+        }
+      }
+    },
+    "395c8aa4d87824c67aa7146d950744d673eadb7139dd5dbb1443183b482967a1": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-OMNI] OMNI",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 9d59cd3482ec93110d49dae5e62e7e56b907071ef31c22d3f65bd34aabae7683.",
+        "token": {
+          "category": "395c8aa4d87824c67aa7146d950744d673eadb7139dd5dbb1443183b482967a1",
+          "decimals": 8,
+          "symbol": "CRC20-OMNI"
+        }
+      }
+    },
+    "cf4c14eb00d97bca4eadee5012a45ba59cf2b0bb007bca2e6e99a8471e41ba4b": {
+      "2023-05-22T10:24:51.000Z": {
+        "name": "[CRC20-ORB] ORB",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 77d5430ad803ec763641ed5845aa7270c08888a0f03b167dff5ee3cbd3ec98a5.",
+        "token": {
+          "category": "cf4c14eb00d97bca4eadee5012a45ba59cf2b0bb007bca2e6e99a8471e41ba4b",
+          "decimals": 8,
+          "symbol": "CRC20-ORB"
+        }
+      }
+    },
+    "4ae3f01600f5ae1070ff9d8f6ac61e4c3f35c316f0c043c435b347d749ce6a13": {
+      "2023-05-22T13:57:43.000Z": {
+        "name": "[CRC20-ord] ord",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 442a902ac79a7b0c651674cadd8f58b1b5ed6d5b3b1671639c11c552b978a77c.",
+        "token": {
+          "category": "4ae3f01600f5ae1070ff9d8f6ac61e4c3f35c316f0c043c435b347d749ce6a13",
+          "decimals": 8,
+          "symbol": "CRC20X-6F7264"
+        }
+      }
+    },
+    "bd7cc76bfbb5fc5e264e1476a7faa645bc8d0870b6d71a167394e7def01d3e13": {
+      "2023-05-21T10:57:28.000Z": {
+        "name": "[CRC20-ordi] ordi",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: d44c13fa506d0460cfcedb346f6cda7d93d5ed073a90f7c79d069c54d38f6fae.",
+        "token": {
+          "category": "bd7cc76bfbb5fc5e264e1476a7faa645bc8d0870b6d71a167394e7def01d3e13",
+          "decimals": 8,
+          "symbol": "CRC20X-6F726469"
+        }
+      }
+    },
+    "3e678cee5199e483d1a0cce894228e12abed64f96a7c7d2388db9c6bc0111b7f": {
+      "2023-05-17T23:33:14.000Z": {
+        "name": "[CRC20-ORDI] ORDI",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 18b2c0ae1e817d687574cec43d05ca4b8e94dd70e7b55b8e0d9458ad1d7080bd.",
+        "token": {
+          "category": "3e678cee5199e483d1a0cce894228e12abed64f96a7c7d2388db9c6bc0111b7f",
+          "decimals": 8,
+          "symbol": "CRC20-ORDI"
+        }
+      }
+    },
+    "d7dc26bca92492ef88d3a2f031a0784673df376a65b1a00ea946b165dee4a11f": {
+      "2023-05-22T13:02:47.000Z": {
+        "name": "[CRC20-ordinals] ordinals",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 3cf3f901b6c1469ea9aa958b9235edc1ecc2ae58c177ab861c955b611035543a.",
+        "token": {
+          "category": "d7dc26bca92492ef88d3a2f031a0784673df376a65b1a00ea946b165dee4a11f",
+          "decimals": 8,
+          "symbol": "CRC20X-6F7264696E616C73"
+        }
+      }
+    },
+    "f9e41f2b49e1672849301e5da010277994d23da317c4453d7e138fe1c791dd77": {
+      "2023-05-23T11:24:49.000Z": {
+        "name": "[CRC20-ORDINALS] ORDINALS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 5b904c440547ee3a5a2ec1997b8056a7e4bcc9a4602d217c927758ec37aceff2.",
+        "token": {
+          "category": "f9e41f2b49e1672849301e5da010277994d23da317c4453d7e138fe1c791dd77",
+          "decimals": 8,
+          "symbol": "CRC20-ORDINALS"
+        }
+      }
+    },
+    "d5c62708cbcb7164b7e9e8a29d1617dc652395283d36308e71035c79e864e79b": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-ORDS] ORDS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: da2a952e2ede1262960ed579ed8b6818e95b1377e16080fba3fb11a6a01e5901.",
+        "token": {
+          "category": "d5c62708cbcb7164b7e9e8a29d1617dc652395283d36308e71035c79e864e79b",
+          "decimals": 8,
+          "symbol": "CRC20-ORDS"
+        }
+      }
+    },
+    "22c5fff78e621c5135c3f0c0611ec1c6bc7c9513a120f0e0ad009cbba54cb755": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-OSHI] OSHI",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: a2f6b3aada04d975e7ea2074856eeae6fc631189d4021d407012bcf11583a322.",
+        "token": {
+          "category": "22c5fff78e621c5135c3f0c0611ec1c6bc7c9513a120f0e0ad009cbba54cb755",
+          "decimals": 8,
+          "symbol": "CRC20-OSHI"
+        }
+      }
+    },
+    "a429a88659febc427b8e06a337ea06ab37fb7190b6cacc926808084797ebed21": {
+      "2023-05-22T17:18:25.000Z": {
+        "name": "[CRC20-PANDA] PANDA",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 29c93dfdd11d8e5b17a6c738a446a70ebc41717c38c2ba52086c9231c91d18b3.",
+        "token": {
+          "category": "a429a88659febc427b8e06a337ea06ab37fb7190b6cacc926808084797ebed21",
+          "decimals": 8,
+          "symbol": "CRC20-PANDA"
+        }
+      }
+    },
+    "5630b649afad3667466f014687ddd2445dd267096e4fd9dbff12a417d215fae5": {
+      "2023-05-22T16:56:01.000Z": {
+        "name": "[CRC20-panda] panda",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000000\\nGenesis TXID: b0b32f4793366c0ddd54bb8fc7dc3596459a9223b7f978720f57907e5f265b4b.",
+        "token": {
+          "category": "5630b649afad3667466f014687ddd2445dd267096e4fd9dbff12a417d215fae5",
+          "decimals": 8,
+          "symbol": "CRC20X-70616E6461"
+        }
+      }
+    },
+    "9d9d24ebd8da75e194e95d02208a21208477fb3984bae295e8bbd7fd53d1bf81": {
+      "2023-06-14T03:04:29.000Z": {
+        "name": "[CRC20-PC] PEPE CASH ",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 36f43e2a4b76bcab179cd115eea572e7d1511d2e24cadd04fd2001dbe19f201d.",
+        "token": {
+          "category": "9d9d24ebd8da75e194e95d02208a21208477fb3984bae295e8bbd7fd53d1bf81",
+          "decimals": 8,
+          "symbol": "CRC20-PC"
+        }
+      }
+    },
+    "b2ff7900c4aee978a24d7a6b0f9d76c992cc42fbe1094890bdf18c2b0725a375": {
+      "2023-05-17T23:33:14.000Z": {
+        "name": "[CRC20-PEPE] PEPE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 146d39ad191b572801b672ffdd72b5d6f7a0747ba9aaed28eb0976b4592529b1.",
+        "token": {
+          "category": "b2ff7900c4aee978a24d7a6b0f9d76c992cc42fbe1094890bdf18c2b0725a375",
+          "decimals": 8,
+          "symbol": "CRC20-PEPE"
+        }
+      }
+    },
+    "2b75fae06916a4a6c69fe4675ef0b8d70751dcb5fcd1353f3ce5aeb8ccd0eba2": {
+      "2023-05-22T13:57:43.000Z": {
+        "name": "[CRC20-pepe] pepe",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 770f0718e3e4c400133458c0f3568250fae20818866b9d96d2ebc7fbbd96dbc1.",
+        "token": {
+          "category": "2b75fae06916a4a6c69fe4675ef0b8d70751dcb5fcd1353f3ce5aeb8ccd0eba2",
+          "decimals": 8,
+          "symbol": "CRC20X-70657065"
+        }
+      }
+    },
+    "18fde229d40dd8d0b6c20cda88b861d578c330f0afecf64bc6be1cc77a974762": {
+      "2023-05-26T10:31:29.000Z": {
+        "name": "[CRC20-PERFECT] ",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 70c6072abb6115bfd76097864a8d0a52006b3c78114de48382c30ad9eff8bcf0.",
+        "token": {
+          "category": "18fde229d40dd8d0b6c20cda88b861d578c330f0afecf64bc6be1cc77a974762",
+          "decimals": 8,
+          "symbol": "CRC20-PERFECT"
+        }
+      }
+    },
+    "c25ef127fcbe7134b6573bd631e1da646445e8866cdf78c8f511f882b36fb53a": {
+      "2023-05-26T11:32:35.000Z": {
+        "name": "[CRC20-Perfect] ()",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7ad0cc0eb47a9a36caf2de80744ba03d667b264a4e6103e8b5b254afbc0c4e0d.",
+        "token": {
+          "category": "c25ef127fcbe7134b6573bd631e1da646445e8866cdf78c8f511f882b36fb53a",
+          "decimals": 8,
+          "symbol": "CRC20X-50657266656374"
+        }
+      }
+    },
+    "8525c1053e99880190f6f8a6666516d16c63bb1c016c257862a07c2597b07f7e": {
+      "2023-06-05T22:50:43.000Z": {
+        "name": "[CRC20-PHII]   The Golden Ratio (symbol is the Greek letter \"phi\") and a special number supplai equal to 16180339",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 161803390\\nGenesis TXID: 6070a5d2934fab60cedc5277ea0a3b2c2d9e61d57623b3f81ec3300ee284ac04.",
+        "token": {
+          "category": "8525c1053e99880190f6f8a6666516d16c63bb1c016c257862a07c2597b07f7e",
+          "decimals": 1,
+          "symbol": "CRC20-PHII"
+        }
+      }
+    },
+    "c479a0ed1093be3d74663fc4da3b436ea0ac3fc82f4d57ca369d04c5f6f3216c": {
+      "2023-06-05T21:55:02.000Z": {
+        "name": "[CRC20-PHIT] Golden ratio ",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 16180339880\\nGenesis TXID: 62ede6cd393ae92cfa448224c88e07f70d10a42ede46b6d7ad7def4a4a87497d.",
+        "token": {
+          "category": "c479a0ed1093be3d74663fc4da3b436ea0ac3fc82f4d57ca369d04c5f6f3216c",
+          "decimals": 1,
+          "symbol": "CRC20-PHIT"
+        }
+      }
+    },
+    "75734ac3242ddc6a0f1eee63a7772aa1e4739e8c2052bc383933e54b8556d5e6": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-PIZA] PIZA",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: fa987c3d4ca876ee606f94ee4faf5eeb7d608949288ae875dbc87c1dc78cea5b.",
+        "token": {
+          "category": "75734ac3242ddc6a0f1eee63a7772aa1e4739e8c2052bc383933e54b8556d5e6",
+          "decimals": 8,
+          "symbol": "CRC20-PIZA"
+        }
+      }
+    },
+    "fee3314fa635bf8e7d3addb4777941df815ad96b31891adbde1998bbd0b699cb": {
+      "2023-05-15T12:09:36.000Z": {
+        "name": "[CRC20-PIZZA] pizza",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 25955b7bbd2cda18269e8e4e528791f0d4af308cd630d925ca43bc78243211b3.",
+        "token": {
+          "category": "fee3314fa635bf8e7d3addb4777941df815ad96b31891adbde1998bbd0b699cb",
+          "decimals": 8,
+          "symbol": "CRC20-PIZZA"
+        }
+      }
+    },
+    "bb89e35f937d55f74ee9630679adc3f00ae659da7386be7d94dad45d1b684243": {
+      "2023-05-22T14:33:04.000Z": {
+        "name": "[CRC20-PLZZA] PLZZA",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: e55bbabb95d92b353b91f7cf4d9d9c60b2e82af56508701ec2f3310de20f9d18.",
+        "token": {
+          "category": "bb89e35f937d55f74ee9630679adc3f00ae659da7386be7d94dad45d1b684243",
+          "decimals": 8,
+          "symbol": "CRC20-PLZZA"
+        }
+      }
+    },
+    "42dfe4d919af86528aa463687ec095e4639564cbe3769ac9b408bb7d0cb3a27c": {
+      "2023-05-15T12:09:36.000Z": {
+        "name": "[CRC20-POW] pow",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 6c2c70a175b2c3a5b0943fecac5ae4a816ba2569c8d3ef5ffb16f316d8f14288.",
+        "token": {
+          "category": "42dfe4d919af86528aa463687ec095e4639564cbe3769ac9b408bb7d0cb3a27c",
+          "decimals": 8,
+          "symbol": "CRC20-POW"
+        }
+      }
+    },
+    "8cdc9c47eebaa4cdcdf6fa7ea7b9bc82c8e2ed314076765502c789b1642db293": {
+      "2023-06-13T12:35:52.000Z": {
+        "name": "[CRC20-PPT] Pepe Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 8d97d1726f994f5d3bac43e107a615d2b87c207bb3e393e7ee21d7315c3001ad.",
+        "token": {
+          "category": "8cdc9c47eebaa4cdcdf6fa7ea7b9bc82c8e2ed314076765502c789b1642db293",
+          "decimals": 8,
+          "symbol": "CRC20-PPT"
+        }
+      }
+    },
+    "b625b84e69f7f43b75ddee5bf274e3d90b4e7888cfb882300cdb53272ba8484c": {
+      "2023-05-16T09:51:58.000Z": {
+        "name": "[CRC20-punk] CryptoPunks",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7edaffc149fc763c051a197bcec45b0dcfa0d06d52270489dfddc3cb352f9188.",
+        "token": {
+          "category": "b625b84e69f7f43b75ddee5bf274e3d90b4e7888cfb882300cdb53272ba8484c",
+          "decimals": 8,
+          "symbol": "CRC20X-70756E6B"
+        }
+      }
+    },
+    "e86dbf03855fbda114327c020a9730e47f92223d512b18194775678daff49f98": {
+      "2023-05-16T10:49:47.000Z": {
+        "name": "[CRC20-PUNK] CryptoPunks",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: f3d1b1380c60d4095b1154bdf5476e08273b6b68d487b1c1a9faf9e70786a966.",
+        "token": {
+          "category": "e86dbf03855fbda114327c020a9730e47f92223d512b18194775678daff49f98",
+          "decimals": 8,
+          "symbol": "CRC20-PUNK"
+        }
+      }
+    },
+    "93c4ce023ec24d2162d9f4baa09eb584d87278d30248481dae9508e6f23cbb08": {
+      "2023-05-22T13:57:43.000Z": {
+        "name": "[CRC20-punks] punks",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: f4123042e388b7715dd7b5f1f0e2f9501d30ec0d92b638df133a7e6fee9abf6c.",
+        "token": {
+          "category": "93c4ce023ec24d2162d9f4baa09eb584d87278d30248481dae9508e6f23cbb08",
+          "decimals": 8,
+          "symbol": "CRC20X-70756E6B73"
+        }
+      }
+    },
+    "e2766458a0d74fb90ab73d1f3922bda50430f12becde50065ba3799e74339be6": {
+      "2023-05-22T18:06:29.000Z": {
+        "name": "[CRC20-QAUN] hongmeng",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2000000000000000\\nGenesis TXID: 11399d73186c16288715cf3cdd17647dd516f39510b8772a6c9900cde2042706.",
+        "token": {
+          "category": "e2766458a0d74fb90ab73d1f3922bda50430f12becde50065ba3799e74339be6",
+          "decimals": 8,
+          "symbol": "CRC20-QAUN"
+        }
+      }
+    },
+    "2c340d2893ffba7891b00f396a472ea6d59c07383ced3781ac9a3a3322ce3947": {
+      "2023-05-22T09:12:13.000Z": {
+        "name": "[CRC20-read] read",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: daedc702e1dfd98d5b14f355aa0bda873c77a5ed013c45b3e83d49162a13623c.",
+        "token": {
+          "category": "2c340d2893ffba7891b00f396a472ea6d59c07383ced3781ac9a3a3322ce3947",
+          "decimals": 8,
+          "symbol": "CRC20X-72656164"
+        }
+      }
+    },
+    "255ce29cf51b8a779ffd968045d3b4830a9de068f48f287996d544e87a589fb8": {
+      "2023-05-22T13:38:11.000Z": {
+        "name": "[CRC20-RICH] RICH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 696bec22e330ee24ee13fb996f36a34fa3e65449f2a74d632c24736027d4c37f.",
+        "token": {
+          "category": "255ce29cf51b8a779ffd968045d3b4830a9de068f48f287996d544e87a589fb8",
+          "decimals": 8,
+          "symbol": "CRC20-RICH"
+        }
+      }
+    },
+    "99c9e4636b0b276749b1a860755f3828cb6a5942e9d607bf06658d827308d4ad": {
+      "2023-06-19T11:17:29.000Z": {
+        "name": "[CRC20-RIZE] Rise ",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 3d3960425c58b417a853488d9667663271824fa04453859d23a53d5ecb34aa93.",
+        "token": {
+          "category": "99c9e4636b0b276749b1a860755f3828cb6a5942e9d607bf06658d827308d4ad",
+          "decimals": 8,
+          "symbol": "CRC20-RIZE"
+        }
+      }
+    },
+    "35c36f1993d45ecdebeb48b61862cca2a7272aa129cc53d0a5952de710199440": {
+      "2023-06-08T20:45:11.000Z": {
+        "name": "[CRC20-RMZ] Xolos",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000\\nGenesis TXID: ed9bdabc52d900d95b5c0da971f830d709ddf8da9e82a5f347c0b0df0ddac8de.",
+        "token": {
+          "category": "35c36f1993d45ecdebeb48b61862cca2a7272aa129cc53d0a5952de710199440",
+          "decimals": 1,
+          "symbol": "CRC20-RMZ"
+        }
+      }
+    },
+    "65ae69aa06c4d38e2c35c0b36efa4000818324310a7006822e80e0a70bbf9760": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-ROCK] ROCK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: c449dd7240607462156d5f037d48dfca2488f4af10857e7df25b51e8a6173637.",
+        "token": {
+          "category": "65ae69aa06c4d38e2c35c0b36efa4000818324310a7006822e80e0a70bbf9760",
+          "decimals": 8,
+          "symbol": "CRC20-ROCK"
+        }
+      }
+    },
+    "e076eba8e91754e7f7c346e42020ab7bcd65fb2265a64823406c04b37f633222": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-RUG] RUG",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 205cb33715a255d400b199a1fe524573fa8ba38a5c038ebce073036be1ccb221.",
+        "token": {
+          "category": "e076eba8e91754e7f7c346e42020ab7bcd65fb2265a64823406c04b37f633222",
+          "decimals": 8,
+          "symbol": "CRC20-RUG"
+        }
+      }
+    },
+    "631e3ad824a9519a840e16ad59940a8e51cd99207faede28494a7fc66eceea7f": {
+      "2023-05-16T08:01:43.000Z": {
+        "name": "[CRC20-RUSH] RUSH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 500000000000000\\nGenesis TXID: 0df8b0d8e5c0e535641bbd37f03a7840ea1968b4e6c351f7c048271174da0ccb.",
+        "token": {
+          "category": "631e3ad824a9519a840e16ad59940a8e51cd99207faede28494a7fc66eceea7f",
+          "decimals": 8,
+          "symbol": "CRC20-RUSH"
+        }
+      }
+    },
+    "5bdb2c13fc53b368221a7cba40c22bee8220b8b34475142ab8f92c5253f62788": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-SAFE] SAFE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 8fd058981bc05153cd7ec88c1ce725e0ee7137a1dec89c3d9f9f8ee03a9d2fe4.",
+        "token": {
+          "category": "5bdb2c13fc53b368221a7cba40c22bee8220b8b34475142ab8f92c5253f62788",
+          "decimals": 8,
+          "symbol": "CRC20-SAFE"
+        }
+      }
+    },
+    "de71212ca4bf53c0fb554c601d7fdefe62f38a82cc4f1307d8e194fff9db7367": {
+      "2023-05-22T16:01:43.000Z": {
+        "name": "[CRC20-sato] sato",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 33801b0da350528eae8e1cfd1c16bfec4382217b35a65b5ccaddebe9bac1b11f.",
+        "token": {
+          "category": "de71212ca4bf53c0fb554c601d7fdefe62f38a82cc4f1307d8e194fff9db7367",
+          "decimals": 8,
+          "symbol": "CRC20X-7361746F"
+        }
+      }
+    },
+    "a9a0cac84cb31834bc5505dab3a96f9f8e5a4497a2632606f8ebd6ccaf2d9f14": {
+      "2023-05-22T13:02:47.000Z": {
+        "name": "[CRC20-SATO] SATO",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: fb6b4dbec8b30cac471f137ee7ddccadfeb7bb57436461fd268150d29646ca50.",
+        "token": {
+          "category": "a9a0cac84cb31834bc5505dab3a96f9f8e5a4497a2632606f8ebd6ccaf2d9f14",
+          "decimals": 8,
+          "symbol": "CRC20-SATO"
+        }
+      }
+    },
+    "534962543099918b9707af57ddd79e6af4c1cf30aa1144868ea64bbed01d2ecd": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-SATOSHI] SATOSHI",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 2778fc54fdd7ef8bc44f8956d8da9e0adfe30d335c500f05ed4594d355725782.",
+        "token": {
+          "category": "534962543099918b9707af57ddd79e6af4c1cf30aa1144868ea64bbed01d2ecd",
+          "decimals": 8,
+          "symbol": "CRC20-SATOSHI"
+        }
+      }
+    },
+    "f39ea8ccc073b2dd0e4c021bc97a2f0b483161519b3b6cd3b33c35cf7a85ad15": {
+      "2023-05-22T16:01:43.000Z": {
+        "name": "[CRC20-sats] sats",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: c2486e06157967e2195373bcb679385f181a485afb66d411f4cac3debec9a076.",
+        "token": {
+          "category": "f39ea8ccc073b2dd0e4c021bc97a2f0b483161519b3b6cd3b33c35cf7a85ad15",
+          "decimals": 8,
+          "symbol": "CRC20X-73617473"
+        }
+      }
+    },
+    "7f97a5a522e16fc10770e9e5d52bb47463dcc360159dedccdaa0e02c7300b3c2": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-SATS] SATS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: ebca1832554143b19390e40bb7caea0afac41ac5238e4db747a52db95d72684e.",
+        "token": {
+          "category": "7f97a5a522e16fc10770e9e5d52bb47463dcc360159dedccdaa0e02c7300b3c2",
+          "decimals": 8,
+          "symbol": "CRC20-SATS"
+        }
+      }
+    },
+    "ee08d4a886fe37790153546873ccf162550a8bbc13f9faf8cff0ccc13ea43e8f": {
+      "2023-05-22T15:01:04.000Z": {
+        "name": "[CRC20-SBCH] Smart Bitcoin Cash Token",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 8375638375bfc270fd9a6afeb8596c1d5f149a0b3ce58fd76a6e269701c5c601.",
+        "token": {
+          "category": "ee08d4a886fe37790153546873ccf162550a8bbc13f9faf8cff0ccc13ea43e8f",
+          "decimals": 8,
+          "symbol": "CRC20-SBCH"
+        }
+      }
+    },
+    "9370cb6527cbcb54b1ace3afdd8a50f1c9700ca97849d32bb4bebe11f7ece9e0": {
+      "2023-05-21T12:50:14.000Z": {
+        "name": "[CRC20-SCAL] SCALING COIN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 6848441f7dcf7e42247c4e19616d5090c90553258a9b96811b44ad0944b8f47f.",
+        "token": {
+          "category": "9370cb6527cbcb54b1ace3afdd8a50f1c9700ca97849d32bb4bebe11f7ece9e0",
+          "decimals": 8,
+          "symbol": "CRC20-SCAL"
+        }
+      }
+    },
+    "7bed8142a31f60471fd4f90dfc3e41961c330f6115693e78042e68f7f18c6d2c": {
+      "2023-05-22T17:13:29.000Z": {
+        "name": "[CRC20-Scaling] Scaling",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 23b329b58de15041d5544aadc8bb317b24aa058022d72aac667e8deec1480826.",
+        "token": {
+          "category": "7bed8142a31f60471fd4f90dfc3e41961c330f6115693e78042e68f7f18c6d2c",
+          "decimals": 8,
+          "symbol": "CRC20X-5363616C696E67"
+        }
+      }
+    },
+    "8872e3ae636d4422a8408cc35733bbf460421579d05f3783bee4d37fd359bed3": {
+      "2023-05-22T09:12:13.000Z": {
+        "name": "[CRC20-scaling] scaling",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 65a7833686d2b9441bbef32a115f6d1d7c162e8924f463ef709264f8d37ef899.",
+        "token": {
+          "category": "8872e3ae636d4422a8408cc35733bbf460421579d05f3783bee4d37fd359bed3",
+          "decimals": 8,
+          "symbol": "CRC20X-7363616C696E67"
+        }
+      }
+    },
+    "5d0560affe542601a09f0a0f544343b92327caf9df6afc374e00856c6318a280": {
+      "2023-05-22T12:55:29.000Z": {
+        "name": "[CRC20-SCALING] SCALING",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 55e3f3857024a6e4b1bd399e0e049650cc9f91ead74531d7dd4de15a99d0d0b6.",
+        "token": {
+          "category": "5d0560affe542601a09f0a0f544343b92327caf9df6afc374e00856c6318a280",
+          "decimals": 8,
+          "symbol": "CRC20-SCALING"
+        }
+      }
+    },
+    "89af1e06355dfa4264dfcef3eaa351f4ca2350688e2e5f03195ca6f1c858341d": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-SEC] SEC",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 0b716ffaa573534485a127d596043166f8adea703ccf9dcdcc77a54820706dac.",
+        "token": {
+          "category": "89af1e06355dfa4264dfcef3eaa351f4ca2350688e2e5f03195ca6f1c858341d",
+          "decimals": 8,
+          "symbol": "CRC20-SEC"
+        }
+      }
+    },
+    "c579b5d16a7c11f1b660fb5d670aa59419dd34b00d507f4634edfa7d49bddbd9": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-SEXY] SEXY",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 821af5d4d887ac41a5ef293ecde1dcd450df3f92fb174d2837bc93780121364e.",
+        "token": {
+          "category": "c579b5d16a7c11f1b660fb5d670aa59419dd34b00d507f4634edfa7d49bddbd9",
+          "decimals": 8,
+          "symbol": "CRC20-SEXY"
+        }
+      }
+    },
+    "f2264e233034ce4059bdb3a97888e838c94ea6c6cd7034f61bd36b6f576c4024": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-SHARK] SHARK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: f82b502b95847689454dc50dbe13fa928f758394122cb7fd5b7144b495c0059a.",
+        "token": {
+          "category": "f2264e233034ce4059bdb3a97888e838c94ea6c6cd7034f61bd36b6f576c4024",
+          "decimals": 8,
+          "symbol": "CRC20-SHARK"
+        }
+      }
+    },
+    "86ae1fe6971985902b3bd4a43bed7483d2fbbb7ca032097269d34c2e8aee6fe5": {
+      "2023-05-21T11:13:40.000Z": {
+        "name": "[CRC20-SHIB] SHIB",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7c94c9786d1e015e4ba8590ae669f3c86b37322165cc47dd13e37322f7f87230.",
+        "token": {
+          "category": "86ae1fe6971985902b3bd4a43bed7483d2fbbb7ca032097269d34c2e8aee6fe5",
+          "decimals": 8,
+          "symbol": "CRC20-SHIB"
+        }
+      }
+    },
+    "2e4430f6483046d331b0f589555e00c3d970b13fb95e572534ce7ee4c10ae449": {
+      "2023-05-26T06:02:29.000Z": {
+        "name": "[CRC20-shibcash] shibcash",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: 28a8c0c04f7df8058b8ea6c9d295242867d1ccf999623f6a04d195f78d39f876.",
+        "token": {
+          "category": "2e4430f6483046d331b0f589555e00c3d970b13fb95e572534ce7ee4c10ae449",
+          "decimals": 8,
+          "symbol": "CRC20X-7368696263617368"
+        }
+      }
+    },
+    "1e8e718b7258f7505b73c5fdc0860c570fc2950fb8f56b80940de789bc71d2d1": {
+      "2023-05-22T13:57:43.000Z": {
+        "name": "[CRC20-shit] shit",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: bd35f83285c58a8a970294c4f3eb5bfe10bc260cb1c96cbf6f5807271d33084b.",
+        "token": {
+          "category": "1e8e718b7258f7505b73c5fdc0860c570fc2950fb8f56b80940de789bc71d2d1",
+          "decimals": 8,
+          "symbol": "CRC20X-73686974"
+        }
+      }
+    },
+    "b1c1acacae21f005ae42ce7a5792748450db1ce163ccefe2dd092b2550cd692e": {
+      "2023-05-21T17:20:59.000Z": {
+        "name": "[CRC20-SHIT] SHIT",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 8abc4e4d37f7409b60dfaba9c869921f0e8cdd15577b548fde2e55c4c2d81cf9.",
+        "token": {
+          "category": "b1c1acacae21f005ae42ce7a5792748450db1ce163ccefe2dd092b2550cd692e",
+          "decimals": 8,
+          "symbol": "CRC20-SHIT"
+        }
+      }
+    },
+    "ed3c4f234f50082272f0488b2363b013cf9b69f1116726adedbf23047dcf2418": {
+      "2023-05-29T06:48:22.000Z": {
+        "name": "[CRC20-shon] shong",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: d213102564bec270d6623558c7d2c7814e9dc40b22a6cd620e273841ee5839c1.",
+        "token": {
+          "category": "ed3c4f234f50082272f0488b2363b013cf9b69f1116726adedbf23047dcf2418",
+          "decimals": 8,
+          "symbol": "CRC20X-73686F6E"
+        }
+      }
+    },
+    "a60db4995e74ec24d80522cb4d5e80587b3c397f0979670eec09ef7da84ef4fe": {
+      "2023-06-14T08:38:15.000Z": {
+        "name": "[CRC20-SLD] SLAMDUNK TOKEN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 413025c54b62ffdb5daa7ae6db89af0eb7f2da5aa3278f0acc006cec007630a1.",
+        "token": {
+          "category": "a60db4995e74ec24d80522cb4d5e80587b3c397f0979670eec09ef7da84ef4fe",
+          "decimals": 8,
+          "symbol": "CRC20-SLD"
+        }
+      }
+    },
+    "0fb3387163022b95c049e1c5dccaddd4a68922c74af39e9392be7500c347717d": {
+      "2023-05-22T15:14:29.000Z": {
+        "name": "[CRC20-SMART] SMART",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 21000000\\nGenesis TXID: 1d618305146bd1d88c762a445f0683c9fc8d0dc2d55ec0eef1702c2a458616ea.",
+        "token": {
+          "category": "0fb3387163022b95c049e1c5dccaddd4a68922c74af39e9392be7500c347717d",
+          "decimals": 0,
+          "symbol": "CRC20-SMART"
+        }
+      }
+    },
+    "2349325d61b4aeace71bbc7e7b4b448212a879fe4b2027d9fe63eca441747fba": {
+      "2023-06-18T10:24:59.000Z": {
+        "name": "[CRC20-SRY] SORRY ",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000000\\nGenesis TXID: ac41d3d5973cb1f714b4e97cf86b145d7ba3a4c66bd697db1c6951d68eda1495.",
+        "token": {
+          "category": "2349325d61b4aeace71bbc7e7b4b448212a879fe4b2027d9fe63eca441747fba",
+          "decimals": 8,
+          "symbol": "CRC20-SRY"
+        }
+      }
+    },
+    "9ab28aff35410f7d3362e7a267940576792272ade3b34a2fb64d633db0886840": {
+      "2023-05-27T15:27:29.000Z": {
+        "name": "[CRC20-SSQ] SSQ",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 09949fac2a7ec8552d808d10f413632297d9342bf19fdf86161abb3e36b5b743.",
+        "token": {
+          "category": "9ab28aff35410f7d3362e7a267940576792272ade3b34a2fb64d633db0886840",
+          "decimals": 8,
+          "symbol": "CRC20-SSQ"
+        }
+      }
+    },
+    "74fdeb4eff6237722285266b307927be11c99294517f9096614c9ce73ab659a1": {
+      "2023-05-27T15:27:29.000Z": {
+        "name": "[CRC20-ssq] ssq",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7c76e559b383d62d6c33e5f0334815d79400cc60eec9d5c55bcf7f9cf3298023.",
+        "token": {
+          "category": "74fdeb4eff6237722285266b307927be11c99294517f9096614c9ce73ab659a1",
+          "decimals": 8,
+          "symbol": "CRC20X-737371"
+        }
+      }
+    },
+    "11b3edd658a2cb5389be158cbb807673110264818af1372811e701c8d1fc651e": {
+      "2023-06-14T23:23:33.000Z": {
+        "name": "[CRC20-TAV] THE AVENGERS",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 8e22c2bc64f23d6f94bd991e4485367f8feb074945b7d6f6ca40ca110305ed94.",
+        "token": {
+          "category": "11b3edd658a2cb5389be158cbb807673110264818af1372811e701c8d1fc651e",
+          "decimals": 8,
+          "symbol": "CRC20-TAV"
+        }
+      }
+    },
+    "548327f45d8ea815c32e3b60cc3ea8ad2120132ddf407420865502e1dd9ab161": {
+      "2023-05-15T12:29:56.000Z": {
+        "name": "[CRC20-TEST123] test123",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 21000000\\nGenesis TXID: 67dae50a85e445e95e44e2641b601b0888238ab2b5786d1838a6c73247873e29.",
+        "token": {
+          "category": "548327f45d8ea815c32e3b60cc3ea8ad2120132ddf407420865502e1dd9ab161",
+          "decimals": 8,
+          "symbol": "CRC20-TEST123"
+        }
+      }
+    },
+    "6d8ed42ca17b31eb54d5fba32b3b210df6cc389e31b98e3fedb1f463cf0a56fa": {
+      "2023-05-22T15:41:14.000Z": {
+        "name": "[CRC20-TOKEN] TOKEN",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: c8ac2e53e5aa7d207497ec5701b2465896bf62bedfe18b395773563e41b32210.",
+        "token": {
+          "category": "6d8ed42ca17b31eb54d5fba32b3b210df6cc389e31b98e3fedb1f463cf0a56fa",
+          "decimals": 8,
+          "symbol": "CRC20-TOKEN"
+        }
+      }
+    },
+    "aa5a28fb2295a8be180e28972c02c20b380d8677d33306f2cca1aa399e75a2e7": {
+      "2023-05-29T04:45:37.000Z": {
+        "name": "[CRC20-TON] Toncoin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 500000000000000\\nGenesis TXID: 54de373289896ced2cf691dc3b7b37aac040dd64a6a6d0ccd65e1edc78f81a70.",
+        "token": {
+          "category": "aa5a28fb2295a8be180e28972c02c20b380d8677d33306f2cca1aa399e75a2e7",
+          "decimals": 8,
+          "symbol": "CRC20-TON"
+        }
+      }
+    },
+    "013e5ca3265bfc79a4763f2c8e7304fec4f281bf6f0aebf215783a7adfc780b2": {
+      "2023-05-29T06:24:41.000Z": {
+        "name": "[CRC20-TRX] TRON",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 902671100000000\\nGenesis TXID: 7e4728acbdaed7bd772b6556e75dcf59c5ec917bfb6dd661973db5427b0ae4d8.",
+        "token": {
+          "category": "013e5ca3265bfc79a4763f2c8e7304fec4f281bf6f0aebf215783a7adfc780b2",
+          "decimals": 8,
+          "symbol": "CRC20-TRX"
+        }
+      }
+    },
+    "1d54388d1764b19565db9e24a4fe1e6f3c4e93592c08d1dcf24cd09d806cbf27": {
+      "2023-05-15T11:52:12.000Z": {
+        "name": "[CRC20-tt] t",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000\\nGenesis TXID: 4c1f2b300adc024209c6dfca43e3d9962c136e82fd21b94f84b3e4b236517fc2.",
+        "token": {
+          "category": "1d54388d1764b19565db9e24a4fe1e6f3c4e93592c08d1dcf24cd09d806cbf27",
+          "decimals": 8,
+          "symbol": "CRC20X-7474"
+        }
+      }
+    },
+    "6a562b5b4d366c6e834c758664ec187a11ef8b5618a4524d8dd1f3df5516b9d9": {
+      "2023-06-21T16:33:01.000Z": {
+        "name": "[CRC20-TTOK] TIKTOK",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000\\nGenesis TXID: 130fddd046e88cd7afd38a385f6dcdab8a0aa9cb0975f6b587a275fe27c984db.",
+        "token": {
+          "category": "6a562b5b4d366c6e834c758664ec187a11ef8b5618a4524d8dd1f3df5516b9d9",
+          "decimals": 8,
+          "symbol": "CRC20-TTOK"
+        }
+      }
+    },
+    "8dd841ce8b5051fb3af853023a6b83499ab9703c17ac12a4a469f420b8b8459d": {
+      "2023-06-13T05:59:38.000Z": {
+        "name": "[CRC20-TukTuk] BCH TukTuk",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000000\\nGenesis TXID: 5c0b55def9494a54f09a4b2180fca81624714a17251341930ffac8abe4ba2257.",
+        "token": {
+          "category": "8dd841ce8b5051fb3af853023a6b83499ab9703c17ac12a4a469f420b8b8459d",
+          "decimals": 8,
+          "symbol": "CRC20X-54756B54756B"
+        }
+      }
+    },
+    "d71832e6ef9b0160abf22530ae58e4783007ecc7f2a620f9992698dd9a41d05e": {
+      "2023-05-30T08:07:23.000Z": {
+        "name": "[CRC20-USD] United states dollar",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: aaadf8e4c3a8587378f7b171fadbfae9934a8649c263d32cbdd7aaa3d21c73c0.",
+        "token": {
+          "category": "d71832e6ef9b0160abf22530ae58e4783007ecc7f2a620f9992698dd9a41d05e",
+          "decimals": 8,
+          "symbol": "CRC20-USD"
+        }
+      }
+    },
+    "7695b0a9b65b67d01992f93c82717fdc3a6b78af328c73a855fa37fa096fe210": {
+      "2023-05-15T11:32:06.000Z": {
+        "name": "[CRC20-USDC] USD Coin",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: bf6807687bca0b261e46d6e931b0d6cbd9c6f5ff7cd4ffcb5d97b55c7222b418.",
+        "token": {
+          "category": "7695b0a9b65b67d01992f93c82717fdc3a6b78af328c73a855fa37fa096fe210",
+          "decimals": 4,
+          "symbol": "CRC20-USDC"
+        }
+      }
+    },
+    "d052a7f955e4c1c6ff0b1016db340779008ae670079dd12f8bf4e06c54f5f68c": {
+      "2023-05-15T11:32:06.000Z": {
+        "name": "[CRC20-USDT] Tether USD",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 1ca8078e6968ae22d9b7f7e203681b1edcc8173b9064bf4e7f2bf65ff5ae213a.",
+        "token": {
+          "category": "d052a7f955e4c1c6ff0b1016db340779008ae670079dd12f8bf4e06c54f5f68c",
+          "decimals": 4,
+          "symbol": "CRC20-USDT"
+        }
+      }
+    },
+    "c006d2ef1d2e2cd9912597dbbeb26d4db1d130dbc3f0ddf4730c93188c83b3cd": {
+      "2023-05-15T11:32:06.000Z": {
+        "name": "[CRC20-UTXO] utxo",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: d2310103b686f6160041921663dcb6b0cb4c215fe9f296acf16ac9d046fb35b4.",
+        "token": {
+          "category": "c006d2ef1d2e2cd9912597dbbeb26d4db1d130dbc3f0ddf4730c93188c83b3cd",
+          "decimals": 8,
+          "symbol": "CRC20-UTXO"
+        }
+      }
+    },
+    "3c6008cc88ed71a6c41378a0b37c15f341a1a7bc89f3f00477bc4ccedebd1ce8": {
+      "2023-05-22T18:06:29.000Z": {
+        "name": "[CRC20-VIK] hongmeng",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2000000000000000\\nGenesis TXID: 42f4e1ade2b39531c9c5828e8d287f879d736024d696fa22ad56c2a5bdcd46a8.",
+        "token": {
+          "category": "3c6008cc88ed71a6c41378a0b37c15f341a1a7bc89f3f00477bc4ccedebd1ce8",
+          "decimals": 8,
+          "symbol": "CRC20-VIK"
+        }
+      }
+    },
+    "1e8bcf957b755594ffd21f8bcd245bc92619fe25068d7a063f7a78a5c3b503da": {
+      "2023-05-22T13:02:47.000Z": {
+        "name": "[CRC20-Vitalik] vitalik",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: ae537e432301570471b840010ef85dd9758e6c5da17d0a425b3858a57e44d43d.",
+        "token": {
+          "category": "1e8bcf957b755594ffd21f8bcd245bc92619fe25068d7a063f7a78a5c3b503da",
+          "decimals": 8,
+          "symbol": "CRC20X-566974616C696B"
+        }
+      }
+    },
+    "3bd10df4791ec13252e44cc83855e1e10163691af43d0e0c13374f849e117c41": {
+      "2023-05-21T16:47:29.000Z": {
+        "name": "[CRC20-VMPX] VMPX",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: e45077c1571f190fea9b05abd2ae0dc0b65e3313c3d5e0a19785baf1e14f2dee.",
+        "token": {
+          "category": "3bd10df4791ec13252e44cc83855e1e10163691af43d0e0c13374f849e117c41",
+          "decimals": 8,
+          "symbol": "CRC20-VMPX"
+        }
+      }
+    },
+    "48afb75fac1a05e30db2d6319f9d0ae220e862ab62a94c2ae9771e27909e20fc": {
+      "2023-06-19T10:02:58.000Z": {
+        "name": "[CRC20-WAAT] What's up",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2000000000000\\nGenesis TXID: e53010d9e6890937816a549f6d2ded1b8ea1636dbc767db2e363f3913d08ea21.",
+        "token": {
+          "category": "48afb75fac1a05e30db2d6319f9d0ae220e862ab62a94c2ae9771e27909e20fc",
+          "decimals": 8,
+          "symbol": "CRC20-WAAT"
+        }
+      }
+    },
+    "b203d60a44be7219de27ded8d3f379f69d51e4fdf681820d2a4a0aec5c96c666": {
+      "2023-05-26T14:05:41.000Z": {
+        "name": "[CRC20-WATER] WATER",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: fbdcd999a8663888e09acd42e7770311d7b839e8134e59d444bdc97e0de30d1d.",
+        "token": {
+          "category": "b203d60a44be7219de27ded8d3f379f69d51e4fdf681820d2a4a0aec5c96c666",
+          "decimals": 8,
+          "symbol": "CRC20-WATER"
+        }
+      }
+    },
+    "007a73bc2ec7fef8cc546e1d31a9df8168da8c17a75b8b641365c8b9b5142350": {
+      "2023-05-22T13:02:47.000Z": {
+        "name": "[CRC20-WEB3] WEB3",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 100000000000\\nGenesis TXID: 9551ef2c6a2297f78af5b66eab3812037575715dbc9555114d65dadbb888adc4.",
+        "token": {
+          "category": "007a73bc2ec7fef8cc546e1d31a9df8168da8c17a75b8b641365c8b9b5142350",
+          "decimals": 8,
+          "symbol": "CRC20-WEB3"
+        }
+      }
+    },
+    "0817e00bbf3d822b1c4de6a99c59e8337adfe28647000a575d612cf6aa54ee50": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-WHALE] WHALE",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 023d89b06d7555d280d70b450ce05b8c116018a71a20b32ee84512d0baf997be.",
+        "token": {
+          "category": "0817e00bbf3d822b1c4de6a99c59e8337adfe28647000a575d612cf6aa54ee50",
+          "decimals": 8,
+          "symbol": "CRC20-WHALE"
+        }
+      }
+    },
+    "bd410a589ad59e956961e6adb178a4df5e12c4ed5a71c3c0ca0d0aec67e91ff5": {
+      "2023-06-22T00:33:14.000Z": {
+        "name": "[CRC20-WILL] WILL",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: d0a32959d9e612f27b26de51c74f46c79a81d6052031c475e315028d00af9d1e.",
+        "token": {
+          "category": "bd410a589ad59e956961e6adb178a4df5e12c4ed5a71c3c0ca0d0aec67e91ff5",
+          "decimals": 8,
+          "symbol": "CRC20-WILL"
+        }
+      }
+    },
+    "83c318cd7055396a4364ac6afc9ca94982770d15356811dcc8663468498d67e8": {
+      "2023-05-22T13:38:11.000Z": {
+        "name": "[CRC20-XING] XING",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 2297d6218687529f5e928d4a5d35a112902da44d024077c503ab0a15222683d8.",
+        "token": {
+          "category": "83c318cd7055396a4364ac6afc9ca94982770d15356811dcc8663468498d67e8",
+          "decimals": 8,
+          "symbol": "CRC20-XING"
+        }
+      }
+    },
+    "215430f4d6adfcec64533b295b664131b74097432c316a1d06c4081079dd0dd6": {
+      "2023-06-21T08:01:18.000Z": {
+        "name": "[CRC20-XOYO] XOYOBCH",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 10000000000000\\nGenesis TXID: b643b2d2666a452fb88c07cf1f903e2c7033b19855a83170752a557b7eb71dbd.",
+        "token": {
+          "category": "215430f4d6adfcec64533b295b664131b74097432c316a1d06c4081079dd0dd6",
+          "decimals": 8,
+          "symbol": "CRC20-XOYO"
+        }
+      }
+    },
+    "9d6bd1ff4345f70e73b687e0b28b32326026855bb9437083e1bd42e9f762b4e7": {
+      "2023-05-29T04:45:37.000Z": {
+        "name": "[CRC20-XRP] Ripple",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 1000000000000000\\nGenesis TXID: 7d0785ea073f0276cfa3793dc2096a73e247697d168fbe64de30c48710b5589c.",
+        "token": {
+          "category": "9d6bd1ff4345f70e73b687e0b28b32326026855bb9437083e1bd42e9f762b4e7",
+          "decimals": 8,
+          "symbol": "CRC20-XRP"
+        }
+      }
+    },
+    "362e74a7ea41abb9873864277a3f0213f897c2c50b82198d287b7a854a2c6535": {
+      "2023-05-22T16:20:28.000Z": {
+        "name": "[CRC20-xxoo] xxoo",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 11f313eed3667f9888966c7fc3dd687c0d2783a9ed29f0687713c91edbd3e409.",
+        "token": {
+          "category": "362e74a7ea41abb9873864277a3f0213f897c2c50b82198d287b7a854a2c6535",
+          "decimals": 8,
+          "symbol": "CRC20X-78786F6F"
+        }
+      }
+    },
+    "bb3c2f6c0e633da7f1d21ce936b995794c85af3c1e27bf65da852ff2b5e3eb3a": {
+      "2023-06-15T09:51:30.000Z": {
+        "name": "[CRC20-YARR] Pirates of the canine ILAND",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 420000000000000\\nGenesis TXID: b7047081be1d0470301b3cfdbfc678662b0993ed6e1de0e361a690478c85edc2.",
+        "token": {
+          "category": "bb3c2f6c0e633da7f1d21ce936b995794c85af3c1e27bf65da852ff2b5e3eb3a",
+          "decimals": 8,
+          "symbol": "CRC20-YARR"
+        }
+      }
+    },
+    "450a7d1129fc73d88ed6587d64a9ffe6b625e9484b2482364345b9a05d4971d4": {
+      "2023-05-21T17:03:30.000Z": {
+        "name": "[CRC20-YOLO] YOLO",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 7be87f9c344c9fdfa6930686625513f2ac6d89cc1a9110c82110bd9fa2633fc5.",
+        "token": {
+          "category": "450a7d1129fc73d88ed6587d64a9ffe6b625e9484b2482364345b9a05d4971d4",
+          "decimals": 8,
+          "symbol": "CRC20-YOLO"
+        }
+      }
+    },
+    "c1628ec9cada090a6e182d00e6e9c5674950d8dd165550d3a0f853771dd1b51c": {
+      "2023-06-19T13:05:25.000Z": {
+        "name": "[CRC20-ZHAN] ZHANDOU",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 48151fef82877292af3ab105c5cef89a92d90361ec4979941d2d2529642bb380.",
+        "token": {
+          "category": "c1628ec9cada090a6e182d00e6e9c5674950d8dd165550d3a0f853771dd1b51c",
+          "decimals": 8,
+          "symbol": "CRC20-ZHAN"
+        }
+      }
+    },
+    "fd40e96d758e1c73a3a30c0ea52e45f47de2009c1766837f06ea9979ff3105b9": {
+      "2023-05-28T22:11:29.000Z": {
+        "name": "[CRC20-{o}] {o}",
+        "description": "CashTokens token category which first claimed this metadata according to CRC-20 genesis specification.\\nInitial fungible token supply: 2100000000000000\\nGenesis TXID: 236f11e28a5f1ff7d114d9fb5b433f629a2f64a64956b47dbd4fba2d9754d5b7.",
+        "token": {
+          "category": "fd40e96d758e1c73a3a30c0ea52e45f47de2009c1766837f06ea9979ff3105b9",
+          "decimals": 8,
+          "symbol": "CRC20X-7B6F7D"
+        }
+      }
+    }
+  }
+}
